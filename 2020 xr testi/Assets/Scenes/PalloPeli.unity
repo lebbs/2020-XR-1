@@ -1300,7 +1300,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999806, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.4020272, y: 0.72219676, z: 0}
+  m_ConnectedAnchor: {x: -0.40202752, y: 0.72219676, z: 0}
   serializedVersion: 2
   m_Spring: 100
   m_Damper: 10
@@ -2183,7 +2183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 2e9ed32f32a4d6c4fa0384a2b1a7806d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.104
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 2e9ed32f32a4d6c4fa0384a2b1a7806d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2801,6 +2801,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2650883455706770936, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
+      propertyPath: m_UseContactShadow.m_UseOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2650883455706770936, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
+      propertyPath: m_UseContactShadow.m_Override
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2650883455706770940, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
       propertyPath: m_Name
       value: Directional Light
