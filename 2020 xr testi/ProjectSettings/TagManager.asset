@@ -11,6 +11,8 @@ TagManager:
   - Floor
   - Target
   - FxTemporaire
+  - PingPongBall
+  - Obstacle
   layers:
   - Default
   - TransparentFX
