@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -5301520058536758162}
   m_Layer: 12
   m_Name: pingpongball
-  m_TagString: Pickable
+  m_TagString: PingPongBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
