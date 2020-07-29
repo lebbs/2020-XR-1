@@ -10,6 +10,7 @@
     "com.unity.timeline": "1.4.0",
     "com.unity.ugui": "1.0.0",
     "com.unity.xr.legacyinputhelpers": "2.1.4",
+    "com.unity.xr.magicleap": "6.0.0",
     "com.unity.xr.management": "3.2.13",
     "com.varjo.xr": "https://github.com/varjocom/VarjoUnityXRPlugin.git",
     "com.unity.modules.ai": "1.0.0",
