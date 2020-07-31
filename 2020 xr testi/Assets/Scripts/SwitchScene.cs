@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScene : MonoBehaviour
 {
+
+    private void OnCollisionEnter(Collision collision)
+    {
+       if(collision.gameObject.tag == "Ohjain")
+        {
+            SceneManager.LoadScene("Pallopeli");
+        }
+    }
     // Start is called before the first frame update
     public void LoadScenePallopeli()
     {

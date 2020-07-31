@@ -13,6 +13,10 @@ TagManager:
   - FxTemporaire
   - PingPongBall
   - Obstacle
+  - GreenCube
+  - RedCube
+  - YellowCube
+  - Ohjain
   layers:
   - Default
   - TransparentFX
