@@ -10,6 +10,7 @@ public class MenuInteraction : MonoBehaviour
 {
     public Transform xrRig;
     public GameObject Menu;
+    public GameObject VivePointers;
     Controller controller;
     private bool triggerDown;
     int i = 0;
@@ -25,6 +26,7 @@ public class MenuInteraction : MonoBehaviour
         {
             if (!triggerDown && !Menu.activeSelf)
             {
+                VivePointers.SetActive(true);
                 Menu.SetActive(true);
                 Debug.Log("Menu auki");
             }
