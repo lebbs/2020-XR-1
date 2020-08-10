@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class testi : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    public void buttontest()
     {
-        if(collision.gameObject.tag == "Cursor")
-        {
-            Debug.Log("Cursor toimii");
-        }
+        Debug.Log("Tooimiiiii");
     }
 }
