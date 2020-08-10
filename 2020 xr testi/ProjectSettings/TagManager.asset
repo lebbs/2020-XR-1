@@ -17,6 +17,7 @@ TagManager:
   - RedCube
   - YellowCube
   - Ohjain
+  - Cursor
   layers:
   - Default
   - TransparentFX

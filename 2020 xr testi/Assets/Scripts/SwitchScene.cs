@@ -8,7 +8,7 @@ public class SwitchScene : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-       if(collision.gameObject.tag == "Ohjain")
+       if(collision.gameObject.CompareTag("Ohjain"))
         {
             SceneManager.LoadScene("Pallopeli");
         }
