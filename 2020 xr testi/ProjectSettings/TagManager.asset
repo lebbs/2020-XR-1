@@ -18,6 +18,8 @@ TagManager:
   - YellowCube
   - Ohjain
   - Cursor
+  - BeerBottle
+  - GroceryTrigger
   layers:
   - Default
   - TransparentFX

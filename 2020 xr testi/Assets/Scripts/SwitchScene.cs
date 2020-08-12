@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class SwitchScene : MonoBehaviour
 {
 
-    private void OnCollisionEnter(Collision collision)
-    {
-       if(collision.gameObject.CompareTag("Ohjain"))
-        {
-            SceneManager.LoadScene("Pallopeli");
-        }
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //   if(collision.gameObject.CompareTag("Ohjain"))
+    //    {
+    //        SceneManager.LoadScene("Pallopeli");
+    //    }
+    //}
     // Start is called before the first frame update
     public void LoadScenePallopeli()
     {
@@ -22,5 +22,10 @@ public class SwitchScene : MonoBehaviour
     public void LoadScenePingispeli()
     {
         SceneManager.LoadScene("Pingispeli");
+    }
+
+    public void LoadScenePalikkapeli()
+    {
+        SceneManager.LoadScene("Palikkapeli");
     }
 }

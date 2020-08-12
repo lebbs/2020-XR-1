@@ -52,7 +52,8 @@ namespace VarjoExample
                 || other.gameObject.CompareTag("PingPongBall")
                 || other.gameObject.CompareTag("GreenCube")
                 || other.gameObject.CompareTag("RedCube")
-                || other.gameObject.CompareTag("YellowCube"))
+                || other.gameObject.CompareTag("YellowCube")
+                || other.gameObject.CompareTag("BeerBottle"))
             {
                 contactedInteractables.Add(other.gameObject.GetComponent<Interactable>());
             }
@@ -64,7 +65,8 @@ namespace VarjoExample
                 || other.gameObject.CompareTag("PingPongBall")
                 || other.gameObject.CompareTag("GreenCube")
                 || other.gameObject.CompareTag("RedCube")
-                || other.gameObject.CompareTag("YellowCube"))
+                || other.gameObject.CompareTag("YellowCube")
+                || other.gameObject.CompareTag("BeerBottle"))
             {
                 contactedInteractables.Remove(other.gameObject.GetComponent<Interactable>());
             }
