@@ -10,9 +10,10 @@ public class SnapOnTarget : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Target"))
         {
-            Debug.Log("trigger toimii");
-            transform.position = attachPoint.transform.position;
+            //transform.position = attachPoint.transform.position;
             gameObject.GetComponent<Transform>().SetParent(attachPoint.transform);
+            transform.localPosition = Vector3.zero;
+            Debug.Log("trigger toimii");
         }
 
     }
