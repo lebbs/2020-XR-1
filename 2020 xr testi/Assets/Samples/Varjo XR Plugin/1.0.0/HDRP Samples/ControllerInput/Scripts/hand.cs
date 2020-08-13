@@ -57,6 +57,11 @@ namespace VarjoExample
             {
                 contactedInteractables.Add(other.gameObject.GetComponent<Interactable>());
             }
+
+            if (other.gameObject.CompareTag("Target"))
+            {
+                Debug.Log("Hand.cs");
+            }
         }
 
         private void OnTriggerExit(Collider other)
