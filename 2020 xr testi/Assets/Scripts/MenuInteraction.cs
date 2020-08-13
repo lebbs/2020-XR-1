@@ -8,7 +8,7 @@ using VarjoExample;
 
 public class MenuInteraction : MonoBehaviour
 {
-    public Transform xrRig;
+    //public Transform xrRig;
     public GameObject Menu;
     public GameObject VivePointers;
     Controller controller;
