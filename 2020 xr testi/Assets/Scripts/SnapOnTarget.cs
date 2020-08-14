@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using VarjoExample;
 using System;
-
+using Leap.Unity.Interaction;
 
 public class SnapOnTarget : MonoBehaviour
 {
@@ -19,6 +19,7 @@ public class SnapOnTarget : MonoBehaviour
         if (other.gameObject.CompareTag("Target"))
         {
             script.Drop();
+
             rigidbody = gameObject.GetComponent<Rigidbody>();
             rigidbody.angularVelocity = new Vector3(0, 0, 0);
             rigidbody.velocity = new Vector3(0, 0, 0);
