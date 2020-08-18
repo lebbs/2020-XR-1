@@ -8896,7 +8896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartupDelayTime: 10
-  InitializeOnStart: 0
+  InitializeOnStart: 1
 --- !u!4 &1114944459
 Transform:
   m_ObjectHideFlags: 0
