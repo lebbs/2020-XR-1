@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 15.370724, g: 19.045408, b: 25.207415, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -370,11 +370,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 378117150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e7c9ba67c31c424eb8fdecd363be220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1234773244}
-  theScore: 0
+  score: 0
 --- !u!64 &378117153
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 604044073057552804, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.82
       objectReference: {fileID: 0}
     - target: {fileID: 604044073057552804, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -464,7 +464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 604044073057552804, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.371
       objectReference: {fileID: 0}
     - target: {fileID: 604044073057552804, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -610,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5141508371354608950, guid: bd80d9fcba97fec43ad922648a07ebc9, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5141508371354608950, guid: bd80d9fcba97fec43ad922648a07ebc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -645,7 +645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &847045124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -788,7 +788,7 @@ PrefabInstance:
     - target: {fileID: 5430437827413577233, guid: 77cf91401d1c45d4489adba2a525f351, type: 3}
       propertyPath: sharedProfile
       value: 
-      objectReference: {fileID: 11400000, guid: 183cbd347d25080429f42b520742bbd8, type: 2}
+      objectReference: {fileID: 11400000, guid: b9fc1b0365bc88e40b2900cc175368b9, type: 2}
     - target: {fileID: 5430437827413577234, guid: 77cf91401d1c45d4489adba2a525f351, type: 3}
       propertyPath: m_Name
       value: Post Process Volume
@@ -967,7 +967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3793811502066112629, guid: 7af8c97f890255f49a567e510839fd5d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3793811502066112629, guid: 7af8c97f890255f49a567e510839fd5d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1270,7 +1270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2650883455706770936, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
       propertyPath: m_Intensity
-      value: 5000
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 2650883455706770936, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
       propertyPath: m_ShadowResolution.m_Level
@@ -1366,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2650883455706770943, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
       propertyPath: m_Intensity
-      value: 5000
+      value: 1500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52d84f3dce66c954bb02569296c2d82a, type: 3}
@@ -1447,11 +1447,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1456973439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e7c9ba67c31c424eb8fdecd363be220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1234773244}
-  theScore: 0
+  score: 0
 --- !u!64 &1456973442
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1723,7 +1723,7 @@ BoxCollider:
   m_GameObject: {fileID: 1764444335}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 10.000002, y: 2.2204466e-16, z: 10}
   m_Center: {x: -0.0000009536743, y: 0.00000047683716, z: 0}
@@ -1734,7 +1734,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764444335}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2060,6 +2060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VivePointers
       objectReference: {fileID: 0}
+    - target: {fileID: 152968, guid: 12ee41758a687f54e98120e486ccd16e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 450334, guid: 12ee41758a687f54e98120e486ccd16e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2090,7 +2094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 450334, guid: 12ee41758a687f54e98120e486ccd16e, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 450334, guid: 12ee41758a687f54e98120e486ccd16e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

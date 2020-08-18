@@ -16,7 +16,9 @@ public class PingPongScore : MonoBehaviour
         {
             score += 1;
             scoreText.GetComponent<TextMesh>().text = "Score: " + score;
-            Destroy(GameObject.FindWithTag("PingPongBall"));
+            //Destroy(GameObject.FindWithTag("PingPongBall"));
+            Destroy(collision.gameObject);
+
         }
     }
 }

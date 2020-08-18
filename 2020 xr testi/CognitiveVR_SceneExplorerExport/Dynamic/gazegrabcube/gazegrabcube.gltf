@@ -1,0 +1,271 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        3.0616168005906746E-17
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -3.0616168005906746E-17
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "gazegrabcube.bin",
+      "byteLength": 198
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 64
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 160,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 192,
+      "byteLength": 6
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2941176,
+          0.2941176,
+          0.2941176,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.329999983,
+        0.329999983,
+        0.329999983
+      ],
+      "name": "GazeCubeSide"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Quad"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "GazeGrabCube"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.0,
+        -0.5
+      ],
+      "name": "Quad"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        -0.5,
+        0.0,
+        0.0
+      ],
+      "name": "Quad (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        1.564622E-06
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "name": "Quad (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.7071084,
+        0.0,
+        -0.7071052
+      ],
+      "translation": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "name": "Quad (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "Quad (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "name": "Quad (5)"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "gazegrabcube"
+    }
+  ]
+}
