@@ -1,0 +1,183 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC3",
+      "max": [
+        4.1385626792907715,
+        5.8784875869750977,
+        1.1214499473571777
+      ],
+      "min": [
+        -4.1385626792907715,
+        -5.8784875869750977,
+        -1.1214499473571777
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99973112344741821,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99318087100982666,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC2",
+      "max": [
+        0.99689996242523193,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 777,
+      "type": "SCALAR",
+      "max": [
+        552.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "cerealbox_low__260_tris_.bin",
+      "byteLength": 28098
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6636
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6636,
+      "byteLength": 6636
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13272,
+      "byteLength": 8848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22120,
+      "byteLength": 4424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26544,
+      "byteLength": 1554
+    }
+  ],
+  "images": [
+    {
+      "uri": "CerealBox.png",
+      "name": "CerealBox"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "CerealBox"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "cerealbox_low__260_tris_"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CerealBox"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+using Leap;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -15,6 +16,7 @@ public class Score : MonoBehaviour
         {
             theScore += 1;
             scoreText.GetComponent<TextMesh>().text = "Score: " + theScore + "/" + "8";
+            Destroy(collision.gameObject);
 
             if(theScore == 8)
             {

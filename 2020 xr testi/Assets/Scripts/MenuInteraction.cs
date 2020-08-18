@@ -30,7 +30,13 @@ public class MenuInteraction : MonoBehaviour
                 Menu.SetActive(true);
                 Debug.Log("Menu auki");
             }
-          
+         
+        }
+
+        if(controller.primary2DAxisClick && Menu.activeSelf)
+        {
+            VivePointers.SetActive(false);
+            Menu.SetActive(false);
         }
     }
 }

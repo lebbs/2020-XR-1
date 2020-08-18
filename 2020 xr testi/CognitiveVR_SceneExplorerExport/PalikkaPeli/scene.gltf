@@ -1,0 +1,8053 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC3",
+      "max": [
+        4.9546699523925781,
+        3.042107105255127,
+        1.7032860517501831
+      ],
+      "min": [
+        -4.9546699523925781,
+        -0.025070000439882278,
+        -1.7032860517501831
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99987876415252686,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC2",
+      "max": [
+        0.88665902614593506,
+        0.99952799081802368
+      ],
+      "min": [
+        0.00047200001426972449,
+        0.00047200918197631836
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5123,
+      "count": 9000,
+      "type": "SCALAR",
+      "max": [
+        2247.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        1.0,
+        0.50000005960464478
+      ],
+      "min": [
+        -0.50000011920928955,
+        -1.0,
+        -0.5000002384185791
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC2",
+      "max": [
+        0.99974912405014038,
+        0.99954628944396973
+      ],
+      "min": [
+        0.00069368560798466206,
+        0.00056922435760498047
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC2",
+      "max": [
+        0.99716836214065552,
+        0.99739980697631836
+      ],
+      "min": [
+        0.0043606190010905266,
+        0.0021193623542785645
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5121,
+      "count": 240,
+      "type": "SCALAR",
+      "max": [
+        87.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        34.0,
+        0.5,
+        20.0
+      ],
+      "min": [
+        -37.659999847412109,
+        -32.5,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        0.67746114730834961,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.67746120691299438,
+        -0.73555856943130493,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5121,
+      "count": 24,
+      "type": "SCALAR",
+      "max": [
+        17.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3",
+      "max": [
+        0.008660254068672657,
+        0.0099999997764825821,
+        0.0099999997764825821
+      ],
+      "min": [
+        -0.008660254068672657,
+        -0.0099999997764825821,
+        -0.0099999997764825821
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.866025447845459,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.866025447845459,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -0.866025447845459,
+        -1.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.99000000953674316
+      ],
+      "min": [
+        -8.9406967163085938E-08,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5121,
+      "count": 60,
+      "type": "SCALAR",
+      "max": [
+        35.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 1769,
+      "type": "VEC3",
+      "max": [
+        0.098270058631896973,
+        0.022312013432383537,
+        0.17753519117832184
+      ],
+      "min": [
+        -0.098270058631896973,
+        -0.026816330850124359,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 1769,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 1769,
+      "type": "VEC4",
+      "max": [
+        0.83153104782104492,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5126,
+      "count": 1769,
+      "type": "VEC2",
+      "max": [
+        0.9997018575668335,
+        0.99510538578033447
+      ],
+      "min": [
+        8.5710205894429237E-05,
+        0.0049420595169067383
+      ]
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5123,
+      "count": 5520,
+      "type": "SCALAR",
+      "max": [
+        1768.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        1.7140117883682251,
+        3.3920109272003174,
+        1.7016305923461914
+      ],
+      "min": [
+        -1.7140117883682251,
+        -3.3920109272003174,
+        -1.7016305923461914
+      ]
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99895119667053223,
+        1.0,
+        0.99174785614013672
+      ],
+      "min": [
+        -0.99895119667053223,
+        -0.9997754693031311,
+        -0.99174785614013672
+      ]
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        0.99174785614013672,
+        0.94883722066879272,
+        0.99895131587982178,
+        1.0
+      ],
+      "min": [
+        -0.99174785614013672,
+        -0.94884473085403442,
+        -0.99895131587982178,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.97299998998641968,
+        0.97850000858306885
+      ],
+      "min": [
+        0.04349999874830246,
+        0.010999977588653564
+      ]
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5123,
+      "count": 1932,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC3",
+      "max": [
+        2.7095441818237305,
+        4.4022121429443359,
+        1.5981101989746094
+      ],
+      "min": [
+        -2.7095441818237305,
+        -4.4022121429443359,
+        -1.5981101989746094
+      ]
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC3",
+      "max": [
+        0.99957996606826782,
+        0.99998044967651367,
+        0.99992167949676514
+      ],
+      "min": [
+        -0.99982422590255737,
+        -0.99998676776885986,
+        -0.999995231628418
+      ]
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99997973442077637,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99995863437652588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC2",
+      "max": [
+        0.99148637056350708,
+        0.99159955978393555
+      ],
+      "min": [
+        0.00851364340633154,
+        0.0084004402160644531
+      ]
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5123,
+      "count": 3000,
+      "type": "SCALAR",
+      "max": [
+        1170.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 41,
+      "componentType": 5126,
+      "count": 58,
+      "type": "VEC3",
+      "max": [
+        0.68030333518981934,
+        0.35634544491767883,
+        0.6881757378578186
+      ],
+      "min": [
+        -0.68030333518981934,
+        -0.35634544491767883,
+        -0.6881757378578186
+      ]
+    },
+    {
+      "bufferView": 42,
+      "componentType": 5126,
+      "count": 58,
+      "type": "VEC3",
+      "max": [
+        0.9432905912399292,
+        0.933415412902832,
+        0.97460120916366577
+      ],
+      "min": [
+        -0.84672647714614868,
+        -0.952162504196167,
+        -0.91811960935592651
+      ]
+    },
+    {
+      "bufferView": 43,
+      "componentType": 5126,
+      "count": 58,
+      "type": "VEC4",
+      "max": [
+        0.99983000755310059,
+        0.81115108728408813,
+        0.98415768146514893,
+        1.0
+      ],
+      "min": [
+        -0.99802762269973755,
+        -0.77573025226593018,
+        -0.99989867210388184,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 44,
+      "componentType": 5126,
+      "count": 58,
+      "type": "VEC2",
+      "max": [
+        0.99263179302215576,
+        0.99147582054138184
+      ],
+      "min": [
+        0.0073682069778442383,
+        0.0085241198539733887
+      ]
+    },
+    {
+      "bufferView": 45,
+      "componentType": 5121,
+      "count": 150,
+      "type": "SCALAR",
+      "max": [
+        57.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 46,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC3",
+      "max": [
+        4.1385626792907715,
+        5.8784875869750977,
+        1.1214499473571777
+      ],
+      "min": [
+        -4.1385626792907715,
+        -5.8784875869750977,
+        -1.1214499473571777
+      ]
+    },
+    {
+      "bufferView": 47,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 48,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99973112344741821,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99318087100982666,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 49,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC2",
+      "max": [
+        0.99689996242523193,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 50,
+      "componentType": 5123,
+      "count": 777,
+      "type": "SCALAR",
+      "max": [
+        552.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 51,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC3",
+      "max": [
+        3.6570308208465576,
+        4.8000340461730957,
+        1.5283199548721313
+      ],
+      "min": [
+        -3.6570308208465576,
+        -4.8000340461730957,
+        -1.5283199548721313
+      ]
+    },
+    {
+      "bufferView": 52,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC3",
+      "max": [
+        0.99887913465499878,
+        0.99993383884429932,
+        0.99795180559158325
+      ],
+      "min": [
+        -0.99940180778503418,
+        -0.99933785200119019,
+        -0.9977983832359314
+      ]
+    },
+    {
+      "bufferView": 53,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC4",
+      "max": [
+        0.99991345405578613,
+        0.9999316930770874,
+        0.94965720176696777,
+        1.0
+      ],
+      "min": [
+        -0.99999451637268066,
+        -0.99992036819458008,
+        -0.80219405889511108,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 54,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 55,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 56,
+      "componentType": 5121,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        175.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 57,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC3",
+      "max": [
+        4.1533498764038086,
+        5.8922719955444336,
+        1.128000020980835
+      ],
+      "min": [
+        -4.1533498764038086,
+        -5.8922719955444336,
+        -1.128000020980835
+      ]
+    },
+    {
+      "bufferView": 58,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 59,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99397474527359009,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99975484609603882,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 60,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC2",
+      "max": [
+        0.99689996242523193,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 61,
+      "componentType": 5123,
+      "count": 2400,
+      "type": "SCALAR",
+      "max": [
+        937.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 62,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC3",
+      "max": [
+        4.1483750343322754,
+        5.8890252113342285,
+        1.1279453039169312
+      ],
+      "min": [
+        -4.1483750343322754,
+        -5.8890252113342285,
+        -1.1279453039169312
+      ]
+    },
+    {
+      "bufferView": 63,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 64,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99993777275085449,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.999734103679657,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 65,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC2",
+      "max": [
+        0.9968000054359436,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 66,
+      "componentType": 5123,
+      "count": 1203,
+      "type": "SCALAR",
+      "max": [
+        731.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 67,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC3",
+      "max": [
+        3.6570308208465576,
+        4.8000340461730957,
+        1.5283199548721313
+      ],
+      "min": [
+        -3.6570308208465576,
+        -4.8000340461730957,
+        -1.5283199548721313
+      ]
+    },
+    {
+      "bufferView": 68,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC3",
+      "max": [
+        0.99887913465499878,
+        0.99993395805358887,
+        0.99940907955169678
+      ],
+      "min": [
+        -0.99996161460876465,
+        -0.99999141693115234,
+        -0.99924647808074951
+      ]
+    },
+    {
+      "bufferView": 69,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC4",
+      "max": [
+        0.99996721744537354,
+        0.99997782707214355,
+        0.7458539605140686,
+        1.0
+      ],
+      "min": [
+        -0.99999332427978516,
+        -0.99992036819458008,
+        -0.80384939908981323,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 70,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 71,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 72,
+      "componentType": 5121,
+      "count": 912,
+      "type": "SCALAR",
+      "max": [
+        225.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 73,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC3",
+      "max": [
+        3.6570308208465576,
+        4.8000340461730957,
+        1.3519537448883057
+      ],
+      "min": [
+        -3.6570308208465576,
+        -4.8000340461730957,
+        -1.3519537448883057
+      ]
+    },
+    {
+      "bufferView": 74,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC3",
+      "max": [
+        0.99887913465499878,
+        0.99961167573928833,
+        0.99780791997909546
+      ],
+      "min": [
+        -0.99986565113067627,
+        -0.99999141693115234,
+        -0.9977983832359314
+      ]
+    },
+    {
+      "bufferView": 75,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC4",
+      "max": [
+        0.99999666213989258,
+        0.99998307228088379,
+        0.94512373208999634,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99992036819458008,
+        -0.9591866135597229,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 76,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 77,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 78,
+      "componentType": 5121,
+      "count": 450,
+      "type": "SCALAR",
+      "max": [
+        152.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "scene.bin",
+      "byteLength": 473168
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 960,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 36
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1380,
+      "byteLength": 26976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28356,
+      "byteLength": 26976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55332,
+      "byteLength": 35968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 91300,
+      "byteLength": 17984
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 109284,
+      "byteLength": 18000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 127284,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128340,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 129396,
+      "byteLength": 1408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 130804,
+      "byteLength": 704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 131508,
+      "byteLength": 704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132212,
+      "byteLength": 240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132452,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132668,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132884,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 133172,
+      "byteLength": 24
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 133196,
+      "byteLength": 432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 133628,
+      "byteLength": 432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 134060,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 134636,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 134924,
+      "byteLength": 60
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 134984,
+      "byteLength": 21228
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 156212,
+      "byteLength": 21228
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 177440,
+      "byteLength": 28304
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 205744,
+      "byteLength": 14152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 219896,
+      "byteLength": 11040
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 230936,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 237116,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 243296,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 251536,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 255656,
+      "byteLength": 3864
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 259520,
+      "byteLength": 14052
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 273572,
+      "byteLength": 14052
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 287624,
+      "byteLength": 18736
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 306360,
+      "byteLength": 9368
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 315728,
+      "byteLength": 6000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 321728,
+      "byteLength": 696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 322424,
+      "byteLength": 696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 323120,
+      "byteLength": 928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 324048,
+      "byteLength": 464
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 324512,
+      "byteLength": 150
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 324662,
+      "byteLength": 6636
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 331298,
+      "byteLength": 6636
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 337934,
+      "byteLength": 8848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 346782,
+      "byteLength": 4424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 351206,
+      "byteLength": 1554
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 352760,
+      "byteLength": 2112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 354872,
+      "byteLength": 2112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 356984,
+      "byteLength": 2816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 359800,
+      "byteLength": 1408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 361208,
+      "byteLength": 1408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 362616,
+      "byteLength": 600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 363216,
+      "byteLength": 11256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 374472,
+      "byteLength": 11256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 385728,
+      "byteLength": 15008
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 400736,
+      "byteLength": 7504
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 408240,
+      "byteLength": 4800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 413040,
+      "byteLength": 8784
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 421824,
+      "byteLength": 8784
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 430608,
+      "byteLength": 11712
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 442320,
+      "byteLength": 5856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 448176,
+      "byteLength": 2406
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 450582,
+      "byteLength": 2712
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 453294,
+      "byteLength": 2712
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 456006,
+      "byteLength": 3616
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 459622,
+      "byteLength": 1808
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 461430,
+      "byteLength": 1808
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 463238,
+      "byteLength": 912
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 464150,
+      "byteLength": 1836
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 465986,
+      "byteLength": 1836
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 467822,
+      "byteLength": 2448
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 470270,
+      "byteLength": 1224
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 471494,
+      "byteLength": 1224
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 472718,
+      "byteLength": 450
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.7422062158584595,
+        "yfov": 1.0421421527862549,
+        "zfar": 998.65380859375,
+        "znear": 0.0099999997764825821
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Table_low_DefaultMaterial_AlbedoTransparency.png",
+      "name": "Table_low_DefaultMaterial_AlbedoTransparency"
+    },
+    {
+      "uri": "Cube_Bake1_pbr_diffuse.png",
+      "name": "Cube_Bake1_pbr_diffuse"
+    },
+    {
+      "uri": "JuicePack_Cap_Surface_Color.png",
+      "name": "JuicePack_Cap_Surface_Color"
+    },
+    {
+      "uri": "EnergyDrink.png",
+      "name": "EnergyDrink"
+    },
+    {
+      "uri": "JuicePack_Surface_Color.png",
+      "name": "JuicePack_Surface_Color"
+    },
+    {
+      "uri": "CerealBox.png",
+      "name": "CerealBox"
+    },
+    {
+      "uri": "Chips.png",
+      "name": "Chips"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "DefaultHDMaterial"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Training table"
+    },
+    {
+      "doubleSided": true,
+      "name": "Green"
+    },
+    {
+      "doubleSided": true,
+      "name": "red"
+    },
+    {
+      "doubleSided": true,
+      "name": "Yellow"
+    },
+    {
+      "doubleSided": true,
+      "name": "blue"
+    },
+    {
+      "doubleSided": true,
+      "name": "Orange"
+    },
+    {
+      "doubleSided": true,
+      "name": "Teal"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Cube_Bake1_pbr_diffuse"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "hollowgreen2"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "JuicePack_Cap"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "EnergyDrink"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "JuicePack"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "CerealBox"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Chips"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "HollowRed"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "HollowYellow"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "HollowBlue"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "HollowOrange"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "LightTeal"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Cube (2)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 10,
+          "material": 1
+        }
+      ],
+      "name": "default"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 2
+        }
+      ],
+      "name": "GreenCube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 3
+        }
+      ],
+      "name": "RedCube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 4
+        }
+      ],
+      "name": "YellowCube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TANGENT": 13,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15
+          },
+          "indices": 16,
+          "material": 5
+        }
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TANGENT": 19
+          },
+          "indices": 20,
+          "material": 6
+        }
+      ],
+      "name": "group_0_3888547"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TANGENT": 23,
+            "TEXCOORD_0": 24
+          },
+          "indices": 25,
+          "material": 7
+        }
+      ],
+      "name": "Hexagon"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 26,
+            "NORMAL": 27,
+            "TANGENT": 28,
+            "TEXCOORD_0": 29
+          },
+          "indices": 30,
+          "material": 8
+        }
+      ],
+      "name": "ShoppingShelf"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 31,
+            "NORMAL": 32,
+            "TANGENT": 33,
+            "TEXCOORD_0": 34
+          },
+          "indices": 35,
+          "material": 9
+        }
+      ],
+      "name": "EnergyDrink(Trigger)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36,
+            "NORMAL": 37,
+            "TANGENT": 38,
+            "TEXCOORD_0": 39
+          },
+          "indices": 40,
+          "material": 9
+        }
+      ],
+      "name": "JuicePack(trigger)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 41,
+            "NORMAL": 42,
+            "TANGENT": 43,
+            "TEXCOORD_0": 44
+          },
+          "indices": 45,
+          "material": 10
+        }
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 46,
+            "NORMAL": 47,
+            "TANGENT": 48,
+            "TEXCOORD_0": 49
+          },
+          "indices": 50,
+          "material": 9
+        }
+      ],
+      "name": "CerealBox(trigger)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 51,
+            "NORMAL": 52,
+            "TANGENT": 53,
+            "TEXCOORD_0": 54,
+            "TEXCOORD_1": 55
+          },
+          "indices": 56,
+          "material": 9
+        }
+      ],
+      "name": "Chips(trigger)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 31,
+            "NORMAL": 32,
+            "TANGENT": 33,
+            "TEXCOORD_0": 34
+          },
+          "indices": 35,
+          "material": 11
+        }
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36,
+            "NORMAL": 37,
+            "TANGENT": 38,
+            "TEXCOORD_0": 39
+          },
+          "indices": 40,
+          "material": 12
+        }
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 57,
+            "NORMAL": 58,
+            "TANGENT": 59,
+            "TEXCOORD_0": 60
+          },
+          "indices": 61,
+          "material": 13
+        }
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 62,
+            "NORMAL": 63,
+            "TANGENT": 64,
+            "TEXCOORD_0": 65
+          },
+          "indices": 66,
+          "material": 13
+        }
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 46,
+            "NORMAL": 47,
+            "TANGENT": 48,
+            "TEXCOORD_0": 49
+          },
+          "indices": 50,
+          "material": 13
+        }
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 67,
+            "NORMAL": 68,
+            "TANGENT": 69,
+            "TEXCOORD_0": 70,
+            "TEXCOORD_1": 71
+          },
+          "indices": 72,
+          "material": 14
+        }
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 51,
+            "NORMAL": 52,
+            "TANGENT": 53,
+            "TEXCOORD_0": 54,
+            "TEXCOORD_1": 55
+          },
+          "indices": 56,
+          "material": 14
+        }
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 73,
+            "NORMAL": 74,
+            "TANGENT": 75,
+            "TEXCOORD_0": 76,
+            "TEXCOORD_1": 77
+          },
+          "indices": 78,
+          "material": 14
+        }
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 9
+        }
+      ],
+      "name": "TriggerCubeGreen"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 15
+        }
+      ],
+      "name": "TriggerCubeRed"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 16
+        }
+      ],
+      "name": "TriggerCubeYellow"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TANGENT": 13,
+            "TEXCOORD_0": 14,
+            "TEXCOORD_1": 15
+          },
+          "indices": 16,
+          "material": 17
+        }
+      ],
+      "name": "TriggerCylinder"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TANGENT": 19
+          },
+          "indices": 20,
+          "material": 18
+        }
+      ],
+      "name": "TriggerTriangle"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TANGENT": 23,
+            "TEXCOORD_0": 24
+          },
+          "indices": 25,
+          "material": 19
+        }
+      ],
+      "name": "TriggerHexagon"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "translation": [
+        1.994,
+        0.0,
+        2.373
+      ],
+      "name": "XrRig"
+    },
+    {
+      "camera": 0,
+      "name": "Main Camera"
+    },
+    {
+      "translation": [
+        1.340034,
+        -1.05323458,
+        0.226337433
+      ],
+      "name": "Planar Reflection"
+    },
+    {
+      "rotation": [
+        -0.3817268,
+        -0.0653040558,
+        -0.0270495433,
+        0.921568453
+      ],
+      "translation": [
+        2.74,
+        5.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "name": "Directional Light"
+    },
+    {
+      "translation": [
+        1.30369639,
+        1.0,
+        2.0
+      ],
+      "name": "Post Process Volume"
+    },
+    {
+      "translation": [
+        1.30369639,
+        0.0,
+        0.0
+      ],
+      "name": "VRInputModule"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        1.73869658,
+        0.957,
+        -0.549
+      ],
+      "name": "Cube (2)"
+    },
+    {
+      "children": [
+        8,
+        18,
+        25,
+        364
+      ],
+      "translation": [
+        9.4,
+        -7.37766075,
+        -15.2761364
+      ],
+      "name": "Props"
+    },
+    {
+      "children": [
+        9,
+        10
+      ],
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.200000018,
+        0.3,
+        0.200000018
+      ],
+      "translation": [
+        -4.6990943,
+        7.37766075,
+        16.282
+      ],
+      "name": "Table (2)"
+    },
+    {
+      "mesh": 1,
+      "name": "default"
+    },
+    {
+      "children": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "scale": [
+        5.0,
+        3.33333278,
+        5.0
+      ],
+      "translation": [
+        -3.34,
+        2.679,
+        -12.073
+      ],
+      "name": "Cubes"
+    },
+    {
+      "mesh": 2,
+      "scale": [
+        0.099,
+        0.099,
+        0.099
+      ],
+      "translation": [
+        0.577,
+        0.149736583,
+        2.45582461
+      ],
+      "name": "GreenCube"
+    },
+    {
+      "mesh": 3,
+      "scale": [
+        0.099,
+        0.099,
+        0.099
+      ],
+      "translation": [
+        0.733,
+        0.149736583,
+        2.45582461
+      ],
+      "name": "RedCube"
+    },
+    {
+      "mesh": 4,
+      "scale": [
+        0.099,
+        0.099,
+        0.099
+      ],
+      "translation": [
+        0.893,
+        0.149736583,
+        2.45582461
+      ],
+      "name": "YellowCube"
+    },
+    {
+      "mesh": 5,
+      "scale": [
+        0.1,
+        0.06000001,
+        0.1
+      ],
+      "translation": [
+        0.3923474,
+        0.159936622,
+        2.4600246
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "children": [
+        16
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.003,
+        0.00350000057,
+        0.003
+      ],
+      "translation": [
+        0.174147427,
+        0.1277366,
+        2.50062466
+      ],
+      "name": "triangle"
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        0.0,
+        7.1,
+        7.0
+      ],
+      "name": "group_0_3888547"
+    },
+    {
+      "mesh": 7,
+      "rotation": [
+        -0.50000006,
+        0.49999994,
+        0.49999994,
+        0.50000006
+      ],
+      "scale": [
+        6.0,
+        6.0,
+        4.0
+      ],
+      "translation": [
+        1.054,
+        0.1396,
+        2.454
+      ],
+      "name": "Hexagon"
+    },
+    {
+      "children": [
+        19,
+        20
+      ],
+      "scale": [
+        0.2,
+        0.3,
+        0.2
+      ],
+      "translation": [
+        -8.327094,
+        7.37766075,
+        14.7411366
+      ],
+      "name": "Table (1)"
+    },
+    {
+      "mesh": 1,
+      "name": "default"
+    },
+    {
+      "children": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "scale": [
+        5.0,
+        3.333333,
+        5.0
+      ],
+      "translation": [
+        -0.8673501,
+        0.4216556,
+        -12.8549747
+      ],
+      "name": "Grocery"
+    },
+    {
+      "translation": [
+        -3.853,
+        -5.758482,
+        -42.639
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "translation": [
+        -1.13022637,
+        -0.126496688,
+        3.179
+      ],
+      "name": "JuicePack"
+    },
+    {
+      "translation": [
+        -0.645,
+        0.8925034,
+        2.772995
+      ],
+      "name": "CerealBox"
+    },
+    {
+      "translation": [
+        4.26158428,
+        -4.79468775,
+        -2.54919171
+      ],
+      "name": "Chips (12)"
+    },
+    {
+      "children": [
+        26,
+        32,
+        133,
+        138,
+        280,
+        316
+      ],
+      "mesh": 8,
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "scale": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "translation": [
+        -9.649,
+        7.37766075,
+        16.989
+      ],
+      "name": "ShoppingShelf"
+    },
+    {
+      "children": [
+        27,
+        28,
+        30,
+        31
+      ],
+      "name": "Triggers"
+    },
+    {
+      "mesh": 9,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.00166666775,
+        0.00166666636,
+        0.0016666681
+      ],
+      "translation": [
+        0.0007400018,
+        0.005629982,
+        0.06290002
+      ],
+      "name": "EnergyDrink(Trigger)"
+    },
+    {
+      "children": [
+        29
+      ],
+      "mesh": 10,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666624,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.05715,
+        0.007206659,
+        0.09726333
+      ],
+      "name": "JuicePack(trigger)"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "mesh": 12,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666612,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.0369033143,
+        0.0059499545,
+        0.1318767
+      ],
+      "name": "CerealBox(trigger)"
+    },
+    {
+      "mesh": 13,
+      "rotation": [
+        0.7071068,
+        -8.659561E-17,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.00166666624,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.0229,
+        0.0065,
+        0.0254
+      ],
+      "name": "Chips(trigger)"
+    },
+    {
+      "children": [
+        33,
+        50,
+        67,
+        84,
+        101,
+        118
+      ],
+      "name": "EnergyDrinks"
+    },
+    {
+      "children": [
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.196766585,
+        -4.88360167,
+        -0.91769886
+      ],
+      "name": "energydrinks"
+    },
+    {
+      "children": [
+        35
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        37
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        39
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        41
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        43
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        45
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        47
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        49
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.135416836,
+        -4.88360167,
+        -0.91769886
+      ],
+      "name": "energydrinks (1)"
+    },
+    {
+      "children": [
+        52
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        54
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        56
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        58
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        60
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        62
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        64
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        66
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.196766585,
+        -4.8747015,
+        -0.91769886
+      ],
+      "name": "energydrinks (2)"
+    },
+    {
+      "children": [
+        69
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        71
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        73
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        75
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        77
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        79
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        81
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        83
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.135416836,
+        -4.8747015,
+        -0.91769886
+      ],
+      "name": "energydrinks (3)"
+    },
+    {
+      "children": [
+        86
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        88
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        90
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        92
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        94
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        96
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        98
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        100
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.196766585,
+        -4.864811,
+        -0.91769886
+      ],
+      "name": "energydrinks (4)"
+    },
+    {
+      "children": [
+        103
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        105
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        107
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        109
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        111
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        113
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        115
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        117
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.135416836,
+        -4.864811,
+        -0.91769886
+      ],
+      "name": "energydrinks (5)"
+    },
+    {
+      "children": [
+        120
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        122
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        124
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        126
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        128
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        130
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        132
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 14,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        134,
+        135,
+        136,
+        137
+      ],
+      "name": "Lights"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.08333331,
+        0.08333334,
+        0.08333334
+      ],
+      "translation": [
+        0.0596414134,
+        -8.33670347E-05,
+        0.1174167
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 1
+        }
+      },
+      "name": "Area Light"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.08333331,
+        0.08333334,
+        0.08333334
+      ],
+      "translation": [
+        0.0596414134,
+        -8.33670347E-05,
+        0.08533337
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 2
+        }
+      },
+      "name": "Area Light (1)"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.08333331,
+        0.08333334,
+        0.08333334
+      ],
+      "translation": [
+        0.0596414134,
+        -8.3347164E-05,
+        0.0526666865
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 3
+        }
+      },
+      "name": "Area Light (2)"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.08333331,
+        0.08333334,
+        0.08333334
+      ],
+      "translation": [
+        0.0596414134,
+        -0.0001,
+        0.1504
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 4
+        }
+      },
+      "name": "Area Light (3)"
+    },
+    {
+      "children": [
+        139,
+        155,
+        171,
+        187,
+        203,
+        219,
+        235,
+        251,
+        267
+      ],
+      "name": "Juicecans"
+    },
+    {
+      "children": [
+        140,
+        143,
+        146,
+        149,
+        152
+      ],
+      "translation": [
+        0.221800119,
+        -0.04520002,
+        0.101400018
+      ],
+      "name": "JuiceCans"
+    },
+    {
+      "children": [
+        141
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        142
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        144
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        145
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        147
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        148
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        150
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        151
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        153
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        154
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        156,
+        159,
+        162,
+        165,
+        168
+      ],
+      "translation": [
+        0.1708,
+        -0.04520002,
+        0.101400018
+      ],
+      "name": "JuiceCans (1)"
+    },
+    {
+      "children": [
+        157
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        158
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        160
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        161
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        163
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        164
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        166
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        167
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        169
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        170
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        172,
+        175,
+        178,
+        181,
+        184
+      ],
+      "translation": [
+        0.12,
+        -0.04520002,
+        0.101400018
+      ],
+      "name": "JuiceCans (2)"
+    },
+    {
+      "children": [
+        173
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        174
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        176
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        177
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        179
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        180
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        182
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        183
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        185
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        186
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        188,
+        191,
+        194,
+        197,
+        200
+      ],
+      "translation": [
+        0.221800119,
+        -0.0349,
+        0.1014
+      ],
+      "name": "JuiceCans (3)"
+    },
+    {
+      "children": [
+        189
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        190
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        192
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        193
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        195
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        196
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        198
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        199
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        201
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        202
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        204,
+        207,
+        210,
+        213,
+        216
+      ],
+      "translation": [
+        0.1708,
+        -0.0349,
+        0.101399995
+      ],
+      "name": "JuiceCans (4)"
+    },
+    {
+      "children": [
+        205
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        206
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        208
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        209
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        211
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        212
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        214
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        215
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        217
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        218
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        220,
+        223,
+        226,
+        229,
+        232
+      ],
+      "translation": [
+        0.12,
+        -0.0349,
+        0.101399995
+      ],
+      "name": "JuiceCans (5)"
+    },
+    {
+      "children": [
+        221
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        222
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        224
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        225
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        227
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        228
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        230
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        231
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        233
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        234
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        236,
+        239,
+        242,
+        245,
+        248
+      ],
+      "translation": [
+        0.221800119,
+        -0.0233,
+        0.1014
+      ],
+      "name": "JuiceCans (6)"
+    },
+    {
+      "children": [
+        237
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        238
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        240
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        241
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        243
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        244
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        246
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        247
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        249
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        250
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        252,
+        255,
+        258,
+        261,
+        264
+      ],
+      "translation": [
+        0.1708,
+        -0.0233,
+        0.1014
+      ],
+      "name": "JuiceCans (7)"
+    },
+    {
+      "children": [
+        253
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        254
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        256
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        257
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        259
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        260
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        262
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        263
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        265
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.161275327,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (5)"
+    },
+    {
+      "children": [
+        266
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        268,
+        271,
+        274,
+        277
+      ],
+      "translation": [
+        0.12,
+        -0.0233,
+        0.101399995
+      ],
+      "name": "JuiceCans (8)"
+    },
+    {
+      "children": [
+        269
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (1)"
+    },
+    {
+      "children": [
+        270
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        272
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.131275326,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (2)"
+    },
+    {
+      "children": [
+        273
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        275
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.141275331,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (3)"
+    },
+    {
+      "children": [
+        276
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        278
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.151275337,
+        0.03116667,
+        0.0
+      ],
+      "name": "JuicePack (4)"
+    },
+    {
+      "children": [
+        279
+      ],
+      "mesh": 15,
+      "translation": [
+        9.589382,
+        -2.290694,
+        -0.371906281
+      ],
+      "name": "JuicePack_High__1050_Tris_"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -1.41845167,
+        4.581488,
+        0.7448958
+      ],
+      "name": "Cap_50_Tris"
+    },
+    {
+      "children": [
+        281,
+        285,
+        289,
+        293,
+        297,
+        301,
+        305,
+        308,
+        312
+      ],
+      "translation": [
+        0.1756,
+        -0.0452,
+        0.1318
+      ],
+      "name": "Cerealboxes"
+    },
+    {
+      "children": [
+        282,
+        283,
+        284
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "CerealBox (1)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        286,
+        287,
+        288
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.172858655,
+        0.03116667,
+        0.0
+      ],
+      "name": "CerealBox (2)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        290,
+        291,
+        292
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.224858671,
+        0.03116667,
+        0.0
+      ],
+      "name": "CerealBox (3)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        294,
+        295,
+        296
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.0422,
+        -1.24176347E-09
+      ],
+      "name": "CerealBox (4)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        298,
+        299,
+        300
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.172858655,
+        0.0422,
+        -1.24176347E-09
+      ],
+      "name": "CerealBox (5)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        302,
+        303,
+        304
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.224858671,
+        0.0422,
+        0.0
+      ],
+      "name": "CerealBox (6)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        306,
+        307
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.051,
+        -2.483527E-09
+      ],
+      "name": "CerealBox (7)"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        309,
+        310,
+        311
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.224858671,
+        0.051,
+        -1.24176347E-09
+      ],
+      "name": "CerealBox (8)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        313,
+        314,
+        315
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.172858655,
+        0.051,
+        0.0
+      ],
+      "name": "CerealBox (9)"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        317,
+        321,
+        325,
+        329,
+        333,
+        337,
+        341,
+        345,
+        349,
+        353,
+        357,
+        360
+      ],
+      "name": "Chips"
+    },
+    {
+      "children": [
+        318,
+        319,
+        320
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.06272473,
+        -0.0145833371,
+        0.0256083366
+      ],
+      "name": "Chips"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        322,
+        323,
+        324
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.02005805,
+        -0.0145833371,
+        0.0256083366
+      ],
+      "name": "Chips (1)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        326,
+        327,
+        328
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.0235252939,
+        -0.0145833371,
+        0.0256083366
+      ],
+      "name": "Chips (2)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        330,
+        331,
+        332
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.06652531,
+        -0.0145833371,
+        0.0256083366
+      ],
+      "name": "Chips (3)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        334,
+        335,
+        336
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.06272473,
+        -0.00450000167,
+        0.0256083366
+      ],
+      "name": "Chips (4)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        338,
+        339,
+        340
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.02005805,
+        -0.00450000167,
+        0.0256083366
+      ],
+      "name": "Chips (5)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        342,
+        343,
+        344
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.0235252939,
+        -0.00450000167,
+        0.0256083366
+      ],
+      "name": "Chips (6)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        346,
+        347,
+        348
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.06652531,
+        -0.00450000167,
+        0.0256083366
+      ],
+      "name": "Chips (7)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        350,
+        351,
+        352
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.06652531,
+        0.00649999827,
+        0.0256083366
+      ],
+      "name": "Chips (11)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        354,
+        355,
+        356
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.0235252939,
+        0.00649999827,
+        0.0256083366
+      ],
+      "name": "Chips (10)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        358,
+        359
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.02005805,
+        0.00649999827,
+        0.0256083366
+      ],
+      "name": "Chips (9)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        361,
+        362,
+        363
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        0.06272473,
+        0.00649999827,
+        0.0256083366
+      ],
+      "name": "Chips (8)"
+    },
+    {
+      "mesh": 19,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        7.037355,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_High__304_Tris_"
+    },
+    {
+      "mesh": 20,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -1.62313223,
+        -4.76837158E-07,
+        0.008396149
+      ],
+      "name": "Chips_Mid__200_Tris_"
+    },
+    {
+      "mesh": 21,
+      "rotation": [
+        -6.123234E-17,
+        -1.0,
+        6.123234E-17,
+        -6.123234E-17
+      ],
+      "translation": [
+        -10.16,
+        0.0,
+        -0.0167922974
+      ],
+      "name": "Chips_Low__150_Tris_"
+    },
+    {
+      "children": [
+        365,
+        366,
+        369
+      ],
+      "scale": [
+        0.2,
+        0.3,
+        0.2
+      ],
+      "translation": [
+        -6.034094,
+        7.36766052,
+        14.7241364
+      ],
+      "name": "PalikkaTable"
+    },
+    {
+      "mesh": 1,
+      "name": "default"
+    },
+    {
+      "children": [
+        367,
+        368
+      ],
+      "scale": [
+        5.0,
+        3.333333,
+        5.0
+      ],
+      "translation": [
+        -0.410000026,
+        3.47333312,
+        -1.575
+      ],
+      "name": "Texts"
+    },
+    {
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.015,
+        0.015,
+        0.01
+      ],
+      "translation": [
+        -0.04,
+        0.169,
+        0.0
+      ],
+      "name": "Right"
+    },
+    {
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.015,
+        0.015,
+        0.01
+      ],
+      "translation": [
+        -0.04,
+        0.169,
+        0.0
+      ],
+      "name": "Wrong"
+    },
+    {
+      "children": [
+        370,
+        371,
+        372,
+        373,
+        374,
+        375
+      ],
+      "scale": [
+        5.0,
+        3.333333,
+        5.0
+      ],
+      "translation": [
+        -1.03217483,
+        2.859514,
+        -11.58909
+      ],
+      "name": "TriggerCubes"
+    },
+    {
+      "mesh": 22,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        -0.258565038,
+        0.100145757,
+        2.40881824
+      ],
+      "name": "TriggerCubeGreen"
+    },
+    {
+      "mesh": 23,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        -0.427,
+        0.100145757,
+        2.40881824
+      ],
+      "name": "TriggerCubeRed"
+    },
+    {
+      "mesh": 24,
+      "scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "translation": [
+        -0.588,
+        0.100145757,
+        2.40881824
+      ],
+      "name": "TriggerCubeYellow"
+    },
+    {
+      "mesh": 25,
+      "scale": [
+        0.1,
+        0.0600000136,
+        0.1
+      ],
+      "translation": [
+        -0.067,
+        0.106345661,
+        2.41121817
+      ],
+      "name": "TriggerCylinder"
+    },
+    {
+      "mesh": 26,
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "scale": [
+        0.00300000119,
+        0.00350000174,
+        0.003000001
+      ],
+      "translation": [
+        0.232034683,
+        0.0587322265,
+        2.370818
+      ],
+      "name": "TriggerTriangle"
+    },
+    {
+      "mesh": 27,
+      "rotation": [
+        -0.7071068,
+        -5.96046448E-08,
+        -5.96046448E-08,
+        0.7071068
+      ],
+      "scale": [
+        6.0,
+        6.0,
+        4.0
+      ],
+      "translation": [
+        0.478034973,
+        0.09544566,
+        2.375818
+      ],
+      "name": "TriggerHexagon"
+    },
+    {
+      "name": "Cognitive3D_Manager"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        376
+      ],
+      "name": "scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Table_low_DefaultMaterial_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Cube_Bake1_pbr_diffuse"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "JuicePack_Cap_Surface_Color"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "EnergyDrink"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "JuicePack_Surface_Color"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "CerealBox"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "Chips"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "intensity": 3000.0,
+          "color": [
+            0.7843138,
+            0.7843138,
+            0.7843138
+          ],
+          "name": "Directional Light"
+        },
+        {
+          "type": "point",
+          "range": 10.0,
+          "intensity": 187.2411,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "Area Light"
+        },
+        {
+          "type": "point",
+          "range": 10.0,
+          "intensity": 187.2411,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "Area Light (1)"
+        },
+        {
+          "type": "point",
+          "range": 10.0,
+          "intensity": 187.2411,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "Area Light (2)"
+        },
+        {
+          "type": "point",
+          "range": 10.0,
+          "intensity": 187.2411,
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "name": "Area Light (3)"
+        }
+      ]
+    }
+  }
+}
