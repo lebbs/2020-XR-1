@@ -9,6 +9,7 @@ public class StartRender : MonoBehaviour
     {
         Varjo.XR.VarjoMixedReality.StartRender();
         Debug.Log("ehkä toimii?");
+        VarjoMixedReality.IsMRAvailable();
     }
 
 

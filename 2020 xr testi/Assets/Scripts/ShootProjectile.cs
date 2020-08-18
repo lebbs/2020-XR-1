@@ -24,20 +24,26 @@ public class ShootProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-        if(time >= spawnTime)
-        {
-            SpawnObject();
-            SetRandomTime();
-        }
+        //projectile = GameObject.FindGameObjectWithTag("PingPongBall");
+
+            time += Time.deltaTime;
+            if (time >= spawnTime)
+            {
+                SpawnObject();
+                SetRandomTime();
+            }
+        
     }
 
     void SpawnObject()
     {
-
-        time = 0;
-        GameObject shot = GameObject.Instantiate(projectile, transform.position, transform.rotation);
-        shot.GetComponent<Rigidbody>().AddForce(transform.forward * projectileForce);
+        
+            time = 0;
+            GameObject shot = GameObject.Instantiate(projectile, transform.position, transform.rotation);
+            shot.GetComponent<Rigidbody>().AddForce(transform.forward * projectileForce);
+        //time = 0;
+        //GameObject shot = GameObject.Instantiate(projectile, transform.position, transform.rotation);
+        //shot.GetComponent<Rigidbody>().AddForce(transform.forward * projectileForce);
     }
 
     void SetRandomTime()

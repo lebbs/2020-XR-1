@@ -375,6 +375,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1234773244}
   score: 0
+  color1: {fileID: 0}
+  color2: {fileID: 0}
 --- !u!64 &378117153
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1452,6 +1454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1234773244}
   score: 0
+  color1: {fileID: 2100000, guid: 7d9464417fb27914ca9f960400d251ce, type: 2}
+  color2: {fileID: 2100000, guid: 40cd61f3fec6fa045a52d57b92b29969, type: 2}
 --- !u!64 &1456973442
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2134,8 +2138,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 2475223655661353768, guid: f609e63a29b937d46a8aa8f5062e3167, type: 3}
   projectileForce: 135
-  maxTime: 5
-  minTime: 2
+  maxTime: 6
+  minTime: 3
 --- !u!4 &2005525358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4154595508381948, guid: 6d18ca3ac0d2ecd4aa99a8099af486bb, type: 3}
