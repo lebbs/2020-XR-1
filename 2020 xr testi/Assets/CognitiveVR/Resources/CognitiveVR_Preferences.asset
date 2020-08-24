@@ -342,11 +342,11 @@ MonoBehaviour:
     VersionNumber: 1
     VersionId: 1910
   - SceneName: Pingispeli
-    SceneId: 
+    SceneId: 32192787-6a3a-476d-91f5-62cd4472b1e3
     ScenePath: Assets/Scenes/Pingispeli.unity
-    LastRevision: 0
+    LastRevision: 5249024557202649206
     VersionNumber: 1
-    VersionId: 0
+    VersionId: 1912
   - SceneName: 0010_Volumes
     SceneId: 
     ScenePath: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity

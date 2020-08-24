@@ -1,0 +1,254 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1204,
+      "type": "VEC3",
+      "max": [
+        0.065144941210746765,
+        0.03585805743932724,
+        0.029926728457212448
+      ],
+      "min": [
+        -0.065144941210746765,
+        -0.03585805743932724,
+        6.3591003709007055E-05
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1204,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1204,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.83993017673492432,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.83993017673492432,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1204,
+      "type": "VEC2",
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 576,
+      "type": "SCALAR",
+      "max": [
+        383.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 144,
+      "type": "SCALAR",
+      "max": [
+        447.0
+      ],
+      "min": [
+        384.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 168,
+      "type": "SCALAR",
+      "max": [
+        511.0
+      ],
+      "min": [
+        448.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1320,
+      "type": "SCALAR",
+      "max": [
+        1203.0
+      ],
+      "min": [
+        448.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "pingpongtable.bin",
+      "byteLength": 62208
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14448
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14448,
+      "byteLength": 14448
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28896,
+      "byteLength": 19264
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48160,
+      "byteLength": 9632
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 57792,
+      "byteLength": 1152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 58944,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 59232,
+      "byteLength": 336
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 59568,
+      "byteLength": 2640
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "metal"
+    },
+    {
+      "doubleSided": true,
+      "name": "br"
+    },
+    {
+      "doubleSided": true,
+      "name": "b.001"
+    },
+    {
+      "doubleSided": true,
+      "name": "w"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 5,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 6,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 7,
+          "material": 3
+        }
+      ],
+      "name": "PingPongTable"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        120.0,
+        120.0,
+        120.0
+      ],
+      "name": "PingPongTable"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "pingpongtable"
+    }
+  ]
+}

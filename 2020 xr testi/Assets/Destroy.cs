@@ -22,7 +22,7 @@ public class Destroy : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject, 3);
+            Destroy(gameObject, 5);
         }
     }
 }

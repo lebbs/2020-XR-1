@@ -1,0 +1,284 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 961,
+      "type": "VEC3",
+      "max": [
+        0.77947169542312622,
+        0.72992599010467529,
+        0.61241227388381958
+      ],
+      "min": [
+        -0.77947169542312622,
+        -0.92615324258804321,
+        -1.2260984182357788
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 961,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 961,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99914002418518066,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.99174165725708008,
+        -0.91088533401489258,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 961,
+      "type": "VEC2",
+      "max": [
+        0.9875410795211792,
+        0.99607694149017334
+      ],
+      "min": [
+        0.019281726330518723,
+        0.0049594640731811523
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 2904,
+      "type": "SCALAR",
+      "max": [
+        960.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "shooter.bin",
+      "byteLength": 51936
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11532
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11532,
+      "byteLength": 11532
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23064,
+      "byteLength": 15376
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38440,
+      "byteLength": 7688
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46128,
+      "byteLength": 5808
+    }
+  ],
+  "images": [
+    {
+      "uri": "AlienFighter_AlbedoTransparency.png",
+      "name": "AlienFighter_AlbedoTransparency"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "AlienFighter"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Shooter"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "mesh": 0,
+      "scale": [
+        1.5,
+        1.0007962,
+        1.49821246
+      ],
+      "name": "Shooter"
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.011,
+        -0.049,
+        0.667
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "name": "Point Light"
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.28,
+        -0.235,
+        0.445
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 1
+        }
+      },
+      "name": "Point Light (1)"
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.316,
+        -0.235,
+        0.445
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 2
+        }
+      },
+      "name": "Point Light (2)"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "shooter"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "AlienFighter_AlbedoTransparency"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "point",
+          "range": 0.1,
+          "intensity": 11.9366207,
+          "color": [
+            1.0,
+            0.5072636,
+            0.0
+          ],
+          "name": "Point Light"
+        },
+        {
+          "type": "point",
+          "range": 0.1,
+          "intensity": 11.9366207,
+          "color": [
+            1.0,
+            0.5072636,
+            0.0
+          ],
+          "name": "Point Light (1)"
+        },
+        {
+          "type": "point",
+          "range": 0.1,
+          "intensity": 11.9366207,
+          "color": [
+            1.0,
+            0.5072636,
+            0.0
+          ],
+          "name": "Point Light (2)"
+        }
+      ]
+    }
+  }
+}
