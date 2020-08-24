@@ -20,6 +20,7 @@ TagManager:
   - Cursor
   - BeerBottle
   - GroceryTrigger
+  - Controller
   layers:
   - Default
   - TransparentFX
