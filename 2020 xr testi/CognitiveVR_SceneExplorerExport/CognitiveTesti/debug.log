@@ -3,15 +3,15 @@
 *****************************
 Unity Version:2020.2.0a18
 OS:Windows 10  (10.0.0) 64bit
-System Time: 8/18/2020 12:48:33 PM
+System Time: 8/24/2020 9:38:13 AM
 
 *****************************
 ***********PROJECT***********
 *****************************
 SDK Type: VIU_XR_GENERAL_SETTINGS;VIU_XR_PACKAGE_METADATA_STORE;VIU_PLUGIN;CVR_XR
 SDK Version: 0.21.1
-Api Key: ****BSQQ
-Developer Key: ****07B3
+Api Key: ****OF8K
+Developer Key: ****9TX5
 Enable Logging: True
 Enable Development Logging: False
 Gaze Type: Physics
@@ -60,12 +60,6 @@ Scene Settings:
   ├─Showcase
   │  ├─Scene Id: 
   │  ├─Scene Path: Assets/Autarca/AlienShipsPack/Showcase.unity
-  │  ├─Last Revision: 0
-  │  ├─Version Number: 1
-  │  └─Version Id: 0
-  ├─ReadyRoom
-  │  ├─Scene Id: 
-  │  ├─Scene Path: Assets/CognitiveVR/ReadyRoom/ReadyRoom.unity
   │  ├─Last Revision: 0
   │  ├─Version Number: 1
   │  └─Version Id: 0
@@ -298,11 +292,11 @@ Scene Settings:
   │  ├─Version Number: 1
   │  └─Version Id: 0
   ├─CognitiveTesti
-  │  ├─Scene Id: e05d7fb7-505f-4f57-9f0e-364b867329e5
+  │  ├─Scene Id: 
   │  ├─Scene Path: Assets/Scenes/CognitiveTesti.unity
-  │  ├─Last Revision: 5249019383445253868
-  │  ├─Version Number: 2
-  │  └─Version Id: 1902
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
   ├─LeapMotion testi
   │  ├─Scene Id: 
   │  ├─Scene Path: Assets/Scenes/LeapMotion testi.unity
@@ -344,12 +338,12 @@ Scene Settings:
 ********CURRENT SCENE********
 *****************************
 Scene Name: CognitiveTesti
-Scene Id: e05d7fb7-505f-4f57-9f0e-364b867329e5
+Scene Id: 
 Scene Path: Assets/Scenes/CognitiveTesti.unity
-Last Revision: 5249019383445253868
-Version Number: 2
-Version Id: 1902
-Scene Size (mb): 0.05
+Last Revision: 0
+Version Number: 1
+Version Id: 0
+Scene Size (mb): 0.04
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
 Manager Startup Delay Time (s): 2
@@ -378,14 +372,11 @@ Dynamic Object Count: 3
 ********EXPORT FOLDER********
 *****************************
 /CognitiveVR_SceneExplorerExport (11mb)
-   /CognitiveTesti (0.05mb)
-      debug.log (0.02mb)
-      scene.bin (0.00mb)
-      scene.gltf (0.00mb)
+   /CognitiveTesti (0.04mb)
       settings.json (0.00mb)
-      /screenshot (0.03mb)
-         screenshot.png (0.03mb)
-   /Dynamic (2.32mb)
+      /screenshot (0.04mb)
+         screenshot.png (0.04mb)
+   /Dynamic (2.33mb)
       /cerealbox_low__260_tris_ (0.51mb)
          CerealBox.png (0.43mb)
          cerealbox_low__260_tris_.bin (0.03mb)
@@ -396,7 +387,7 @@ Dynamic Object Count: 3
          chips_high__304_tris_.bin (0.01mb)
          chips_high__304_tris_.gltf (0.00mb)
          cvr_object_thumbnail.png (0.05mb)
-      /cube (0.06mb)
+      /cube (0.07mb)
          cube.bin (0.00mb)
          cube.gltf (0.00mb)
          cvr_object_thumbnail.png (0.06mb)
@@ -404,7 +395,7 @@ Dynamic Object Count: 3
          cube_(1).bin (0.00mb)
          cube_(1).gltf (0.00mb)
          cvr_object_thumbnail.png (0.06mb)
-      /cube_(2) (0.05mb)
+      /cube_(2) (0.06mb)
          cube_(2).bin (0.00mb)
          cube_(2).gltf (0.00mb)
          cvr_object_thumbnail.png (0.05mb)
@@ -427,6 +418,11 @@ Dynamic Object Count: 3
          cvr_object_thumbnail.png (0.09mb)
          simplegrabcube.bin (0.00mb)
          simplegrabcube.gltf (0.00mb)
+   /MixedReality (0.06mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.05mb)
+         screenshot.png (0.05mb)
    /PalikkaPeli (8.08mb)
       CerealBox.png (0.43mb)
       Chips.png (0.24mb)

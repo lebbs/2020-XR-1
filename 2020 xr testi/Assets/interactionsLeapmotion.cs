@@ -6,20 +6,24 @@ public class interactionsLeapmotion : MonoBehaviour
 {
 
     public float rotateSpeed = 90f;
+    
+    public Material color;
+    public Material color2;
+
     // Start is called before the first frame update
 
     public void Rotate()
     {
-        transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
     }
-    void Start()
+   
+    public void ChangeColor()
     {
-        
+        GetComponent<MeshRenderer>().material = color;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OriginalColor()
     {
-        
+        GetComponent<MeshRenderer>().material = color2;
     }
 }

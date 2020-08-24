@@ -32,10 +32,10 @@ public class MenuInteraction : MonoBehaviour
          
         }
 
-        if(controller.primary2DAxisClick && Menu.activeSelf)
-        {
-            VivePointers.SetActive(false);
-            Menu.SetActive(false);
-        }
+        //if(controller.primary2DAxisClick && Menu.activeSelf)
+        //{
+        //    VivePointers.SetActive(false);
+        //    Menu.SetActive(false);
+        //}
     }
 }
