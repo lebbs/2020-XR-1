@@ -64,6 +64,11 @@ public class MenuButtons : MonoBehaviour
         SceneManager.LoadScene("Pingispeli");
     }
 
+    public void lataaLeapmotion()
+    {
+        SceneManager.LoadScene("LeapMotion testi");
+    }
+
     public void lataapaavalikko()
     {
         SceneManager.LoadScene("Main");

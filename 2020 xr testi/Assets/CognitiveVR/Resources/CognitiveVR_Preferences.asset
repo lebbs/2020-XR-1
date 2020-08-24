@@ -19,7 +19,7 @@ MonoBehaviour:
   Documentation: docs.cognitive3d.com
   GazeType: 0
   RenderPassType: 0
-  ApplicationKey: AFDL6TV36BFS2ULEY1HW5PEASJJPBSQQ
+  ApplicationKey: JWBG9LABXFSONM4JCTNR54XDQWSBOF8K
   EnableLogging: 1
   EnableDevLogging: 0
   DynamicObjectSearchInParent: 1
@@ -65,12 +65,6 @@ MonoBehaviour:
   - SceneName: Showcase
     SceneId: 
     ScenePath: Assets/Autarca/AlienShipsPack/Showcase.unity
-    LastRevision: 0
-    VersionNumber: 1
-    VersionId: 0
-  - SceneName: ReadyRoom
-    SceneId: 
-    ScenePath: Assets/CognitiveVR/ReadyRoom/ReadyRoom.unity
     LastRevision: 0
     VersionNumber: 1
     VersionId: 0
@@ -312,17 +306,17 @@ MonoBehaviour:
     VersionNumber: 1
     VersionId: 0
   - SceneName: MixedReality
-    SceneId: 
+    SceneId: 95b6b9d7-8300-4413-bca7-472438e65573
     ScenePath: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/MixedReality/Scenes/MixedReality.unity
-    LastRevision: 0
+    LastRevision: 5249024501701193973
     VersionNumber: 1
-    VersionId: 0
+    VersionId: 1909
   - SceneName: CognitiveTesti
-    SceneId: e05d7fb7-505f-4f57-9f0e-364b867329e5
+    SceneId: 76a55f86-2fb4-4566-adac-3301261630fb
     ScenePath: Assets/Scenes/CognitiveTesti.unity
-    LastRevision: 5249019427642786638
-    VersionNumber: 3
-    VersionId: 1903
+    LastRevision: 5249024497452205235
+    VersionNumber: 1
+    VersionId: 1908
   - SceneName: LeapMotion testi
     SceneId: 
     ScenePath: Assets/Scenes/LeapMotion testi.unity
@@ -342,11 +336,11 @@ MonoBehaviour:
     VersionNumber: 1
     VersionId: 0
   - SceneName: PalloPeli
-    SceneId: 
+    SceneId: da0d7fea-ef46-4b91-bd92-6334b32073db
     ScenePath: Assets/Scenes/PalloPeli.unity
-    LastRevision: 0
+    LastRevision: 5249024518607737625
     VersionNumber: 1
-    VersionId: 0
+    VersionId: 1910
   - SceneName: Pingispeli
     SceneId: 
     ScenePath: Assets/Scenes/Pingispeli.unity
@@ -359,3 +353,9 @@ MonoBehaviour:
     LastRevision: 0
     VersionNumber: 1
     VersionId: 0
+  - SceneName: cognitivetesti 1
+    SceneId: f410ac28-775b-4a8c-a7f6-eee685bdfca9
+    ScenePath: Assets/Scenes/cognitivetesti 1.unity
+    LastRevision: 5249024525333674512
+    VersionNumber: 1
+    VersionId: 1911

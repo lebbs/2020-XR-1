@@ -12,27 +12,50 @@ public class PingPongScore : MonoBehaviour
     private Renderer renderer;
     public Material color1;
     public Material color2;
+
+    private float time = 2.0f;
     // Start is called before the first frame update
 
-    private void Start()
+    //private void Start()
+    //{
+    //    renderer.GetComponent<Renderer>();
+    //}
+
+    private void Update()
     {
-        renderer.GetComponent<Renderer>();
+        time = time + Time.deltaTime;
+
+       
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "PingPongBall")
         {
-            renderer.material = color2;
+            //renderer.material = color2;
             score += 1;
             scoreText.GetComponent<TextMesh>().text = "Score: " + score;
+            GetComponent<MeshRenderer>().material = color2;
             //Destroy(GameObject.FindWithTag("PingPongBall"));
             Destroy(collision.gameObject);
 
+            StartCoroutine(ChangeMaterial());
         }
-        else
-        {
-            renderer.material = color1;
-        }
+        
     }
+
+    private IEnumerator ChangeMaterial()
+    {
+        yield return new WaitForSeconds(2.0f);
+        GetComponent<MeshRenderer>().material = color1;
+    }
+    //private void OnCollisionExit(Collision collision)
+    //{
+    //    if(collision.gameObject.tag == "PingPongBall")
+    //    {
+    //        GetComponent<MeshRenderer>().material = color1;
+    //    }
+    //}
+
+
 }

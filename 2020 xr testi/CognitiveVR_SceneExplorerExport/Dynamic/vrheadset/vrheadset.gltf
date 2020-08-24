@@ -1,0 +1,185 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 51220,
+      "type": "VEC3",
+      "max": [
+        0.10281394422054291,
+        0.059437312185764313,
+        0.21424990892410278
+      ],
+      "min": [
+        -0.10281394422054291,
+        -0.080347649753093719,
+        -0.0772622600197792
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 51220,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 51220,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 51220,
+      "type": "VEC2",
+      "max": [
+        0.99799692630767822,
+        0.998046875
+      ],
+      "min": [
+        -0.0016003083437681198,
+        0.0056276917457580566
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 272781,
+      "type": "SCALAR",
+      "max": [
+        51219.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "vrheadset.bin",
+      "byteLength": 3004122
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 614640
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 614640,
+      "byteLength": 614640
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1229280,
+      "byteLength": 819520
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2048800,
+      "byteLength": 409760
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2458560,
+      "byteLength": 545562
+    }
+  ],
+  "images": [
+    {
+      "uri": "VR1_HDRP_BaseMap.png",
+      "name": "VR1_HDRP_BaseMap"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "VR1_Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "VRHeadset"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "name": "VRHeadset"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "vrheadset"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "VR1_HDRP_BaseMap"
+    }
+  ]
+}
