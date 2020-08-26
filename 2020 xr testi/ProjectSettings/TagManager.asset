@@ -21,6 +21,10 @@ TagManager:
   - BeerBottle
   - GroceryTrigger
   - Controller
+  - Hexagon
+  - Triangle
+  - Cylinder
+  - Sphere
   layers:
   - Default
   - TransparentFX
