@@ -16,6 +16,18 @@ public class MenuButtons : MonoBehaviour
     }
 
     //Functio piilottaa menun n‰kyvist‰. K‰ytet‰‰n sulje nappiin
+
+
+    public void CloseSceneMenu()
+    {
+        sceneMenu.SetActive(false);
+        menu.SetActive(true);
+    }
+    public void CloseMenu()
+    {
+        menu.SetActive(false);
+    }
+    
     public void Hidemenu()
     {
         menu.SetActive(false);
