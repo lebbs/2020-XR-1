@@ -10,6 +10,7 @@ public class MenuButtons : MonoBehaviour
     public GameObject vivePointer;
     public GameObject menu;
     public GameObject sceneMenu;
+    public GameObject difficultyMenu;
     public void buttontest()
     {
         Debug.Log("Tooimiiiii");
@@ -52,12 +53,21 @@ public class MenuButtons : MonoBehaviour
     {
         menu.SetActive(true);
         sceneMenu.SetActive(false);
+        difficultyMenu.SetActive(false);
+
     }
 
     public void SceneMenu()
     {
         menu.SetActive(false);
         sceneMenu.SetActive(true);
+    }
+
+    public void DifficultyMenu()
+    {
+        menu.SetActive(false);
+        sceneMenu.SetActive(false);
+        difficultyMenu.SetActive(true);
     }
 
     //
