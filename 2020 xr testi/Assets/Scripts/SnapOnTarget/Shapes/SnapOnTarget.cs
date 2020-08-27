@@ -29,10 +29,13 @@ public class SnapOnTarget : MonoBehaviour
             renderer.enabled = false;
             Debug.Log("trigger toimii");
         }
+
         else
         {
             renderer.enabled = true;
         }
+
+        
         //else
         //{
         //    gameObject.GetComponent<MeshRenderer>().enabled = true;

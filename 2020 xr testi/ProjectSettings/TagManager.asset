@@ -25,6 +25,10 @@ TagManager:
   - Triangle
   - Cylinder
   - Sphere
+  - Cereal
+  - Juicepack
+  - Energydrink
+  - Chips
   layers:
   - Default
   - TransparentFX
