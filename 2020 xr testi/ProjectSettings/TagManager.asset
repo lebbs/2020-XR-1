@@ -29,6 +29,7 @@ TagManager:
   - Juicepack
   - Energydrink
   - Chips
+  - PingPongTable
   layers:
   - Default
   - TransparentFX

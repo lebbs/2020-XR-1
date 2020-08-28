@@ -3,7 +3,7 @@
 *****************************
 Unity Version:2020.2.0a18
 OS:Windows 10  (10.0.0) 64bit
-System Time: 8/24/2020 10:13:30 AM
+System Time: 8/28/2020 2:31:12 PM
 
 *****************************
 ***********PROJECT***********
@@ -316,34 +316,40 @@ Scene Settings:
   │  ├─Version Number: 1
   │  └─Version Id: 0
   ├─PalloPeli
-  │  ├─Scene Id: 
+  │  ├─Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
   │  ├─Scene Path: Assets/Scenes/PalloPeli.unity
-  │  ├─Last Revision: 0
+  │  ├─Last Revision: 5249024518607737625
   │  ├─Version Number: 1
-  │  └─Version Id: 0
+  │  └─Version Id: 1910
   ├─Pingispeli
-  │  ├─Scene Id: 
+  │  ├─Scene Id: 32192787-6a3a-476d-91f5-62cd4472b1e3
   │  ├─Scene Path: Assets/Scenes/Pingispeli.unity
+  │  ├─Last Revision: 5249024557202649206
+  │  ├─Version Number: 1
+  │  └─Version Id: 1912
+  ├─0010_Volumes
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity
   │  ├─Last Revision: 0
   │  ├─Version Number: 1
   │  └─Version Id: 0
-  └─0010_Volumes
-     ├─Scene Id: 
-     ├─Scene Path: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity
-     ├─Last Revision: 0
+  └─cognitivetesti 1
+     ├─Scene Id: f410ac28-775b-4a8c-a7f6-eee685bdfca9
+     ├─Scene Path: Assets/Scenes/cognitivetesti 1.unity
+     ├─Last Revision: 5249024525333674512
      ├─Version Number: 1
-     └─Version Id: 0
+     └─Version Id: 1911
 
 *****************************
 ********CURRENT SCENE********
 *****************************
 Scene Name: PalloPeli
-Scene Id: 
+Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
 Scene Path: Assets/Scenes/PalloPeli.unity
-Last Revision: 0
+Last Revision: 5249024518607737625
 Version Number: 1
-Version Id: 0
-Scene Size (mb): 0.00
+Version Id: 1910
+Scene Size (mb): 0.04
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
 Manager Startup Delay Time (s): 2
@@ -356,13 +362,18 @@ Dynamic Object Count: 0
 *****************************
 ********EXPORT FOLDER********
 *****************************
-/CognitiveVR_SceneExplorerExport (16mb)
+/CognitiveVR_SceneExplorerExport (21mb)
    /CognitiveTesti (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
       /screenshot (0.03mb)
          screenshot.png (0.03mb)
-   /Dynamic (7.93mb)
+   /cognitivetesti 1 (0.04mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /Dynamic (12.99mb)
       /cerealbox_low__260_tris_ (0.51mb)
          CerealBox.png (0.43mb)
          cerealbox_low__260_tris_.bin (0.03mb)
@@ -400,6 +411,24 @@ Dynamic Object Count: 0
          juicepack.gltf (0.01mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
+      /pingpongball (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         pingpongball.bin (0.03mb)
+         pingpongball.gltf (0.00mb)
+      /pingpongtable (0.09mb)
+         cvr_object_thumbnail.png (0.03mb)
+         pingpongtable.bin (0.06mb)
+         pingpongtable.gltf (0.00mb)
+      /racket (2.56mb)
+         cvr_object_thumbnail.png (0.03mb)
+         initialShadingGroup_Base_Color.png (2.47mb)
+         racket.bin (0.05mb)
+         racket.gltf (0.01mb)
+      /shooter (2.32mb)
+         AlienFighter_AlbedoTransparency.png (2.21mb)
+         cvr_object_thumbnail.png (0.06mb)
+         shooter.bin (0.05mb)
+         shooter.gltf (0.00mb)
       /simplegrabcube (0.09mb)
          cvr_object_thumbnail.png (0.09mb)
          simplegrabcube.bin (0.00mb)
@@ -429,8 +458,15 @@ Dynamic Object Count: 0
       Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
       /screenshot (0.05mb)
          screenshot.png (0.05mb)
-   /PalloPeli (0.00mb)
+   /PalloPeli (0.04mb)
       settings.json (0.00mb)
+      /screenshot (0.04mb)
+         screenshot.png (0.04mb)
+   /Pingispeli (0.05mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
    /ReadyRoom (0.12mb)
       debug.log (0.02mb)
       Instructions.png (0.01mb)
