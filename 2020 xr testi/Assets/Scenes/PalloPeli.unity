@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 15.369381, g: 19.0482, b: 25.21654, a: 1}
+  m_IndirectSpecularColor: {r: 15.370724, g: 19.045408, b: 25.207415, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -531,6 +531,10 @@ PrefabInstance:
       propertyPath: m_skyboxProfile
       value: 
       objectReference: {fileID: 11400000, guid: b9fc1b0365bc88e40b2900cc175368b9, type: 2}
+    - target: {fileID: 604044073390998564, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 604044073057552824, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}
     - {fileID: 604044073057552805, guid: ba9db922ce16c644688c8ba872ca8f0a, type: 3}

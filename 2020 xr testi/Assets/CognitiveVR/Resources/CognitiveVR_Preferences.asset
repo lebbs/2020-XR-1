@@ -338,9 +338,9 @@ MonoBehaviour:
   - SceneName: PalloPeli
     SceneId: da0d7fea-ef46-4b91-bd92-6334b32073db
     ScenePath: Assets/Scenes/PalloPeli.unity
-    LastRevision: 5249024518607737625
-    VersionNumber: 1
-    VersionId: 1910
+    LastRevision: 5249028129217240287
+    VersionNumber: 2
+    VersionId: 1914
   - SceneName: Pingispeli
     SceneId: 32192787-6a3a-476d-91f5-62cd4472b1e3
     ScenePath: Assets/Scenes/Pingispeli.unity
