@@ -1,0 +1,393 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC3",
+      "max": [
+        4.9546699523925781,
+        3.042107105255127,
+        1.7032860517501831
+      ],
+      "min": [
+        -4.9546699523925781,
+        -0.025070000439882278,
+        -1.7032860517501831
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99987876415252686,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC2",
+      "max": [
+        0.88665902614593506,
+        0.99952799081802368
+      ],
+      "min": [
+        0.00047200001426972449,
+        0.00047200918197631836
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 9000,
+      "type": "SCALAR",
+      "max": [
+        2247.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.5,
+        0.0
+      ],
+      "min": [
+        -1.0,
+        -0.5,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        3.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "ostostable_variant.bin",
+      "byteLength": 126038
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 26976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26976,
+      "byteLength": 26976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 53952,
+      "byteLength": 35968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 89920,
+      "byteLength": 17984
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 107904,
+      "byteLength": 18000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 125904,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 125952,
+      "byteLength": 48
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 126000,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 126032,
+      "byteLength": 6
+    }
+  ],
+  "images": [
+    {
+      "uri": "Table_low_DefaultMaterial_AlbedoTransparency.png",
+      "name": "Table_low_DefaultMaterial_AlbedoTransparency"
+    },
+    {
+      "uri": "Info.png",
+      "name": "Info"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Training table"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Legacy Shaders/Transparent/Diffuse"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "default"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1
+        }
+      ],
+      "name": "Info"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        7
+      ],
+      "scale": [
+        0.2,
+        0.3,
+        0.2
+      ],
+      "name": "OstosTable Variant"
+    },
+    {
+      "mesh": 0,
+      "name": "default"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "scale": [
+        5.0,
+        3.333333,
+        5.0
+      ],
+      "translation": [
+        1.67,
+        0.4216556,
+        -12.8549747
+      ],
+      "name": "Grocery"
+    },
+    {
+      "translation": [
+        -3.853,
+        -5.758482,
+        -42.639
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "translation": [
+        -1.13022637,
+        -0.126496688,
+        3.179
+      ],
+      "name": "JuicePack"
+    },
+    {
+      "translation": [
+        -0.645,
+        0.8925034,
+        2.772995
+      ],
+      "name": "CerealBox"
+    },
+    {
+      "translation": [
+        4.26158428,
+        -4.79468775,
+        -2.54919171
+      ],
+      "name": "Chips (12)"
+    },
+    {
+      "children": [
+        8,
+        9,
+        10
+      ],
+      "scale": [
+        5.0,
+        3.333333,
+        5.0
+      ],
+      "translation": [
+        -0.07952762,
+        5.24666643,
+        -4.755001
+      ],
+      "name": "Info"
+    },
+    {
+      "name": "Panel"
+    },
+    {
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        1.0
+      ],
+      "name": "Text (TMP)"
+    },
+    {
+      "mesh": 1,
+      "name": "Info"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "ostostable_variant"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Table_low_DefaultMaterial_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Info"
+    }
+  ]
+}

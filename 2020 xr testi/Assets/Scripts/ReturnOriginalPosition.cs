@@ -11,6 +11,9 @@ public class ReturnOriginalPosition : MonoBehaviour
     void Start()
     {
         originalPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        rigidbody = gameObject.GetComponent<Rigidbody>();
+        rigidbody.angularVelocity = new Vector3(0, 0, 0);
+        rigidbody.velocity = new Vector3(0, 0, 0);
     }
 
     // Update is called once per frame

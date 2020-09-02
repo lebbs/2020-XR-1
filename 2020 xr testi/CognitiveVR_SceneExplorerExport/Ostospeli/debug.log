@@ -1,0 +1,690 @@
+*****************************
+***********SYSTEM************
+*****************************
+Unity Version:2020.2.0a18
+OS:Windows 10  (10.0.0) 64bit
+System Time: 9/1/2020 8:53:47 AM
+
+*****************************
+***********PROJECT***********
+*****************************
+SDK Type: VIU_XR_GENERAL_SETTINGS;VIU_XR_PACKAGE_METADATA_STORE;VIU_PLUGIN;CVR_XR
+SDK Version: 0.21.1
+Api Key: ****OF8K
+Developer Key: ****9TX5
+Enable Logging: True
+Enable Development Logging: False
+Gaze Type: Physics
+Snapshot Interval: 0.1
+Dynamic Object Search in Parent: True
+Dynamic Object Layer Mask: -1
+Track GPS Location: False
+GPS Sync with Player Update: False
+GPS Update Interval: 1
+GPS Accuracy: 2
+Record Floor Position: True
+Gaze Snapshot Batch Size: 64
+Event Snapshot Batch Size: 64
+Event Extreme Batch Size: 256
+Event Minimum Timer: 2
+Event Automatic Send Timer: 10
+Dynamic Snapshot Batch Size: 64
+Dynamic Extreme Batch Size: 256
+Dynamic Minimum Timer: 2
+Dynamic Automatic Send Timer: 10
+Sensor Snapshot Batch Size: 64
+Sensor Extreme Batch Size: 256
+Sensor Minimum Timer: 6
+Sensor Automatic Send Timer: 10
+Fixation Snapshot Batch Size: 64
+Fixation Extreme Batch Size: 64
+Fixation Minimum Timer: 2
+Fixation Automatic Send Timer: 10
+Save Data to Local Cache if no internet connection: True
+Cache Size (bytes): 10485760
+Cache Size (mb): 10.0 MB
+Custom Protocol: https
+Custom Gateway: data.cognitive3d.com
+Custom Viewer: viewer.cognitive3d.com/scene/
+Custom Dashboard: app.cognitive3d.com
+Send Data on HMD Remove: True
+Send Data on Level Load: True
+Send Data on Quit: True
+Send Data on Hotkey: True
+Send Data Primary Hotkey: F9
+Send Data Hotkey Modifiers: True False False
+Texture Export Quality: 1
+Export Lowest LOD from LODGroup Components: True
+Export AO Maps: False
+Scene Settings:
+  ├─Showcase
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Autarca/AlienShipsPack/Showcase.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Tutorial
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/0.Tutorial/Tutorial.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─UGUI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/1.UGUI/UGUI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─2DDragDrop
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/2.2DDragDrop/2DDragDrop.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─3DDrag
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/3.3DDrag/3DDrag.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Teleport
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/4.Teleport/Teleport.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─ColliderEvent
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/5.ColliderEvent/ColliderEvent.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─ControllerManagerSample
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/6.ControllerManagerSample/ControllerManagerSample.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─RoleBindingExample
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/7.RoleBindingExample/RoleBindingExample.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Attachment Hands (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Attachment Hands (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Capsule Hands (Desktop)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Capsule Hands (Desktop).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Capsule Hands (VR - Infrared Viewer)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Capsule Hands (VR - Infrared Viewer).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Capsule Hands (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Capsule Hands (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Hand Post-Processes (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Hand Post-Processes (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Rigged Hands (VR - Infrared Viewer)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Rigged Hands (VR - Infrared Viewer).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Rigged Hands (VR)
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Examples/Rigged Hands (VR).unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─TestScene
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Scripts/Geometry/Tests/TestScene.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─B-Spline Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Core/Scripts/Splines/Examples/B-Spline Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Baked Renderer Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/GraphicRenderer/Examples/Baked Renderer Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Curved Space Examples
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/GraphicRenderer/Examples/Curved Space Examples.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Dynamic Renderer Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/GraphicRenderer/Examples/Dynamic Renderer Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Massive Object Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/GraphicRenderer/Examples/Massive Object Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Surface Shader Examples
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/GraphicRenderer/Examples/Surface Shader Examples.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Hands_Viewer_Demo
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/Hands/Examples/Scenes/Hands_Viewer_Demo.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Rigged_Hands_AutoRig_Example
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/Hands/Examples/Scenes/Rigged_Hands_AutoRig_Example.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Interaction Objects
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/1. Interaction Objects/Interaction Objects.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Basic UI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/2. Basic UI/Basic UI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Interaction Callbacks
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Interaction Callbacks.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Hand UI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/4. Hand UI/Hand UI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Anchors
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/5. Anchors/Anchors.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Dynamic UI
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/6. Dynamic UI/Dynamic UI.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Workstation Pose Test
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/6. Dynamic UI/Tests/Workstation Pose Test.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Moving Reference Frames
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/7. Moving Reference Frames/Moving Reference Frames.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Swap Grasp
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Examples/8. Swap Grasp/Swap Grasp.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─AnchorScoreTest
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Plugins/LeapMotion/Modules/InteractionEngine/Scripts/UI/Anchors/Tests/AnchorScoreTest.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─ControllerInput
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/ControllerInput/Scenes/ControllerInput.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─EyeTracking
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/EyeTracking/Scenes/EyeTracking.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─Markers
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/Markers/Scenes/Markers.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─MixedReality
+  │  ├─Scene Id: 95b6b9d7-8300-4413-bca7-472438e65573
+  │  ├─Scene Path: Assets/Samples/Varjo XR Plugin/1.0.0/HDRP Samples/MixedReality/Scenes/MixedReality.unity
+  │  ├─Last Revision: 5249024501701193973
+  │  ├─Version Number: 1
+  │  └─Version Id: 1909
+  ├─CognitiveTesti
+  │  ├─Scene Id: 76a55f86-2fb4-4566-adac-3301261630fb
+  │  ├─Scene Path: Assets/Scenes/CognitiveTesti.unity
+  │  ├─Last Revision: 5249024497452205235
+  │  ├─Version Number: 1
+  │  └─Version Id: 1908
+  ├─LeapMotion testi
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Scenes/LeapMotion testi.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─MAin
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Scenes/MAin.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─PalikkaPeli
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Assets/Scenes/PalikkaPeli.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─PalloPeli
+  │  ├─Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
+  │  ├─Scene Path: Assets/Scenes/PalloPeli.unity
+  │  ├─Last Revision: 5249030546067803026
+  │  ├─Version Number: 5
+  │  └─Version Id: 1920
+  ├─Pingispeli
+  │  ├─Scene Id: 32192787-6a3a-476d-91f5-62cd4472b1e3
+  │  ├─Scene Path: Assets/Scenes/Pingispeli.unity
+  │  ├─Last Revision: 5249024557202649206
+  │  ├─Version Number: 1
+  │  └─Version Id: 1912
+  ├─0010_Volumes
+  │  ├─Scene Id: 
+  │  ├─Scene Path: Packages/com.unity.render-pipelines.high-definition/Tests/Runtime/Scenes/0010_Volumes.unity
+  │  ├─Last Revision: 0
+  │  ├─Version Number: 1
+  │  └─Version Id: 0
+  ├─cognitivetesti 1
+  │  ├─Scene Id: f410ac28-775b-4a8c-a7f6-eee685bdfca9
+  │  ├─Scene Path: Assets/Scenes/cognitivetesti 1.unity
+  │  ├─Last Revision: 5249024525333674512
+  │  ├─Version Number: 1
+  │  └─Version Id: 1911
+  └─Ostospeli
+     ├─Scene Id: 08172a6c-8914-4689-b046-f01e53eb74ad
+     ├─Scene Path: Assets/Scenes/Ostospeli.unity
+     ├─Last Revision: 5249031376144946866
+     ├─Version Number: 3
+     └─Version Id: 1927
+
+*****************************
+********CURRENT SCENE********
+*****************************
+Scene Name: Ostospeli
+Scene Id: 08172a6c-8914-4689-b046-f01e53eb74ad
+Scene Path: Assets/Scenes/Ostospeli.unity
+Last Revision: 5249031376144946866
+Version Number: 3
+Version Id: 1927
+Scene Size (mb): 0.07
+Main Camera GameObject: Main Camera
+Manager Initialize On Start: True
+Manager Startup Delay Time (s): 2
+
+*****************************
+****CURRENT SCENE OBJECTS****
+*****************************
+Dynamic Object Count: 20
+  ├─Chips_High__304_Tris_
+  │  ├─Mesh Name: chips_high__304_tris_
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─CerealBox_Low__260_Tris_
+  │  ├─Mesh Name: cerealbox_low__260_tris_
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─JuicePack
+  │  ├─Mesh Name: juicepack
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: false
+  ├─EnergyDrink
+  │  ├─Mesh Name: energydrink
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─ShoppingShelf Variant
+  │  ├─Mesh Name: shoppingshelf_variant
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─EnergyDrink_High__326_Tris_
+  │  ├─Mesh Name: energydrink_high__326_tris_
+  │  ├─Has Collider: false
+  │  └─Has Children: false
+  ├─OstosTable Variant
+  │  ├─Mesh Name: ostostable_variant
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  └─EnergyDrink_High__326_Tris_
+     ├─Mesh Name: energydrink_high__326_tris_
+     ├─Has Collider: false
+     └─Has Children: false
+
+*****************************
+********EXPORT FOLDER********
+*****************************
+/CognitiveVR_SceneExplorerExport (40mb)
+   /CognitiveTesti (0.05mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /cognitivetesti 1 (0.04mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /Dynamic (31.29mb)
+      /cerealboxes (0.58mb)
+         CerealBox.png (0.43mb)
+         cerealboxes.bin (0.11mb)
+         cerealboxes.gltf (0.01mb)
+         cvr_object_thumbnail.png (0.02mb)
+      /cerealbox_low__260_tris_ (0.54mb)
+         CerealBox.png (0.43mb)
+         cerealbox_low__260_tris_.bin (0.03mb)
+         cerealbox_low__260_tris_.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.08mb)
+      /chips (0.36mb)
+         chips.bin (0.03mb)
+         chips.gltf (0.02mb)
+         Chips.png (0.24mb)
+         cvr_object_thumbnail.png (0.06mb)
+      /chips_high__304_tris_ (0.33mb)
+         Chips.png (0.24mb)
+         chips_high__304_tris_.bin (0.01mb)
+         chips_high__304_tris_.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.07mb)
+      /cube (0.07mb)
+         cube.bin (0.00mb)
+         cube.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.06mb)
+      /cube_(1) (0.07mb)
+         cube_(1).bin (0.00mb)
+         cube_(1).gltf (0.00mb)
+         cvr_object_thumbnail.png (0.06mb)
+      /cube_(2) (0.06mb)
+         cube_(2).bin (0.00mb)
+         cube_(2).gltf (0.00mb)
+         cvr_object_thumbnail.png (0.05mb)
+      /default (2.83mb)
+         cvr_object_thumbnail.png (0.08mb)
+         default.bin (0.12mb)
+         default.gltf (0.00mb)
+         Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
+      /energydrink (0.89mb)
+         cvr_object_thumbnail.png (0.08mb)
+         energydrink.bin (0.03mb)
+         energydrink.gltf (0.00mb)
+         EnergyDrink.png (0.78mb)
+      /energydrinks (0.89mb)
+         cvr_object_thumbnail.png (0.06mb)
+         EnergyDrink.png (0.78mb)
+         energydrinks.bin (0.03mb)
+         energydrinks.gltf (0.03mb)
+      /energydrink_high__326_tris_ (0.91mb)
+         cvr_object_thumbnail.png (0.10mb)
+         EnergyDrink.png (0.78mb)
+         energydrink_high__326_tris_.bin (0.03mb)
+         energydrink_high__326_tris_.gltf (0.00mb)
+      /gazegrabcube (0.09mb)
+         cvr_object_thumbnail.png (0.09mb)
+         gazegrabcube.bin (0.00mb)
+         gazegrabcube.gltf (0.00mb)
+      /juicecans (0.31mb)
+         cvr_object_thumbnail.png (0.05mb)
+         juicecans.bin (0.06mb)
+         juicecans.gltf (0.04mb)
+         JuicePack_Cap_Surface_Color.png (0.12mb)
+         JuicePack_Surface_Color.png (0.04mb)
+      /juicepack (0.31mb)
+         cvr_object_thumbnail.png (0.08mb)
+         juicepack.bin (0.06mb)
+         juicepack.gltf (0.01mb)
+         JuicePack_Cap_Surface_Color.png (0.12mb)
+         JuicePack_Surface_Color.png (0.04mb)
+      /movingtarget (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         movingtarget.bin (0.03mb)
+         movingtarget.gltf (0.00mb)
+      /movingtarget_(1) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         movingtarget_(1).bin (0.03mb)
+         movingtarget_(1).gltf (0.00mb)
+      /movingtarget_(2) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         movingtarget_(2).bin (0.03mb)
+         movingtarget_(2).gltf (0.00mb)
+      /ostostable_variant (2.85mb)
+         cvr_object_thumbnail.png (0.10mb)
+         Info.png (0.00mb)
+         ostostable_variant.bin (0.12mb)
+         ostostable_variant.gltf (0.01mb)
+         Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
+      /pingpongball (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         pingpongball.bin (0.03mb)
+         pingpongball.gltf (0.00mb)
+      /pingpongtable (0.09mb)
+         cvr_object_thumbnail.png (0.03mb)
+         pingpongtable.bin (0.06mb)
+         pingpongtable.gltf (0.00mb)
+      /racket (2.56mb)
+         cvr_object_thumbnail.png (0.03mb)
+         initialShadingGroup_Base_Color.png (2.47mb)
+         racket.bin (0.05mb)
+         racket.gltf (0.01mb)
+      /shooter (2.32mb)
+         AlienFighter_AlbedoTransparency.png (2.21mb)
+         cvr_object_thumbnail.png (0.06mb)
+         shooter.bin (0.05mb)
+         shooter.gltf (0.00mb)
+      /shoppingshelf_variant (2.22mb)
+         CerealBox.png (0.43mb)
+         Chips.png (0.24mb)
+         Cube_Bake1_pbr_diffuse.png (0.12mb)
+         cvr_object_thumbnail.png (0.07mb)
+         EnergyDrink.png (0.78mb)
+         JuicePack_Cap_Surface_Color.png (0.12mb)
+         JuicePack_Surface_Color.png (0.04mb)
+         shoppingshelf_variant.bin (0.32mb)
+         shoppingshelf_variant.gltf (0.11mb)
+      /simplegrabcube (0.09mb)
+         cvr_object_thumbnail.png (0.09mb)
+         simplegrabcube.bin (0.00mb)
+         simplegrabcube.gltf (0.00mb)
+      /sphere (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere.bin (0.03mb)
+         sphere.gltf (0.00mb)
+      /sphere_(1) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(1).bin (0.03mb)
+         sphere_(1).gltf (0.00mb)
+      /sphere_(2) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(2).bin (0.03mb)
+         sphere_(2).gltf (0.00mb)
+      /sphere_(3) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(3).bin (0.03mb)
+         sphere_(3).gltf (0.00mb)
+      /sphere_(4) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(4).bin (0.03mb)
+         sphere_(4).gltf (0.00mb)
+      /sphere_(5) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(5).bin (0.03mb)
+         sphere_(5).gltf (0.00mb)
+      /sphere_(6) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(6).bin (0.03mb)
+         sphere_(6).gltf (0.00mb)
+      /sphere_(7) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(7).bin (0.03mb)
+         sphere_(7).gltf (0.00mb)
+      /table (2.82mb)
+         cvr_object_thumbnail.png (0.07mb)
+         table.bin (0.12mb)
+         table.gltf (0.01mb)
+         Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
+      /targets (0.05mb)
+         cvr_object_thumbnail.png (0.01mb)
+         targets.bin (0.03mb)
+         targets.gltf (0.01mb)
+      /target_(1) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         target_(1).bin (0.03mb)
+         target_(1).gltf (0.00mb)
+      /target_(2) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         target_(2).bin (0.03mb)
+         target_(2).gltf (0.00mb)
+      /varjocontroller (3.37mb)
+         Controller_BaseColor.png (3.08mb)
+         cvr_object_thumbnail.png (0.02mb)
+         varjocontroller.bin (0.25mb)
+         varjocontroller.gltf (0.02mb)
+      /vrheadset (5.60mb)
+         cvr_object_thumbnail.png (0.06mb)
+         VR1_HDRP_BaseMap.png (2.68mb)
+         vrheadset.bin (2.86mb)
+         vrheadset.gltf (0.00mb)
+   /MixedReality (0.05mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /Ostospeli (0.07mb)
+      settings.json (0.00mb)
+      /screenshot (0.07mb)
+         screenshot.png (0.07mb)
+   /PalikkaPeli (8.08mb)
+      CerealBox.png (0.43mb)
+      Chips.png (0.24mb)
+      Controller_BaseColor.png (3.08mb)
+      Cube_Bake1_pbr_diffuse.png (0.12mb)
+      debug.log (0.02mb)
+      EnergyDrink.png (0.78mb)
+      JuicePack_Cap_Surface_Color.png (0.12mb)
+      JuicePack_Surface_Color.png (0.04mb)
+      scene.bin (0.45mb)
+      scene.gltf (0.14mb)
+      settings.json (0.00mb)
+      Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
+      /screenshot (0.05mb)
+         screenshot.png (0.05mb)
+   /PalloPeli (0.05mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /Pingispeli (0.05mb)
+      debug.log (0.02mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)
+   /ReadyRoom (0.12mb)
+      debug.log (0.02mb)
+      Instructions.png (0.01mb)
+      Next_Button.png (0.01mb)
+      scene.bin (0.03mb)
+      scene.gltf (0.04mb)
+      settings.json (0.00mb)
+      /screenshot (0.02mb)
+         screenshot.png (0.02mb)

@@ -42,7 +42,7 @@ MonoBehaviour:
   SensorExtremeSnapshotCount: 256
   DynamicExtremeSnapshotCount: 256
   TransactionExtremeSnapshotCount: 256
-  FixationExtremeSnapshotCount: 2
+  FixationExtremeSnapshotCount: 64
   SensorSnapshotMaxTimer: 10
   DynamicSnapshotMaxTimer: 10
   TransactionSnapshotMaxTimer: 10
@@ -338,9 +338,9 @@ MonoBehaviour:
   - SceneName: PalloPeli
     SceneId: da0d7fea-ef46-4b91-bd92-6334b32073db
     ScenePath: Assets/Scenes/PalloPeli.unity
-    LastRevision: 5249028129217240287
-    VersionNumber: 2
-    VersionId: 1914
+    LastRevision: 5249030546067803026
+    VersionNumber: 5
+    VersionId: 1920
   - SceneName: Pingispeli
     SceneId: 32192787-6a3a-476d-91f5-62cd4472b1e3
     ScenePath: Assets/Scenes/Pingispeli.unity
@@ -359,3 +359,9 @@ MonoBehaviour:
     LastRevision: 5249024525333674512
     VersionNumber: 1
     VersionId: 1911
+  - SceneName: Ostospeli
+    SceneId: 08172a6c-8914-4689-b046-f01e53eb74ad
+    ScenePath: Assets/Scenes/Ostospeli.unity
+    LastRevision: 5249031382806101324
+    VersionNumber: 4
+    VersionId: 1928
