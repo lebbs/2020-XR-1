@@ -3,7 +3,7 @@
 *****************************
 Unity Version:2020.2.0a18
 OS:Windows 10  (10.0.0) 64bit
-System Time: 8/28/2020 2:31:12 PM
+System Time: 8/31/2020 9:39:17 AM
 
 *****************************
 ***********PROJECT***********
@@ -318,9 +318,9 @@ Scene Settings:
   ├─PalloPeli
   │  ├─Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
   │  ├─Scene Path: Assets/Scenes/PalloPeli.unity
-  │  ├─Last Revision: 5249024518607737625
-  │  ├─Version Number: 1
-  │  └─Version Id: 1910
+  │  ├─Last Revision: 5249030505422860171
+  │  ├─Version Number: 4
+  │  └─Version Id: 1918
   ├─Pingispeli
   │  ├─Scene Id: 32192787-6a3a-476d-91f5-62cd4472b1e3
   │  ├─Scene Path: Assets/Scenes/Pingispeli.unity
@@ -346,10 +346,10 @@ Scene Settings:
 Scene Name: PalloPeli
 Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
 Scene Path: Assets/Scenes/PalloPeli.unity
-Last Revision: 5249024518607737625
-Version Number: 1
-Version Id: 1910
-Scene Size (mb): 0.04
+Last Revision: 5249030505422860171
+Version Number: 4
+Version Id: 1918
+Scene Size (mb): 0.05
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
 Manager Startup Delay Time (s): 2
@@ -357,12 +357,75 @@ Manager Startup Delay Time (s): 2
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
-Dynamic Object Count: 0
+Dynamic Object Count: 12
+  ├─Sphere (5)
+  │  ├─Mesh Name: sphere_(5)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere (6)
+  │  ├─Mesh Name: sphere_(6)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere (2)
+  │  ├─Mesh Name: sphere_(2)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere (1)
+  │  ├─Mesh Name: sphere_(1)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere (7)
+  │  ├─Mesh Name: sphere_(7)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere
+  │  ├─Mesh Name: sphere
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere (3)
+  │  ├─Mesh Name: sphere_(3)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Sphere (4)
+  │  ├─Mesh Name: sphere_(4)
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─Table
+  │  ├─Mesh Name: table
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  ├─VarjoController
+  │  ├─Mesh Name: varjocontroller
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.MeshCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  ├─Controller Right Variant
+  │  ├─Mesh Name: controller_right_variant
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  └─ControllerLeft(MENU)
+     ├─Mesh Name: controllerleft(menu)
+     ├─Has Collider: true
+     ├─Collider Type: UnityEngine.SphereCollider
+     ├─Has Children: true
+     └─Has Child Colliders: true
 
 *****************************
 ********EXPORT FOLDER********
 *****************************
-/CognitiveVR_SceneExplorerExport (21mb)
+/CognitiveVR_SceneExplorerExport (29mb)
    /CognitiveTesti (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
@@ -373,7 +436,7 @@ Dynamic Object Count: 0
       settings.json (0.00mb)
       /screenshot (0.03mb)
          screenshot.png (0.03mb)
-   /Dynamic (12.99mb)
+   /Dynamic (20.23mb)
       /cerealbox_low__260_tris_ (0.51mb)
          CerealBox.png (0.43mb)
          cerealbox_low__260_tris_.bin (0.03mb)
@@ -411,6 +474,18 @@ Dynamic Object Count: 0
          juicepack.gltf (0.01mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
+      /movingtarget (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         movingtarget.bin (0.03mb)
+         movingtarget.gltf (0.00mb)
+      /movingtarget_(1) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         movingtarget_(1).bin (0.03mb)
+         movingtarget_(1).gltf (0.00mb)
+      /movingtarget_(2) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         movingtarget_(2).bin (0.03mb)
+         movingtarget_(2).gltf (0.00mb)
       /pingpongball (0.09mb)
          cvr_object_thumbnail.png (0.06mb)
          pingpongball.bin (0.03mb)
@@ -433,6 +508,60 @@ Dynamic Object Count: 0
          cvr_object_thumbnail.png (0.09mb)
          simplegrabcube.bin (0.00mb)
          simplegrabcube.gltf (0.00mb)
+      /sphere (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere.bin (0.03mb)
+         sphere.gltf (0.00mb)
+      /sphere_(1) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(1).bin (0.03mb)
+         sphere_(1).gltf (0.00mb)
+      /sphere_(2) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(2).bin (0.03mb)
+         sphere_(2).gltf (0.00mb)
+      /sphere_(3) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(3).bin (0.03mb)
+         sphere_(3).gltf (0.00mb)
+      /sphere_(4) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(4).bin (0.03mb)
+         sphere_(4).gltf (0.00mb)
+      /sphere_(5) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(5).bin (0.03mb)
+         sphere_(5).gltf (0.00mb)
+      /sphere_(6) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(6).bin (0.03mb)
+         sphere_(6).gltf (0.00mb)
+      /sphere_(7) (0.09mb)
+         cvr_object_thumbnail.png (0.06mb)
+         sphere_(7).bin (0.03mb)
+         sphere_(7).gltf (0.00mb)
+      /table (2.82mb)
+         cvr_object_thumbnail.png (0.07mb)
+         table.bin (0.12mb)
+         table.gltf (0.01mb)
+         Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
+      /targets (0.05mb)
+         cvr_object_thumbnail.png (0.01mb)
+         targets.bin (0.03mb)
+         targets.gltf (0.01mb)
+      /target_(1) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         target_(1).bin (0.03mb)
+         target_(1).gltf (0.00mb)
+      /target_(2) (0.06mb)
+         cvr_object_thumbnail.png (0.02mb)
+         target_(2).bin (0.03mb)
+         target_(2).gltf (0.00mb)
+      /varjocontroller (3.37mb)
+         Controller_BaseColor.png (3.08mb)
+         cvr_object_thumbnail.png (0.02mb)
+         varjocontroller.bin (0.25mb)
+         varjocontroller.gltf (0.02mb)
       /vrheadset (5.60mb)
          cvr_object_thumbnail.png (0.06mb)
          VR1_HDRP_BaseMap.png (2.68mb)
@@ -458,10 +587,10 @@ Dynamic Object Count: 0
       Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
       /screenshot (0.05mb)
          screenshot.png (0.05mb)
-   /PalloPeli (0.04mb)
+   /PalloPeli (0.05mb)
       settings.json (0.00mb)
-      /screenshot (0.04mb)
-         screenshot.png (0.04mb)
+      /screenshot (0.05mb)
+         screenshot.png (0.05mb)
    /Pingispeli (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)

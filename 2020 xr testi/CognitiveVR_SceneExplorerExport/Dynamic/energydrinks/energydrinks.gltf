@@ -1,0 +1,1815 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        1.7140117883682251,
+        3.3920109272003174,
+        1.7016305923461914
+      ],
+      "min": [
+        -1.7140117883682251,
+        -3.3920109272003174,
+        -1.7016305923461914
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99895119667053223,
+        1.0,
+        0.99174785614013672
+      ],
+      "min": [
+        -0.99895119667053223,
+        -0.9997754693031311,
+        -0.99174785614013672
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        0.99174785614013672,
+        0.94883722066879272,
+        0.99895131587982178,
+        1.0
+      ],
+      "min": [
+        -0.99174785614013672,
+        -0.94884473085403442,
+        -0.99895131587982178,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.97299998998641968,
+        0.97850000858306885
+      ],
+      "min": [
+        0.04349999874830246,
+        0.010999977588653564
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1932,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "energydrinks.bin",
+      "byteLength": 28584
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6180,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12360,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20600,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24720,
+      "byteLength": 3864
+    }
+  ],
+  "images": [
+    {
+      "uri": "EnergyDrink.png",
+      "name": "EnergyDrink"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "EnergyDrink"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        18,
+        35,
+        52,
+        69,
+        86
+      ],
+      "name": "EnergyDrinks"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.196766585,
+        -4.88360167,
+        -0.91769886
+      ],
+      "name": "energydrinks"
+    },
+    {
+      "children": [
+        3
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        5
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        7
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        9
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        11
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        13
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        15
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        17
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.135416836,
+        -4.88360167,
+        -0.91769886
+      ],
+      "name": "energydrinks (1)"
+    },
+    {
+      "children": [
+        20
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        22
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        24
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        26
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        28
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        30
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        32
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        34
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.196766585,
+        -4.8747015,
+        -0.91769886
+      ],
+      "name": "energydrinks (2)"
+    },
+    {
+      "children": [
+        37
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        39
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        41
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        43
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        45
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        47
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        49
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        51
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.135416836,
+        -4.8747015,
+        -0.91769886
+      ],
+      "name": "energydrinks (3)"
+    },
+    {
+      "children": [
+        54
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        56
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        58
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        60
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        62
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        64
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        66
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        68
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.196766585,
+        -4.864811,
+        -0.91769886
+      ],
+      "name": "energydrinks (4)"
+    },
+    {
+      "children": [
+        71
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        73
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.5122335,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        75
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        77
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        79
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        81
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        83
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        85
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.083333306,
+        0.08333331,
+        0.08333331
+      ],
+      "translation": [
+        0.135416836,
+        -4.864811,
+        -0.91769886
+      ],
+      "name": "energydrinks (5)"
+    },
+    {
+      "children": [
+        88
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.42223346,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        90
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.60223341,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        92
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.69223344,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        94
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.796,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (4)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        96
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.886,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (5)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        98
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        1.976,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (6)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    },
+    {
+      "children": [
+        100
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        2.066,
+        11.7712831,
+        58.4347267
+      ],
+      "name": "EnergyDrink (7)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        5.12512,
+        -0.0136194229,
+        -0.00227355957
+      ],
+      "name": "EnergyDrink_High__326_Tris_"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "energydrinks"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "EnergyDrink"
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC3",
+      "max": [
+        4.1533498764038086,
+        5.8922719955444336,
+        1.128000020980835
+      ],
+      "min": [
+        -4.1533498764038086,
+        -5.8922719955444336,
+        -1.128000020980835
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99397474527359009,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99975484609603882,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC2",
+      "max": [
+        0.99689996242523193,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 2400,
+      "type": "SCALAR",
+      "max": [
+        937.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC3",
+      "max": [
+        4.1483750343322754,
+        5.8890252113342285,
+        1.1279453039169312
+      ],
+      "min": [
+        -4.1483750343322754,
+        -5.8890252113342285,
+        -1.1279453039169312
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99993777275085449,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.999734103679657,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 732,
+      "type": "VEC2",
+      "max": [
+        0.9968000054359436,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5123,
+      "count": 1203,
+      "type": "SCALAR",
+      "max": [
+        731.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC3",
+      "max": [
+        4.1385626792907715,
+        5.8784875869750977,
+        1.1214499473571777
+      ],
+      "min": [
+        -4.1385626792907715,
+        -5.8784875869750977,
+        -1.1214499473571777
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99973112344741821,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99318087100982666,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 553,
+      "type": "VEC2",
+      "max": [
+        0.99689996242523193,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5123,
+      "count": 777,
+      "type": "SCALAR",
+      "max": [
+        552.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "cerealboxes.bin",
+      "byteLength": 115464
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11256,
+      "byteLength": 11256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22512,
+      "byteLength": 15008
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 37520,
+      "byteLength": 7504
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45024,
+      "byteLength": 4800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 49824,
+      "byteLength": 8784
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 58608,
+      "byteLength": 8784
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67392,
+      "byteLength": 11712
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79104,
+      "byteLength": 5856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 84960,
+      "byteLength": 2406
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 87366,
+      "byteLength": 6636
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 94002,
+      "byteLength": 6636
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 100638,
+      "byteLength": 8848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 109486,
+      "byteLength": 4424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 113910,
+      "byteLength": 1554
+    }
+  ],
+  "images": [
+    {
+      "uri": "CerealBox.png",
+      "name": "CerealBox"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "CerealBox"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0
+        }
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0
+        }
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        28,
+        32
+      ],
+      "name": "Cerealboxes"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.03116667,
+        0.0
+      ],
+      "name": "CerealBox (1)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        6,
+        7,
+        8
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.172858655,
+        0.03116667,
+        0.0
+      ],
+      "name": "CerealBox (2)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        10,
+        11,
+        12
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.224858671,
+        0.03116667,
+        0.0
+      ],
+      "name": "CerealBox (3)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        14,
+        15,
+        16
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.0422,
+        -1.24176347E-09
+      ],
+      "name": "CerealBox (4)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        18,
+        19,
+        20
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.172858655,
+        0.0422,
+        -1.24176347E-09
+      ],
+      "name": "CerealBox (5)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        22,
+        23,
+        24
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.224858671,
+        0.0422,
+        0.0
+      ],
+      "name": "CerealBox (6)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        26,
+        27
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.121275306,
+        0.051,
+        -2.483527E-09
+      ],
+      "name": "CerealBox (7)"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        29,
+        30,
+        31
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.224858671,
+        0.051,
+        -1.24176347E-09
+      ],
+      "name": "CerealBox (8)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    },
+    {
+      "children": [
+        33,
+        34,
+        35
+      ],
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.7071068,
+        0.0
+      ],
+      "scale": [
+        0.00166666589,
+        0.00166666624,
+        0.00166666624
+      ],
+      "translation": [
+        -0.172858655,
+        0.051,
+        0.0
+      ],
+      "name": "CerealBox (9)"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.4601212,
+        0.00206232071,
+        0.000171661377
+      ],
+      "name": "CerealBox_High__800_Tris_"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.06321716,
+        0.00124025345,
+        0.000118255615
+      ],
+      "name": "CerealBox_Mid__400_Tris_"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -10.3969078,
+        -0.00330352783,
+        -0.0002784729
+      ],
+      "name": "CerealBox_Low__260_Tris_"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "cerealboxes"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CerealBox"
+    }
+  ]
+}

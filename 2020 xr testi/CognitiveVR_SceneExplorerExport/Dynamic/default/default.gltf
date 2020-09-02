@@ -1,0 +1,178 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC3",
+      "max": [
+        4.9546699523925781,
+        3.042107105255127,
+        1.7032860517501831
+      ],
+      "min": [
+        -4.9546699523925781,
+        -0.025070000439882278,
+        -1.7032860517501831
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99987876415252686,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2248,
+      "type": "VEC2",
+      "max": [
+        0.88665902614593506,
+        0.99952799081802368
+      ],
+      "min": [
+        0.00047200001426972449,
+        0.00047200918197631836
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 9000,
+      "type": "SCALAR",
+      "max": [
+        2247.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "default.bin",
+      "byteLength": 125904
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 26976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26976,
+      "byteLength": 26976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 53952,
+      "byteLength": 35968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 89920,
+      "byteLength": 17984
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 107904,
+      "byteLength": 18000
+    }
+  ],
+  "images": [
+    {
+      "uri": "Table_low_DefaultMaterial_AlbedoTransparency.png",
+      "name": "Table_low_DefaultMaterial_AlbedoTransparency"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Training table"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "default"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "default"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "default"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Table_low_DefaultMaterial_AlbedoTransparency"
+    }
+  ]
+}
