@@ -11,6 +11,7 @@ namespace VarjoExample
 
         Controller controller;
         public List<Interactable> contactedInteractables = new List<Interactable>();
+        private bool grabbed;
         private bool triggerDown;
         private FixedJoint fixedJoint = null;
         private Interactable currentInteractable;
