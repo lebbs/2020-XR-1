@@ -33,7 +33,7 @@ public class SnapObject : MonoBehaviour
         if(objectSnapped == true)
         {
             //GetComponent<Rigidbody>().isKinematic = true;
-            transform.SetParent(obj.transform);
+           // transform.SetParent(obj.transform);
             isSnapped = true;
             //gameObject.transform.position = originalPosition;
         }
