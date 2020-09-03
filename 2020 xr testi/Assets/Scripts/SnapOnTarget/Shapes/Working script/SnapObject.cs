@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class SnapObject : MonoBehaviour
     public bool isSnapped;
 
     private bool objectSnapped;
+
+    //public GameObject uiText;
 
     Vector3 originalPosition;
     Rigidbody rigidbody;
@@ -32,14 +35,18 @@ public class SnapObject : MonoBehaviour
 
         if(objectSnapped == true)
         {
+
             //GetComponent<Rigidbody>().isKinematic = true;
            // transform.SetParent(obj.transform);
             isSnapped = true;
+            
             //gameObject.transform.position = originalPosition;
         }
-        if(objectSnapped == false && gameObject.tag =="Controller")
+        if(objectSnapped == false )
         {
-            GetComponent<Rigidbody>().isKinematic = false;
+            //GetComponent<Rigidbody>().isKinematic = false;
         }
     }
+
+   
 }
