@@ -6,7 +6,7 @@ using VarjoExample;
 public class SnapToPosition : MonoBehaviour
 {
     // Start is called before the first frame update
-
+    private bool grabbed;
     private bool insideSnapZone;
 
     public bool snapped;
@@ -43,6 +43,8 @@ public class SnapToPosition : MonoBehaviour
             grocery.gameObject.transform.rotation = SnapRotationReference.transform.rotation;
             snapped = true;
         }
+
+        
     }
     void Start()
     {

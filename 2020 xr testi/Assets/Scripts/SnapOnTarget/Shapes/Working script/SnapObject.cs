@@ -11,10 +11,18 @@ public class SnapObject : MonoBehaviour
     public bool isSnapped;
 
     private bool objectSnapped;
+
+    Vector3 originalPosition;
+    Rigidbody rigidbody;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //originalPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+
+        //rigidbody = gameObject.GetComponent<Rigidbody>();
+        //rigidbody.angularVelocity = new Vector3(0, 0, 0);
+        //rigidbody.velocity = new Vector3(0, 0, 0);
+
     }
 
     // Update is called once per frame
@@ -24,9 +32,14 @@ public class SnapObject : MonoBehaviour
 
         if(objectSnapped == true)
         {
-            GetComponent<Rigidbody>().isKinematic = true;
+            //GetComponent<Rigidbody>().isKinematic = true;
             transform.SetParent(obj.transform);
             isSnapped = true;
+            //gameObject.transform.position = originalPosition;
+        }
+        if(objectSnapped == false && gameObject.tag =="Controller")
+        {
+            GetComponent<Rigidbody>().isKinematic = false;
         }
     }
 }
