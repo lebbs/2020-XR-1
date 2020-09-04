@@ -30,6 +30,9 @@ TagManager:
   - Energydrink
   - Chips
   - PingPongTable
+  - RightTrigger
+  - LeftTrigger
+  - CenterTrigger
   layers:
   - Default
   - TransparentFX
