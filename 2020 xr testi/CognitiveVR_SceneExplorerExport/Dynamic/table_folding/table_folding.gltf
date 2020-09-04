@@ -1,0 +1,178 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1368,
+      "type": "VEC3",
+      "max": [
+        0.3960663378238678,
+        0.7912101149559021,
+        0.98880898952484131
+      ],
+      "min": [
+        -0.39759540557861328,
+        0.0023317027371376753,
+        -0.99033796787261963
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1368,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1368,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.58328992128372192,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.898656964302063,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1368,
+      "type": "VEC2",
+      "max": [
+        0.96202540397644043,
+        0.98388469219207764
+      ],
+      "min": [
+        0.018522627651691437,
+        0.42064440250396729
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3636,
+      "type": "SCALAR",
+      "max": [
+        1367.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "table_folding.bin",
+      "byteLength": 72936
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 16416
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16416,
+      "byteLength": 16416
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32832,
+      "byteLength": 21888
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54720,
+      "byteLength": 10944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 65664,
+      "byteLength": 7272
+    }
+  ],
+  "images": [
+    {
+      "uri": "709177350.png",
+      "name": "709177350.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Table and Chair"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "TABLE_Folding"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "TABLE_Folding"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "table_folding"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Folding Table and Chair FBX_Table and Chair_AlbedoTransparency"
+    }
+  ]
+}
