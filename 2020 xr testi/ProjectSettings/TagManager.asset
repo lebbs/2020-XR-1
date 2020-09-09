@@ -33,6 +33,7 @@ TagManager:
   - RightTrigger
   - LeftTrigger
   - CenterTrigger
+  - Shoppingcart
   layers:
   - Default
   - TransparentFX

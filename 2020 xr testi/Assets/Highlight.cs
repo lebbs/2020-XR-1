@@ -5,7 +5,7 @@ using UnityEngine;
 public class Highlight : MonoBehaviour
 {
     public Material material;
-     Material renderer;
+    Material renderer;
     Material originalMaterial;
 
     private void Start()
