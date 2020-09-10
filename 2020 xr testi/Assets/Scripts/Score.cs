@@ -13,19 +13,33 @@ public class Score : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Target")
-        {
-            theScore += 1;
-            scoreText.GetComponent<TextMesh>().text = "Score: " + theScore + "/" + "8";
-            //Destroy(collision.gameObject);
-            //collision.gameObject.SetActive(false);
 
-            if(theScore == 8)
-            {             
-               // gameObject.SetActive(true);
-                theScore = 0;
-            }
+        switch (collision.transform.tag)
+        {
+            case "Target1":
+                theScore += 1;
+                scoreText.GetComponent<TextMesh>().text = "Score: " + theScore + "/" + "8";
+                break;
+
+            case "Target2":
+                theScore += 1;
+                scoreText.GetComponent<TextMesh>().text = "Score: " + theScore + "/" + "8";
+                break;
         }
+
+        //if(collision.gameObject.tag == "Pickable")
+        //{
+        //    theScore += 1;
+        //    scoreText.GetComponent<TextMesh>().text = "Score: " + theScore + "/" + "8";
+        //    //Destroy(collision.gameObject);
+        //    //collision.gameObject.SetActive(false);
+
+        //    if(theScore == 8)
+        //    {             
+        //       // gameObject.SetActive(true);
+        //        theScore = 0;
+        //    }
+        //}
     }
 
     //private IEnumerator SpawnTargets()

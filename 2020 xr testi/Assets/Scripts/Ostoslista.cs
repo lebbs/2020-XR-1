@@ -53,20 +53,20 @@ public class Ostoslista : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        //CEREAL
 
         if (other.gameObject.CompareTag("Cereal"))
         {
             theScore1 += 1;
             groceryCereal.GetComponentInChildren<TextMeshPro>().text = theScore1 + "/2";
 
-            Debug.Log("Muro trigger wörkkii");
             if(theScore1 == 2)
             {
                 groceryCereal.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
             } 
         }
 
+        //CHIPS
         if (other.gameObject.CompareTag("Chips"))
         {
             theScore4 += 1;
@@ -75,12 +75,10 @@ public class Ostoslista : MonoBehaviour
             if (theScore4 == 2)
             {
                 chips.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
-            }
-
-            
-            
+            }           
         }
 
+        //ENERGYDRINK
         if (other.gameObject.CompareTag("Energydrink"))
         {
            
@@ -94,6 +92,7 @@ public class Ostoslista : MonoBehaviour
             }
         }
 
+        //JUICEPACK
         if (other.gameObject.CompareTag("Juicepack"))
         {
             theScore2 += 1;
@@ -110,23 +109,23 @@ public class Ostoslista : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(theScore1 > 0)
         //CEREAL
+        if (theScore1 > 0)
         theScore1 -= 1;
         groceryCereal.GetComponentInChildren<TextMeshPro>().text = theScore1 + "/2";
 
+        //JUICE
         if (theScore2 > 0)
-            //JUICE
             theScore2 -= 1;
         juicePack.GetComponentInChildren<TextMeshPro>().text = theScore2 + "/2";
 
+        //ENERGYDRINK
         if (theScore3 > 0)
-            //ENERGYDRINK
             theScore3 -= 1;
         energyDrink.GetComponentInChildren<TextMeshPro>().text = theScore3 + "/2";
 
+        //CHIPS
         if (theScore4 > 0)
-            //CHIPS
             theScore4 -= 1;
         chips.GetComponentInChildren<TextMeshPro>().text = theScore4 + "/2";
 
