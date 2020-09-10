@@ -139,8 +139,8 @@ GameObject:
   - component: {fileID: 86508401}
   - component: {fileID: 86508400}
   - component: {fileID: 86508399}
-  - component: {fileID: 86508406}
   - component: {fileID: 86508407}
+  - component: {fileID: 86508406}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Pickable
@@ -295,11 +295,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 86508397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &86508407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,7 +486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4928556896450629391, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: Target3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
@@ -758,7 +759,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173133260}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 2.0936375, y: 2.2608767, z: 7.014198}
+  m_LocalPosition: {x: 1.326, y: 2.2608767, z: 7.014}
   m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
   m_Children: []
   m_Father: {fileID: 955365966}
@@ -977,6 +978,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80ba7fcd730850b46936a67affe68c2e, type: 3}
+--- !u!1 &307737235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 307737236}
+  m_Layer: 0
+  m_Name: ScoringSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &307737236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307737235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1188261384}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &378245352 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100187212738990506, guid: 5422edb44406b68408fab21d80298d43, type: 3}
@@ -998,8 +1029,9 @@ GameObject:
   - component: {fileID: 385855323}
   - component: {fileID: 385855322}
   - component: {fileID: 385855321}
-  - component: {fileID: 385855328}
   - component: {fileID: 385855329}
+  - component: {fileID: 385855328}
+  - component: {fileID: 385855330}
   m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: Pickable
@@ -1154,11 +1186,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 385855319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &385855329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1185,6 +1218,20 @@ MonoBehaviour:
   ControllerType: 
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
+--- !u!114 &385855330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385855319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 173133260}
+  theScore: 0
 --- !u!1 &466654060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,7 +1247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &466654061
 Transform:
   m_ObjectHideFlags: 0
@@ -1320,8 +1367,9 @@ GameObject:
   - component: {fileID: 661251765}
   - component: {fileID: 661251764}
   - component: {fileID: 661251763}
-  - component: {fileID: 661251771}
   - component: {fileID: 661251772}
+  - component: {fileID: 661251771}
+  - component: {fileID: 661251773}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Pickable
@@ -1476,11 +1524,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 661251762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &661251772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,6 +1556,20 @@ MonoBehaviour:
   ControllerType: 
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
+--- !u!114 &661251773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661251762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 173133260}
+  theScore: 0
 --- !u!1001 &731666656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1564,7 +1627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4928556896450629391, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: Target5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
@@ -1771,7 +1834,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.49999806, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.40202752, y: 1.0915062, z: 0.0000026196246}
+  m_ConnectedAnchor: {x: -0.40202752, y: 0.92736804, z: 0.000015717747}
   serializedVersion: 2
   m_Spring: 100
   m_Damper: 10
@@ -1878,8 +1941,8 @@ GameObject:
   - component: {fileID: 818422456}
   - component: {fileID: 818422455}
   - component: {fileID: 818422454}
-  - component: {fileID: 818422461}
   - component: {fileID: 818422462}
+  - component: {fileID: 818422461}
   m_Layer: 0
   m_Name: Sphere (7)
   m_TagString: Pickable
@@ -2034,11 +2097,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 818422452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &818422462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2207,8 +2271,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955365964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0596373, y: -1.1256766, z: -7.3437977}
+  m_LocalRotation: {x: -0, y: 0.71149755, z: -0, w: 0.70268863}
+  m_LocalPosition: {x: -7.36087, y: -1.1256766, z: 1.1205739}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2133717768}
@@ -2218,7 +2282,7 @@ Transform:
   - {fileID: 173133263}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.714, z: 0}
 --- !u!1 &985810686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,8 +2299,8 @@ GameObject:
   - component: {fileID: 985810690}
   - component: {fileID: 985810689}
   - component: {fileID: 985810688}
-  - component: {fileID: 985810695}
   - component: {fileID: 985810696}
+  - component: {fileID: 985810695}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Pickable
@@ -2391,11 +2455,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 985810686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &985810696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2446,7 +2511,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995573711}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0606374, y: 2.7796767, z: 5.328423}
+  m_LocalPosition: {x: 1.061, y: 2.524, z: 5.66}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.01}
   m_Children:
   - {fileID: 533644218}
@@ -2731,8 +2796,8 @@ GameObject:
   - component: {fileID: 1118446265}
   - component: {fileID: 1118446264}
   - component: {fileID: 1118446263}
-  - component: {fileID: 1118446270}
   - component: {fileID: 1118446271}
+  - component: {fileID: 1118446270}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Pickable
@@ -2887,11 +2952,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1118446261}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &1118446271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2933,7 +2999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1188261384
 Transform:
   m_ObjectHideFlags: 0
@@ -2942,7 +3008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188261383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6359715, y: 0.874248, z: 4.2637978}
+  m_LocalPosition: {x: 1.636, y: 0.619, z: 4.595}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2070100992}
@@ -2950,6 +3016,7 @@ Transform:
   - {fileID: 951125194}
   - {fileID: 87060595}
   - {fileID: 731666657}
+  - {fileID: 307737236}
   m_Father: {fileID: 955365966}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3355,8 +3422,8 @@ GameObject:
   - component: {fileID: 1394532080}
   - component: {fileID: 1394532079}
   - component: {fileID: 1394532078}
-  - component: {fileID: 1394532085}
   - component: {fileID: 1394532086}
+  - component: {fileID: 1394532085}
   m_Layer: 0
   m_Name: Sphere (6)
   m_TagString: Pickable
@@ -3511,11 +3578,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1394532076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &1394532086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3601,9 +3669,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 273557732}
     m_Modifications:
+    - target: {fileID: 192764760563116095, guid: 19c9d32b75e47704c937e161e531bb4c, type: 3}
+      propertyPath: m_TagString
+      value: Controller
+      objectReference: {fileID: 0}
     - target: {fileID: 582916279531002817, guid: 19c9d32b75e47704c937e161e531bb4c, type: 3}
       propertyPath: m_Name
       value: Controller Right Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 582916279531002817, guid: 19c9d32b75e47704c937e161e531bb4c, type: 3}
+      propertyPath: m_TagString
+      value: Controller
       objectReference: {fileID: 0}
     - target: {fileID: 4805529138966178537, guid: 19c9d32b75e47704c937e161e531bb4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3697,8 +3773,8 @@ GameObject:
   - component: {fileID: 1614522834}
   - component: {fileID: 1614522833}
   - component: {fileID: 1614522832}
-  - component: {fileID: 1614522839}
   - component: {fileID: 1614522840}
+  - component: {fileID: 1614522839}
   m_Layer: 0
   m_Name: Sphere (5)
   m_TagString: Pickable
@@ -3853,11 +3929,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1614522830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5828c294d321214495fd612250f8a94, type: 3}
+  m_Script: {fileID: 11500000, guid: d81cc246678c0f7488e66e968b9cd287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 173133260}
-  theScore: 0
+  outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
+  outlineScaleFactor: 11
+  outlineColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &1614522840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3946,7 +4023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4928556896450629391, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: Target2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
@@ -4049,7 +4126,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736360560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17b587632962c334f97153b581ba7798, type: 3}
   m_Name: 
@@ -4347,7 +4424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4928556896450629391, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: Target4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
@@ -4464,19 +4541,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.70019025
+      value: 0.6333763
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5256512
+      value: -0.244818
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.09865969
+      value: -0.03979986
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.47295955
+      value: 0.7330175
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_RootOrder
@@ -4484,15 +4561,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 33.959003
+      value: 65.376
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 130
+      value: -79.239
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729432, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 90.00001
+      value: -62.172
       objectReference: {fileID: 0}
     - target: {fileID: 3235865221026729433, guid: 22732456ac182e347852a6fc53dad629, type: 3}
       propertyPath: m_Intensity
@@ -4626,7 +4703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4928556896450629391, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: Target1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}
