@@ -37,10 +37,6 @@ public class Ostoslista : MonoBehaviour
     //    timeStart += Time.deltaTime;
     //    textBox.text = timeStart.ToString("F2");
     //}
-    
-
-    
-
     private void Update()
     {
         if (timerActive)
@@ -50,11 +46,9 @@ public class Ostoslista : MonoBehaviour
         }
         
     }
-
     private void OnTriggerEnter(Collider other)
     {
         //CEREAL
-
         if (other.gameObject.CompareTag("Cereal"))
         {
             theScore1 += 1;
@@ -128,7 +122,6 @@ public class Ostoslista : MonoBehaviour
         if (theScore4 > 0)
             theScore4 -= 1;
         chips.GetComponentInChildren<TextMeshPro>().text = theScore4 + "/2";
-
     }
 
 }

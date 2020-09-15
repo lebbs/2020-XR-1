@@ -9,19 +9,11 @@ public class outlinescript : MonoBehaviour
     [SerializeField] public float outlineScaleFactor;
     [SerializeField] private Color outlineColor;
     private Renderer outlineRenderer;
-    // Start is called before the first frame update
-
-    Transform[] children;
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Controller"))
         {
-            //outlineRenderer = CreateOutline(outlineMaterial, outlineScaleFactor, outlineColor);
-            outlineRenderer.enabled = true;
-
-            
+            outlineRenderer.enabled = true;          
         }
     }
 
@@ -41,16 +33,7 @@ public class outlinescript : MonoBehaviour
     {
 
         GameObject outlineObject = Instantiate(this.gameObject, transform.position, transform.rotation, transform);
-
-        //children = gameObject.GetComponentsInChildren<Transform>();
-        //if(children.Length > 0)
-        //{
-        //    outlineObject.transform.GetChild(0).gameObject.SetActive(false);
-
-        //}
-
         Renderer rend = outlineObject.GetComponent<Renderer>();
-        //outlineObject.GetComponent<Rigidbody>().isKinematic = true;
         Rigidbody rigidbody = outlineObject.GetComponent<Rigidbody>();
         rigidbody.isKinematic = true;
         rend.material = outlineMat;
@@ -61,23 +44,6 @@ public class outlinescript : MonoBehaviour
         outlineObject.GetComponent<outlinescript>().enabled = false;
         outlineObject.GetComponent<Collider>().enabled = false;
         rend.enabled = false;
-
-
         return rend;
     }
-
-    //private void OnMouseEnter()
-    //{
-    //    outlineRenderer.enabled = true;
-    //}
-
-    //private void OnMouseOver()
-    //{
-    //    transform.Rotate(Vector3.up, 1f, Space.World);
-    //}
-
-    //private void OnMouseExit()
-    //{
-    //    outlineRenderer.enabled = false;
-    //}
 }

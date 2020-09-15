@@ -3,7 +3,7 @@
 *****************************
 Unity Version:2020.2.0a18
 OS:Windows 10  (10.0.0) 64bit
-System Time: 9/15/2020 8:15:21 AM
+System Time: 9/15/2020 2:37:29 PM
 
 *****************************
 ***********PROJECT***********
@@ -318,9 +318,9 @@ Scene Settings:
   ├─PalloPeli
   │  ├─Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
   │  ├─Scene Path: Assets/Scenes/PalloPeli.unity
-  │  ├─Last Revision: 5249030546067803026
-  │  ├─Version Number: 5
-  │  └─Version Id: 1920
+  │  ├─Last Revision: 5249043455725402024
+  │  ├─Version Number: 6
+  │  └─Version Id: 1936
   ├─Pingispeli
   │  ├─Scene Id: 32192787-6a3a-476d-91f5-62cd4472b1e3
   │  ├─Scene Path: Assets/Scenes/Pingispeli.unity
@@ -348,20 +348,20 @@ Scene Settings:
   └─Ostosterapia
      ├─Scene Id: 510cc06f-7569-4385-bc56-fcf645744527
      ├─Scene Path: Assets/Scenes/Ostosterapia.unity
-     ├─Last Revision: 5249040208815953560
-     ├─Version Number: 1
-     └─Version Id: 1934
+     ├─Last Revision: 5249043648355267153
+     ├─Version Number: 2
+     └─Version Id: 1937
 
 *****************************
 ********CURRENT SCENE********
 *****************************
-Scene Name: PalloPeli
-Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
-Scene Path: Assets/Scenes/PalloPeli.unity
-Last Revision: 5249030546067803026
-Version Number: 5
-Version Id: 1920
-Scene Size (mb): 0.03
+Scene Name: Ostosterapia
+Scene Id: 510cc06f-7569-4385-bc56-fcf645744527
+Scene Path: Assets/Scenes/Ostosterapia.unity
+Last Revision: 5249043648355267153
+Version Number: 2
+Version Id: 1937
+Scene Size (mb): 0.07
 Main Camera GameObject: Main Camera
 Manager Initialize On Start: True
 Manager Startup Delay Time (s): 2
@@ -369,111 +369,61 @@ Manager Startup Delay Time (s): 2
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
-Dynamic Object Count: 18
-  ├─Sphere (3)
-  │  ├─Mesh Name: sphere_(3)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─MovingTarget (1)
-  │  ├─Mesh Name: movingtarget_(1)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
+Dynamic Object Count: 9
+  ├─JuicePack
+  │  ├─Mesh Name: juicepack
+  │  ├─Has Collider: false
   │  ├─Has Children: true
   │  └─Has Child Colliders: false
-  ├─VarjoController
-  │  ├─Mesh Name: varjocontroller
+  ├─Quad
+  │  ├─Mesh Name: quad
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.MeshCollider
   │  ├─Has Children: true
   │  └─Has Child Colliders: false
-  ├─Target (2)
-  │  ├─Mesh Name: target_(2)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
+  ├─CerealGrocery
+  │  ├─Mesh Name: cerealgrocery
+  │  ├─Has Collider: false
   │  ├─Has Children: true
   │  └─Has Child Colliders: false
-  ├─Table
-  │  ├─Mesh Name: table
+  ├─Cereal
+  │  ├─Mesh Name: cereal
   │  ├─Has Collider: false
   │  ├─Has Children: true
   │  └─Has Child Colliders: true
-  ├─Sphere (4)
-  │  ├─Mesh Name: sphere_(4)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─Sphere
-  │  ├─Mesh Name: sphere
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─MovingTarget (2)
-  │  ├─Mesh Name: movingtarget_(2)
+  ├─Chips
+  │  ├─Mesh Name: chips
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: false
+  ├─ShoppingShelf Variant
+  │  ├─Mesh Name: shoppingshelf_variant
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  ├─Has Children: true
-  │  └─Has Child Colliders: false
-  ├─Sphere (7)
-  │  ├─Mesh Name: sphere_(7)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─ControllerLeft(MENU)
-  │  ├─Mesh Name: controllerleft(menu)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  ├─Has Children: true
   │  └─Has Child Colliders: true
-  ├─Sphere (1)
-  │  ├─Mesh Name: sphere_(1)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─Sphere (2)
-  │  ├─Mesh Name: sphere_(2)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─Target (1)
-  │  ├─Mesh Name: target_(1)
+  ├─Ostoskärry
+  │  ├─Mesh Name: ostoskärry
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  ├─Has Children: true
-  │  └─Has Child Colliders: false
-  ├─Sphere (6)
-  │  ├─Mesh Name: sphere_(6)
+  │  └─Has Child Colliders: true
+  ├─ShoppingShelf Variant (1)
+  │  ├─Mesh Name: shoppingshelf_variant_(1)
   │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─Sphere (5)
-  │  ├─Mesh Name: sphere_(5)
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
-  │  └─Has Children: false
-  ├─Controller Right Variant
-  │  ├─Mesh Name: controller_right_variant
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  ├─Collider Type: UnityEngine.BoxCollider
   │  ├─Has Children: true
   │  └─Has Child Colliders: true
-  ├─VarjoController
-  │  ├─Mesh Name: varjocontroller
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.MeshCollider
-  │  ├─Has Children: true
-  │  └─Has Child Colliders: true
-  └─MovingTarget
-     ├─Mesh Name: movingtarget
-     ├─Has Collider: true
-     ├─Collider Type: UnityEngine.BoxCollider
+  └─EnergyDrink
+     ├─Mesh Name: energydrink
+     ├─Has Collider: false
      ├─Has Children: true
      └─Has Child Colliders: false
 
 *****************************
 ********EXPORT FOLDER********
 *****************************
-/CognitiveVR_SceneExplorerExport (36mb)
+/CognitiveVR_SceneExplorerExport (39mb)
    /CognitiveTesti (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
@@ -484,7 +434,12 @@ Dynamic Object Count: 18
       settings.json (0.00mb)
       /screenshot (0.03mb)
          screenshot.png (0.03mb)
-   /Dynamic (35.12mb)
+   /Dynamic (38.02mb)
+      /cereal (0.56mb)
+         cereal.bin (0.03mb)
+         cereal.gltf (0.00mb)
+         CerealBox.png (0.43mb)
+         cvr_object_thumbnail.png (0.10mb)
       /cerealbox (0.52mb)
          cerealbox.bin (0.03mb)
          cerealbox.gltf (0.00mb)
@@ -505,11 +460,11 @@ Dynamic Object Count: 18
          cerealgrocery.bin (0.05mb)
          cerealgrocery.gltf (0.00mb)
          cvr_object_thumbnail.png (0.07mb)
-      /chips (0.30mb)
+      /chips (0.31mb)
          chips.bin (0.01mb)
          chips.gltf (0.00mb)
          Chips.png (0.24mb)
-         cvr_object_thumbnail.png (0.04mb)
+         cvr_object_thumbnail.png (0.05mb)
       /chips_high__304_tris_ (0.33mb)
          Chips.png (0.24mb)
          chips_high__304_tris_.bin (0.01mb)
@@ -532,8 +487,8 @@ Dynamic Object Count: 18
          default.bin (0.12mb)
          default.gltf (0.00mb)
          Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
-      /energydrink (0.86mb)
-         cvr_object_thumbnail.png (0.05mb)
+      /energydrink (0.85mb)
+         cvr_object_thumbnail.png (0.04mb)
          energydrink.bin (0.03mb)
          energydrink.gltf (0.00mb)
          EnergyDrink.png (0.78mb)
@@ -558,9 +513,9 @@ Dynamic Object Count: 18
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
       /juicepack (0.29mb)
-         cvr_object_thumbnail.png (0.07mb)
+         cvr_object_thumbnail.png (0.06mb)
          juicepack.bin (0.06mb)
-         juicepack.gltf (0.00mb)
+         juicepack.gltf (0.01mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
       /liikuteltava_kuutio (0.06mb)
@@ -597,6 +552,10 @@ Dynamic Object Count: 18
          cvr_object_thumbnail.png (0.03mb)
          pingpongtable.bin (0.06mb)
          pingpongtable.gltf (0.00mb)
+      /quad (0.06mb)
+         cvr_object_thumbnail.png (0.05mb)
+         quad.bin (0.00mb)
+         quad.gltf (0.00mb)
       /racket (2.56mb)
          cvr_object_thumbnail.png (0.03mb)
          initialShadingGroup_Base_Color.png (2.47mb)
@@ -607,16 +566,26 @@ Dynamic Object Count: 18
          cvr_object_thumbnail.png (0.06mb)
          shooter.bin (0.05mb)
          shooter.gltf (0.00mb)
-      /shoppingshelf_variant (2.22mb)
+      /shoppingshelf_variant (2.25mb)
          CerealBox.png (0.43mb)
          Chips.png (0.24mb)
          Cube_Bake1_pbr_diffuse.png (0.12mb)
-         cvr_object_thumbnail.png (0.07mb)
+         cvr_object_thumbnail.png (0.09mb)
          EnergyDrink.png (0.78mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
          shoppingshelf_variant.bin (0.32mb)
          shoppingshelf_variant.gltf (0.11mb)
+      /shoppingshelf_variant_(1) (2.25mb)
+         CerealBox.png (0.43mb)
+         Chips.png (0.24mb)
+         Cube_Bake1_pbr_diffuse.png (0.12mb)
+         cvr_object_thumbnail.png (0.09mb)
+         EnergyDrink.png (0.78mb)
+         JuicePack_Cap_Surface_Color.png (0.12mb)
+         JuicePack_Surface_Color.png (0.04mb)
+         shoppingshelf_variant_(1).bin (0.32mb)
+         shoppingshelf_variant_(1).gltf (0.11mb)
       /simplegrabcube (0.09mb)
          cvr_object_thumbnail.png (0.09mb)
          simplegrabcube.bin (0.00mb)
@@ -707,20 +676,20 @@ Dynamic Object Count: 18
       settings.json (0.00mb)
       /screenshot (0.07mb)
          screenshot.png (0.07mb)
-   /Ostosterapia (0.09mb)
-      debug.log (0.03mb)
+   /Ostosterapia (0.07mb)
       settings.json (0.00mb)
-      /screenshot (0.06mb)
-         screenshot.png (0.06mb)
+      /screenshot (0.07mb)
+         screenshot.png (0.07mb)
    /PalikkaPeli (0.07mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
       /screenshot (0.04mb)
          screenshot.png (0.04mb)
-   /PalloPeli (0.03mb)
+   /PalloPeli (0.07mb)
+      debug.log (0.03mb)
       settings.json (0.00mb)
-      /screenshot (0.03mb)
-         screenshot.png (0.03mb)
+      /screenshot (0.04mb)
+         screenshot.png (0.04mb)
    /Pingispeli (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)

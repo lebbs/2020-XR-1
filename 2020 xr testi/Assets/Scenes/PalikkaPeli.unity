@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 15.370724, g: 19.045408, b: 25.207415, a: 1}
+  m_IndirectSpecularColor: {r: 15.369381, g: 19.0482, b: 25.21654, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2234,6 +2234,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 71.66002, y: 32.999996, z: 20.000004}
   m_Center: {x: 1.8298783, y: -15.999999, z: 9.999987}
+--- !u!114 &512894482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512894477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &512894483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2417,6 +2429,7 @@ GameObject:
   - component: {fileID: 583222045}
   - component: {fileID: 583222044}
   - component: {fileID: 583222050}
+  - component: {fileID: 583222051}
   m_Layer: 0
   m_Name: GreenCube
   m_TagString: GreenCube
@@ -2544,6 +2557,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 12
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &583222051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583222043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &596678881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,6 +2995,7 @@ GameObject:
   - component: {fileID: 762498992}
   - component: {fileID: 762498998}
   - component: {fileID: 762498995}
+  - component: {fileID: 762498999}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Pickable
@@ -3112,6 +3138,18 @@ MonoBehaviour:
   attachPoint: {fileID: 1543324195}
   renderer: {fileID: 1543324197}
   script: {fileID: 1576981085}
+--- !u!114 &762498999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762498990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &835935916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3543,6 +3581,7 @@ GameObject:
   - component: {fileID: 999223483}
   - component: {fileID: 999223482}
   - component: {fileID: 999223487}
+  - component: {fileID: 999223488}
   m_Layer: 0
   m_Name: RedCube
   m_TagString: RedCube
@@ -3670,6 +3709,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 12
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &999223488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999223480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1027390744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4715,6 +4766,7 @@ GameObject:
   - component: {fileID: 1261811471}
   - component: {fileID: 1261811470}
   - component: {fileID: 1261811476}
+  - component: {fileID: 1261811477}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Pickable
@@ -4857,6 +4909,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 11
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &1261811477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261811468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1268402924 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1243259935979854, guid: da536aa57b3c6824093ab141245a54ba, type: 3}
@@ -5120,6 +5184,7 @@ GameObject:
   - component: {fileID: 1291595634}
   - component: {fileID: 1291595633}
   - component: {fileID: 1291595638}
+  - component: {fileID: 1291595639}
   m_Layer: 0
   m_Name: YellowCube
   m_TagString: YellowCube
@@ -5247,6 +5312,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 12
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &1291595639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291595631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1304606819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5975590162093354583, guid: 8faea4391d1485544827eaaa8b48909f, type: 3}
@@ -8514,6 +8591,7 @@ GameObject:
   - component: {fileID: 6838554022988815127}
   - component: {fileID: 6838554022988815126}
   - component: {fileID: 6838554022988815130}
+  - component: {fileID: 6838554022988815131}
   m_Layer: 0
   m_Name: Hexagon
   m_TagString: Pickable
@@ -8593,6 +8671,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 0.18
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &6838554022988815131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838554022988815125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8449852414146717943
 Transform:
   m_ObjectHideFlags: 0

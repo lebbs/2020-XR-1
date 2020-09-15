@@ -1,0 +1,387 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1398,
+      "type": "VEC3",
+      "max": [
+        0.043163355439901352,
+        0.065847322344779968,
+        0.13506220281124115
+      ],
+      "min": [
+        -0.043163355439901352,
+        -0.0737275630235672,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1398,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.99999940395355225,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1398,
+      "type": "VEC4",
+      "max": [
+        0.80294620990753174,
+        0.97796726226806641,
+        0.34792596101760864,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -0.89048802852630615,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1398,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 4530,
+      "type": "SCALAR",
+      "max": [
+        1091.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 1920,
+      "type": "SCALAR",
+      "max": [
+        1351.0
+      ],
+      "min": [
+        213.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 210,
+      "type": "SCALAR",
+      "max": [
+        1397.0
+      ],
+      "min": [
+        1352.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.99594426155090332
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.34716415405273438
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5121,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "ostoskärry.bin",
+      "byteLength": 81804
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 16776
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16776,
+      "byteLength": 16776
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33552,
+      "byteLength": 22368
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55920,
+      "byteLength": 11184
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67104,
+      "byteLength": 9060
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 76164,
+      "byteLength": 3840
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80004,
+      "byteLength": 420
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80424,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80712,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81000,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81384,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81576,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81768,
+      "byteLength": 36
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Chrome"
+    },
+    {
+      "doubleSided": true,
+      "name": "Gum"
+    },
+    {
+      "doubleSided": true,
+      "name": "Griff"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "hollowgreen2"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 5,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 6,
+          "material": 2
+        }
+      ],
+      "name": "Ostoskärry"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TANGENT": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11
+          },
+          "indices": 12,
+          "material": 3
+        }
+      ],
+      "name": "Trigger"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "scale": [
+        7.0,
+        7.0,
+        7.0
+      ],
+      "name": "Ostoskärry"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        -0.02940449,
+        0.0,
+        0.0,
+        0.9995676
+      ],
+      "scale": [
+        0.0571102835,
+        0.0866245851,
+        0.0408823229
+      ],
+      "translation": [
+        0.0,
+        -0.02038,
+        0.0882
+      ],
+      "name": "Trigger"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "ostoskärry"
+    }
+  ]
+}

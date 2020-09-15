@@ -8,13 +8,12 @@ public class ActivatenextGrocery : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.gameObject.CompareTag("Controller")||
             other.gameObject.CompareTag("Shoppingcart"))
         {
             arrow.SetActive(false);
-        }
-
-        
+        }      
     }
     private void OnTriggerExit(Collider other)
     {
