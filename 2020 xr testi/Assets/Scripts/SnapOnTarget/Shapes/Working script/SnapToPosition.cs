@@ -8,13 +8,9 @@ public class SnapToPosition : MonoBehaviour
     // Start is called before the first frame update
     private bool grabbed;
     private bool insideSnapZone;
-
     public bool snapped;
-
     public GameObject grocery;
     public GameObject SnapRotationReference;
-
-    //public hand script;
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.name == grocery.name)
@@ -22,7 +18,6 @@ public class SnapToPosition : MonoBehaviour
             insideSnapZone = true;
         }
     }
-
     private void OnTriggerExit(Collider other)
     {
         if(other.gameObject.name == grocery.name)
@@ -31,8 +26,6 @@ public class SnapToPosition : MonoBehaviour
 
         }
     }
-
-
     void SnapObject()
     {
         if(insideSnapZone == true)
@@ -43,14 +36,11 @@ public class SnapToPosition : MonoBehaviour
             grocery.gameObject.transform.rotation = SnapRotationReference.transform.rotation;
             snapped = true;
         }
-
-        
     }
     void Start()
     {
         
     }
-
     // Update is called once per frame
     void Update()
     {

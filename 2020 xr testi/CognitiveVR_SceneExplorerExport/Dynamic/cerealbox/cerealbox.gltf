@@ -6,74 +6,74 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 515,
+      "count": 553,
       "type": "VEC3",
       "max": [
-        1.7140117883682251,
-        3.3920109272003174,
-        1.7016305923461914
+        4.1385626792907715,
+        5.8784875869750977,
+        1.1214499473571777
       ],
       "min": [
-        -1.7140117883682251,
-        -3.3920109272003174,
-        -1.7016305923461914
+        -4.1385626792907715,
+        -5.8784875869750977,
+        -1.1214499473571777
       ]
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 515,
+      "count": 553,
       "type": "VEC3",
       "max": [
-        0.99895119667053223,
         1.0,
-        0.99174785614013672
+        1.0,
+        1.0
       ],
       "min": [
-        -0.99895119667053223,
-        -0.9997754693031311,
-        -0.99174785614013672
+        -1.0,
+        -1.0,
+        -1.0
       ]
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 515,
+      "count": 553,
       "type": "VEC4",
       "max": [
-        0.99174785614013672,
-        0.94883722066879272,
-        0.99895131587982178,
+        1.0,
+        0.99973112344741821,
+        1.0,
         1.0
       ],
       "min": [
-        -0.99174785614013672,
-        -0.94884473085403442,
-        -0.99895131587982178,
+        -1.0,
+        -0.99318087100982666,
+        -1.0,
         -1.0
       ]
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 515,
+      "count": 553,
       "type": "VEC2",
       "max": [
-        0.97299998998641968,
-        0.97850000858306885
+        0.99689996242523193,
+        0.997499942779541
       ],
       "min": [
-        0.04349999874830246,
-        0.010999977588653564
+        0.0017999997362494469,
+        0.0092999935150146484
       ]
     },
     {
       "bufferView": 4,
       "componentType": 5123,
-      "count": 1932,
+      "count": 777,
       "type": "SCALAR",
       "max": [
-        514.0
+        552.0
       ],
       "min": [
         0.0
@@ -85,40 +85,40 @@
   },
   "buffers": [
     {
-      "uri": "energydrink.bin",
-      "byteLength": 28584
+      "uri": "cerealbox.bin",
+      "byteLength": 28098
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 6180
+      "byteLength": 6636
     },
     {
       "buffer": 0,
-      "byteOffset": 6180,
-      "byteLength": 6180
+      "byteOffset": 6636,
+      "byteLength": 6636
     },
     {
       "buffer": 0,
-      "byteOffset": 12360,
-      "byteLength": 8240
+      "byteOffset": 13272,
+      "byteLength": 8848
     },
     {
       "buffer": 0,
-      "byteOffset": 20600,
-      "byteLength": 4120
+      "byteOffset": 22120,
+      "byteLength": 4424
     },
     {
       "buffer": 0,
-      "byteOffset": 24720,
-      "byteLength": 3864
+      "byteOffset": 26544,
+      "byteLength": 1554
     }
   ],
   "images": [
     {
-      "uri": "EnergyDrink.png",
-      "name": "EnergyDrink"
+      "uri": "CerealBox.png",
+      "name": "CerealBox"
     }
   ],
   "materials": [
@@ -130,7 +130,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "EnergyDrink"
+      "name": "CerealBox"
     }
   ],
   "meshes": [
@@ -147,49 +147,40 @@
           "material": 0
         }
       ],
-      "name": "EnergyDrink"
+      "name": "CerealBox"
     }
   ],
   "nodes": [
     {
       "children": [
-        1,
-        2
+        1
       ],
       "mesh": 0,
       "scale": [
-        0.02,
-        0.02,
-        0.0199999958
+        0.0200000145,
+        0.0200000014,
+        0.0200000014
       ],
-      "name": "EnergyDrink"
-    },
-    {
-      "scale": [
-        8.0,
-        8.0,
-        5.0
-      ],
-      "translation": [
-        -1.1,
-        10.0,
-        -1.6
-      ],
-      "name": "binding_ui_icons_check (3)"
+      "name": "CerealBox"
     },
     {
       "rotation": [
         0.0,
         0.0,
-        0.0,
-        -1.0
+        -0.7071068,
+        0.7071068
+      ],
+      "scale": [
+        5.0,
+        5.0,
+        8.0
       ],
       "translation": [
-        -7.75,
-        -8.44,
-        0.8
+        -0.02002658,
+        10.0081148,
+        0.7940092
       ],
-      "name": "Text 4"
+      "name": "arrow"
     }
   ],
   "samplers": [
@@ -201,14 +192,14 @@
       "nodes": [
         0
       ],
-      "name": "energydrink"
+      "name": "cerealbox"
     }
   ],
   "textures": [
     {
       "sampler": 0,
       "source": 0,
-      "name": "EnergyDrink"
+      "name": "CerealBox"
     }
   ]
 }

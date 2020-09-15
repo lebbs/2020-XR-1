@@ -6,88 +6,74 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 226,
+      "count": 938,
       "type": "VEC3",
       "max": [
-        3.6570308208465576,
-        4.8000340461730957,
-        1.5283199548721313
+        4.1533498764038086,
+        5.8922719955444336,
+        1.128000020980835
       ],
       "min": [
-        -3.6570308208465576,
-        -4.8000340461730957,
-        -1.5283199548721313
+        -4.1533498764038086,
+        -5.8922719955444336,
+        -1.128000020980835
       ]
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 226,
+      "count": 938,
       "type": "VEC3",
       "max": [
-        0.99887913465499878,
-        0.99993395805358887,
-        0.99940907955169678
+        1.0,
+        1.0,
+        1.0
       ],
       "min": [
-        -0.99996161460876465,
-        -0.99999141693115234,
-        -0.99924647808074951
+        -1.0,
+        -1.0,
+        -1.0
       ]
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 226,
+      "count": 938,
       "type": "VEC4",
       "max": [
-        0.99996721744537354,
-        0.99997782707214355,
-        0.7458539605140686,
+        1.0,
+        0.99397474527359009,
+        1.0,
         1.0
       ],
       "min": [
-        -0.99999332427978516,
-        -0.99992036819458008,
-        -0.80384939908981323,
-        1.0
+        -1.0,
+        -0.99975484609603882,
+        -1.0,
+        -1.0
       ]
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 226,
+      "count": 938,
       "type": "VEC2",
       "max": [
-        1.0,
-        1.0
+        0.99689996242523193,
+        0.997499942779541
       ],
       "min": [
-        0.0,
-        0.0
+        0.0017999997362494469,
+        0.0092999935150146484
       ]
     },
     {
       "bufferView": 4,
-      "componentType": 5126,
-      "count": 226,
-      "type": "VEC2",
-      "max": [
-        1.0,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "bufferView": 5,
-      "componentType": 5121,
-      "count": 912,
+      "componentType": 5123,
+      "count": 2400,
       "type": "SCALAR",
       "max": [
-        225.0
+        937.0
       ],
       "min": [
         0.0
@@ -99,45 +85,40 @@
   },
   "buffers": [
     {
-      "uri": "chips.bin",
-      "byteLength": 13568
+      "uri": "cerealgrocery.bin",
+      "byteLength": 49824
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 2712
+      "byteLength": 11256
     },
     {
       "buffer": 0,
-      "byteOffset": 2712,
-      "byteLength": 2712
+      "byteOffset": 11256,
+      "byteLength": 11256
     },
     {
       "buffer": 0,
-      "byteOffset": 5424,
-      "byteLength": 3616
+      "byteOffset": 22512,
+      "byteLength": 15008
     },
     {
       "buffer": 0,
-      "byteOffset": 9040,
-      "byteLength": 1808
+      "byteOffset": 37520,
+      "byteLength": 7504
     },
     {
       "buffer": 0,
-      "byteOffset": 10848,
-      "byteLength": 1808
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 12656,
-      "byteLength": 912
+      "byteOffset": 45024,
+      "byteLength": 4800
     }
   ],
   "images": [
     {
-      "uri": "Chips.png",
-      "name": "Chips"
+      "uri": "CerealBox.png",
+      "name": "CerealBox"
     }
   ],
   "materials": [
@@ -149,7 +130,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "Chips"
+      "name": "CerealBox"
     }
   ],
   "meshes": [
@@ -160,14 +141,13 @@
             "POSITION": 0,
             "NORMAL": 1,
             "TANGENT": 2,
-            "TEXCOORD_0": 3,
-            "TEXCOORD_1": 4
+            "TEXCOORD_0": 3
           },
-          "indices": 5,
+          "indices": 4,
           "material": 0
         }
       ],
-      "name": "Chips"
+      "name": "CerealGrocery"
     }
   ],
   "nodes": [
@@ -178,38 +158,44 @@
       ],
       "mesh": 0,
       "scale": [
-        0.0199999958,
+        0.019999994,
         0.0200000014,
-        0.0199999977
+        0.0199999958
       ],
-      "name": "Chips"
+      "name": "CerealGrocery"
     },
     {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
       "scale": [
         8.0,
         8.0,
         5.0
       ],
       "translation": [
-        -0.2,
+        0.04,
         10.0,
-        -1.77
+        1.25
       ],
-      "name": "binding_ui_icons_check (1)"
+      "name": "binding_ui_icons_check"
     },
     {
       "rotation": [
         0.0,
+        -1.0,
         0.0,
-        0.0,
-        -1.0
+        0.0
       ],
       "translation": [
-        -7.4,
+        7.19,
         -8.44,
-        0.6
+        0.0
       ],
-      "name": "Text 2"
+      "name": "Text"
     }
   ],
   "samplers": [
@@ -221,14 +207,14 @@
       "nodes": [
         0
       ],
-      "name": "chips"
+      "name": "cerealgrocery"
     }
   ],
   "textures": [
     {
       "sampler": 0,
       "source": 0,
-      "name": "Chips"
+      "name": "CerealBox"
     }
   ]
 }

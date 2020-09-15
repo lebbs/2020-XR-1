@@ -338,9 +338,9 @@ MonoBehaviour:
   - SceneName: PalloPeli
     SceneId: da0d7fea-ef46-4b91-bd92-6334b32073db
     ScenePath: Assets/Scenes/PalloPeli.unity
-    LastRevision: 5249030546067803026
-    VersionNumber: 5
-    VersionId: 1920
+    LastRevision: 5249043455725402024
+    VersionNumber: 6
+    VersionId: 1936
   - SceneName: Pingispeli
     SceneId: 32192787-6a3a-476d-91f5-62cd4472b1e3
     ScenePath: Assets/Scenes/Pingispeli.unity
@@ -365,3 +365,9 @@ MonoBehaviour:
     LastRevision: 5249031382806101324
     VersionNumber: 4
     VersionId: 1928
+  - SceneName: Ostosterapia
+    SceneId: 510cc06f-7569-4385-bc56-fcf645744527
+    ScenePath: Assets/Scenes/Ostosterapia.unity
+    LastRevision: 5249043685006206261
+    VersionNumber: 3
+    VersionId: 1938

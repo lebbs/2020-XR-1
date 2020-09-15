@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 8745420}
   - component: {fileID: 8745422}
   - component: {fileID: 8745423}
+  - component: {fileID: 8745424}
   m_Layer: 0
   m_Name: JuicePack
   m_TagString: Juicepack
@@ -264,6 +265,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 621893900}
+--- !u!114 &8745424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8745419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &8745430
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -285,6 +298,97 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.4190936, y: 8.80443, z: 3.1962261}
   m_Center: {x: -0.000034332275, y: 0.000038146973, z: -0.000030517578}
+--- !u!1 &25009609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25009614}
+  - component: {fileID: 25009613}
+  - component: {fileID: 25009612}
+  - component: {fileID: 25009611}
+  - component: {fileID: 25009610}
+  m_Layer: 0
+  m_Name: Cognitive3D_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &25009610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25009609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb5b4d781186fd4a9c9cd8ef47acc57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 50
+  Interval: 1
+  EyeToShoulderHeight: 0.186
+--- !u!114 &25009611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25009609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0738d1cc81101de4597102255acfb22b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &25009612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25009609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0076d7324ce30944ca560436a9df84dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 50
+  StartDelay: 10
+  Interval: 1
+  ForeheadHeight: 0.11
+--- !u!114 &25009613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25009609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448331fed5753b643ae97f451f797e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartupDelayTime: 2
+  InitializeOnStart: 0
+--- !u!4 &25009614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25009609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &32593236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4471851967654460, guid: 5dde715321dce0e418693105bae038f9, type: 3}
@@ -1054,6 +1158,7 @@ GameObject:
   - component: {fileID: 221215688}
   - component: {fileID: 221215690}
   - component: {fileID: 221215689}
+  - component: {fileID: 221215691}
   m_Layer: 0
   m_Name: JuicePack
   m_TagString: Untagged
@@ -1127,6 +1232,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221215687}
   m_Mesh: {fileID: 4300000, guid: 049d662fb1301c74e99bffe685bc6b9b, type: 3}
+--- !u!114 &221215691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221215687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_46b094d2-3608-4bd5-9581-d02ee3b4c7cc
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: juicepack
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &226500713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4321051696047486, guid: 4e3d4cb66ba4baa4ba96760c052f6311, type: 3}
@@ -1963,6 +2094,7 @@ GameObject:
   - component: {fileID: 425165323}
   - component: {fileID: 425165322}
   - component: {fileID: 425165321}
+  - component: {fileID: 425165324}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -2048,6 +2180,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425165319}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &425165324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425165319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_e91570cf-b1d8-4071-9040-f68a99dcb53f
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: quad
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &425396652
 Transform:
   m_ObjectHideFlags: 0
@@ -2635,7 +2793,7 @@ Transform:
   m_Children:
   - {fileID: 4221129818432295}
   m_Father: {fileID: 1210470122}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &524136308 stripped
 Transform:
@@ -2668,6 +2826,7 @@ GameObject:
   - component: {fileID: 547128852}
   - component: {fileID: 547128854}
   - component: {fileID: 547128853}
+  - component: {fileID: 547128855}
   m_Layer: 0
   m_Name: CerealGrocery
   m_TagString: Untagged
@@ -2740,6 +2899,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547128851}
   m_Mesh: {fileID: 4300000, guid: a92fd95f7bd4407489bad6082f018ff6, type: 3}
+--- !u!114 &547128855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547128851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_d5bdcc4a-1df2-41d0-a111-59f39881e3ba
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: cerealgrocery
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &574801748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4321051696047486, guid: 4e3d4cb66ba4baa4ba96760c052f6311, type: 3}
@@ -2764,6 +2949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593608414}
+  - component: {fileID: 593608415}
   m_Layer: 0
   m_Name: Cereal
   m_TagString: Untagged
@@ -2778,14 +2964,40 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593608413}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0382, y: 0.006, z: 0.13148}
-  m_LocalScale: {x: 0.001666666, y: 0.001666666, z: 0.001666666}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -0.54159987, y: 1.5777602, z: -1.1280003}
+  m_LocalScale: {x: 0.020000003, y: 0.019999998, z: 0.019999998}
   m_Children:
   - {fileID: 1917577350}
-  m_Father: {fileID: 1210470122}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &593608415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593608413}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_7603a2eb-70de-43ef-8e14-3bd9048c8828
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: cereal
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1001 &594831668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3183,7 +3395,7 @@ Transform:
   m_Children:
   - {fileID: 1437275050}
   m_Father: {fileID: 1210470122}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &658836122
 Transform:
@@ -3964,6 +4176,7 @@ GameObject:
   - component: {fileID: 802725362}
   - component: {fileID: 802725364}
   - component: {fileID: 802725363}
+  - component: {fileID: 802725365}
   m_Layer: 0
   m_Name: Chips
   m_TagString: Untagged
@@ -4036,6 +4249,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802725361}
   m_Mesh: {fileID: 4300000, guid: 81fb6a5c67691cd46a393190b476ed51, type: 3}
+--- !u!114 &802725365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802725361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_4d40a8a3-6acc-48be-90ec-e596164fcea4
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: chips
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1001 &806532733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4167,6 +4406,7 @@ GameObject:
   - component: {fileID: 858789187}
   - component: {fileID: 858789189}
   - component: {fileID: 858789190}
+  - component: {fileID: 858789191}
   m_Layer: 0
   m_Name: EnergyDrink
   m_TagString: Energydrink
@@ -4231,6 +4471,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 1.1
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &858789191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858789186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &858789195
 Transform:
   m_ObjectHideFlags: 0
@@ -4490,7 +4742,7 @@ Transform:
   m_Children:
   - {fileID: 8745416}
   m_Father: {fileID: 1210470122}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &999139382
 GameObject:
@@ -5480,7 +5732,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 593608414}
   - {fileID: 961215051}
   - {fileID: 655393689}
   - {fileID: 504981870}
@@ -5615,6 +5866,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
   m_PrefabInstance: {fileID: 5548552602235682928}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1232917060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232917059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_923861d9-805c-4686-b19e-fd6f3384ce59
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: shoppingshelf_variant
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &1232917067 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
@@ -5734,7 +6011,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1245719885 stripped
 Transform:
@@ -6417,6 +6694,7 @@ GameObject:
   - component: {fileID: 1437275044}
   - component: {fileID: 1437275046}
   - component: {fileID: 1437275047}
+  - component: {fileID: 1437275048}
   m_Layer: 0
   m_Name: EnergyDrink
   m_TagString: Energydrink
@@ -6481,6 +6759,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 410345715}
+--- !u!114 &1437275048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437275043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1437275050
 Transform:
   m_ObjectHideFlags: 0
@@ -7218,6 +7508,7 @@ GameObject:
   - component: {fileID: 1713272619}
   - component: {fileID: 1713272622}
   - component: {fileID: 1713272621}
+  - component: {fileID: 1713272623}
   m_Layer: 0
   m_Name: JuicePack
   m_TagString: Juicepack
@@ -7282,6 +7573,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 264897002}
+--- !u!114 &1713272623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713272618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &1713272630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7829,6 +8132,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.068334356, y: 0.0046678274, z: 0.037604026}
   m_Center: {x: 0.000021894064, y: -0.07139395, z: 0.0962902}
+--- !u!114 &1807208240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807208233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_87c49fb0-e7aa-4e44-872d-8d366b7cee3a
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: "ostosk\xE4rry"
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &1807208242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 03221f6ff2f635a41b638f1573426d32, type: 3}
@@ -7839,6 +8168,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
   m_PrefabInstance: {fileID: 5548552602864109201}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1810203291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810203290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_ba9fd54f-8ce1-4e23-ab39-aa3d3ba06d61
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: shoppingshelf_variant_(1)
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!4 &1810203298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
@@ -7886,7 +8241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03221f6ff2f635a41b638f1573426d32, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03221f6ff2f635a41b638f1573426d32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8047,6 +8402,8 @@ GameObject:
   - component: {fileID: 1917572986}
   - component: {fileID: 1917572988}
   - component: {fileID: 1917572989}
+  - component: {fileID: 1917572990}
+  - component: {fileID: 1917572991}
   m_Layer: 0
   m_Name: CerealBox
   m_TagString: Cereal
@@ -8111,6 +8468,44 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 1.015
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &1917572990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917572985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1917572991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917572985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_53cd1be0-cdd5-4bbe-ab61-b8847e035dba
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: cerealbox
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!23 &1917577348
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8168,7 +8563,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917572985}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -0.036903333, y: 0.0059699616, z: 0.13190004}
+  m_LocalPosition: {x: -0.03690422, y: 4.3500137, z: 0.13189876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 75619014}
@@ -8465,7 +8860,7 @@ Transform:
   - {fileID: 666748087}
   - {fileID: 2145238963}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1957489139
 PrefabInstance:
@@ -9289,6 +9684,7 @@ GameObject:
   - component: {fileID: 2145007362}
   - component: {fileID: 2145007364}
   - component: {fileID: 2145007363}
+  - component: {fileID: 2145007365}
   m_Layer: 0
   m_Name: EnergyDrink
   m_TagString: Untagged
@@ -9361,6 +9757,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145007361}
   m_Mesh: {fileID: 4300000, guid: 6081269eb47af18418c00349c995d626, type: 3}
+--- !u!114 &2145007365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145007361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_ef9436bd-3bc6-4953-bd96-1521f8aade89
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: energydrink
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
 --- !u!1 &2145238960
 GameObject:
   m_ObjectHideFlags: 0
@@ -9682,6 +10104,7 @@ GameObject:
   - component: {fileID: 1937686076416718}
   - component: {fileID: 1937686076416720}
   - component: {fileID: 1937686076416721}
+  - component: {fileID: 1937686076416722}
   m_Layer: 0
   m_Name: Chips
   m_TagString: Chips
@@ -9746,6 +10169,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 2112226155}
+--- !u!114 &1937686076416722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937686076416717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &1937686656869419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9775,6 +10210,7 @@ GameObject:
   - component: {fileID: 1937686656869421}
   - component: {fileID: 1937686656869423}
   - component: {fileID: 1937686656869424}
+  - component: {fileID: 1937686656869425}
   m_Layer: 0
   m_Name: Chips
   m_TagString: Chips
@@ -9839,6 +10275,18 @@ MonoBehaviour:
   outlineMaterial: {fileID: 2100000, guid: ba3d11a2b58aae743b29809af2e1f865, type: 2}
   outlineScaleFactor: 1.1
   outlineColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &1937686656869425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937686656869420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979e7c217e7e4ef45a42ee4ffcc4bf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4133678645214651
 Transform:
   m_ObjectHideFlags: 0
@@ -19901,7 +20349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24043,7 +24491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb89e80d0f3dfd342856fa428b61a3d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
