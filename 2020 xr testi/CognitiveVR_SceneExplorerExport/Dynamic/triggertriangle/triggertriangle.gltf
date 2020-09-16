@@ -1,0 +1,142 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        34.0,
+        0.5,
+        20.0
+      ],
+      "min": [
+        -37.659999847412109,
+        -32.5,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        0.67746114730834961,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.67746120691299438,
+        -0.73555856943130493,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5121,
+      "count": 24,
+      "type": "SCALAR",
+      "max": [
+        17.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "triggertriangle.bin",
+      "byteLength": 744
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 216,
+      "byteLength": 216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 432,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 720,
+      "byteLength": 24
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "HollowOrange"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "TriggerTriangle"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        0.00300000119,
+        0.00350000174,
+        0.003000001
+      ],
+      "name": "TriggerTriangle"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "triggertriangle"
+    }
+  ]
+}

@@ -6,88 +6,74 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 515,
+      "count": 36,
       "type": "VEC3",
       "max": [
-        0.5,
-        0.5,
-        0.5
+        0.008660254068672657,
+        0.0099999997764825821,
+        0.0099999997764825821
       ],
       "min": [
-        -0.5,
-        -0.5,
-        -0.5
+        -0.008660254068672657,
+        -0.0099999997764825821,
+        -0.0099999997764825821
       ]
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 515,
+      "count": 36,
       "type": "VEC3",
       "max": [
-        0.99997496604919434,
         1.0,
-        0.9999769926071167
+        0.866025447845459,
+        1.0
       ],
       "min": [
-        -0.99997496604919434,
         -1.0,
-        -0.99997353553771973
+        -0.866025447845459,
+        -1.0
       ]
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 515,
+      "count": 36,
       "type": "VEC4",
       "max": [
         1.0,
-        0.056131001561880112,
         1.0,
+        0.0,
         1.0
       ],
       "min": [
+        -0.866025447845459,
         -1.0,
-        -0.065983392298221588,
-        -1.0,
+        0.0,
         -1.0
       ]
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 515,
+      "count": 36,
       "type": "VEC2",
       "max": [
-        0.99833369255065918,
-        0.98237103223800659
+        1.0,
+        0.99000000953674316
       ],
       "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
+        -8.9406967163085938E-08,
+        0.0
       ]
     },
     {
       "bufferView": 4,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ]
-    },
-    {
-      "bufferView": 5,
-      "componentType": 5123,
-      "count": 2304,
+      "componentType": 5121,
+      "count": 60,
       "type": "SCALAR",
       "max": [
-        514.0
+        35.0
       ],
       "min": [
         0.0
@@ -99,45 +85,41 @@
   },
   "buffers": [
     {
-      "uri": "sphere.bin",
-      "byteLength": 33448
+      "uri": "triggerhexagon.bin",
+      "byteLength": 1788
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 6180
+      "byteLength": 432
     },
     {
       "buffer": 0,
-      "byteOffset": 6180,
-      "byteLength": 6180
+      "byteOffset": 432,
+      "byteLength": 432
     },
     {
       "buffer": 0,
-      "byteOffset": 12360,
-      "byteLength": 8240
+      "byteOffset": 864,
+      "byteLength": 576
     },
     {
       "buffer": 0,
-      "byteOffset": 20600,
-      "byteLength": 4120
+      "byteOffset": 1440,
+      "byteLength": 288
     },
     {
       "buffer": 0,
-      "byteOffset": 24720,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 28840,
-      "byteLength": 4608
+      "byteOffset": 1728,
+      "byteLength": 60
     }
   ],
   "materials": [
     {
+      "alphaMode": "BLEND",
       "doubleSided": true,
-      "name": "grey"
+      "name": "LightTeal"
     }
   ],
   "meshes": [
@@ -148,25 +130,24 @@
             "POSITION": 0,
             "NORMAL": 1,
             "TANGENT": 2,
-            "TEXCOORD_0": 3,
-            "TEXCOORD_1": 4
+            "TEXCOORD_0": 3
           },
-          "indices": 5,
+          "indices": 4,
           "material": 0
         }
       ],
-      "name": "Sphere"
+      "name": "TriggerHexagon"
     }
   ],
   "nodes": [
     {
       "mesh": 0,
       "scale": [
-        0.1,
-        0.1,
-        0.1
+        6.0,
+        6.0,
+        6.0
       ],
-      "name": "Sphere"
+      "name": "TriggerHexagon"
     }
   ],
   "scene": 0,
@@ -175,7 +156,7 @@
       "nodes": [
         0
       ],
-      "name": "sphere"
+      "name": "triggerhexagon"
     }
   ]
 }

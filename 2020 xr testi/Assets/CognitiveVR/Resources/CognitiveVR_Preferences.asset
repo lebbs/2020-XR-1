@@ -332,9 +332,9 @@ MonoBehaviour:
   - SceneName: PalikkaPeli
     SceneId: f7597e87-00f7-41a2-9fb0-49ff51451607
     ScenePath: Assets/Scenes/PalikkaPeli.unity
-    LastRevision: 5249034025847628356
-    VersionNumber: 3
-    VersionId: 1933
+    LastRevision: 5249044388658127478
+    VersionNumber: 4
+    VersionId: 1939
   - SceneName: PalloPeli
     SceneId: da0d7fea-ef46-4b91-bd92-6334b32073db
     ScenePath: Assets/Scenes/PalloPeli.unity

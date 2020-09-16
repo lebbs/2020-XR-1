@@ -99,7 +99,7 @@
   },
   "buffers": [
     {
-      "uri": "sphere.bin",
+      "uri": "triggersphere.bin",
       "byteLength": 33448
     }
   ],
@@ -136,8 +136,9 @@
   ],
   "materials": [
     {
+      "alphaMode": "BLEND",
       "doubleSided": true,
-      "name": "grey"
+      "name": "HollowGrey"
     }
   ],
   "meshes": [
@@ -155,18 +156,18 @@
           "material": 0
         }
       ],
-      "name": "Sphere"
+      "name": "TriggerSphere"
     }
   ],
   "nodes": [
     {
       "mesh": 0,
       "scale": [
+        0.100000016,
         0.1,
-        0.1,
-        0.1
+        0.100000016
       ],
-      "name": "Sphere"
+      "name": "TriggerSphere"
     }
   ],
   "scene": 0,
@@ -175,7 +176,7 @@
       "nodes": [
         0
       ],
-      "name": "sphere"
+      "name": "triggersphere"
     }
   ]
 }
