@@ -113,8 +113,13 @@ namespace CognitiveVR
         [Tooltip("Delay before starting a session. This delay can ensure other SDKs have properly initialized")]
         public float StartupDelayTime = 2;
 
+
+        //TODO nappula josta saa käynnistettyä Cognitiven manuaalisesti nappia painamalla 
         [Tooltip("Start recording analytics when this gameobject becomes active (and after the StartupDelayTime has elapsed)")]
         public bool InitializeOnStart = true;
+
+
+
 
 #if CVR_AH || CVR_PUPIL
         [Tooltip("Start recording analytics after calibration is successfully completed")]

@@ -3,7 +3,7 @@
 *****************************
 Unity Version:2020.2.0a18
 OS:Windows 10  (10.0.0) 64bit
-System Time: 9/4/2020 10:18:53 AM
+System Time: 9/16/2020 10:10:14 AM
 
 *****************************
 ***********PROJECT***********
@@ -312,15 +312,15 @@ Scene Settings:
   ├─PalikkaPeli
   │  ├─Scene Id: f7597e87-00f7-41a2-9fb0-49ff51451607
   │  ├─Scene Path: Assets/Scenes/PalikkaPeli.unity
-  │  ├─Last Revision: 5249034012977628137
-  │  ├─Version Number: 2
-  │  └─Version Id: 1932
+  │  ├─Last Revision: 5249034025847628356
+  │  ├─Version Number: 3
+  │  └─Version Id: 1933
   ├─PalloPeli
   │  ├─Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
   │  ├─Scene Path: Assets/Scenes/PalloPeli.unity
-  │  ├─Last Revision: 5249030546067803026
-  │  ├─Version Number: 5
-  │  └─Version Id: 1920
+  │  ├─Last Revision: 5249043455725402024
+  │  ├─Version Number: 6
+  │  └─Version Id: 1936
   ├─Pingispeli
   │  ├─Scene Id: 32192787-6a3a-476d-91f5-62cd4472b1e3
   │  ├─Scene Path: Assets/Scenes/Pingispeli.unity
@@ -339,12 +339,18 @@ Scene Settings:
   │  ├─Last Revision: 5249024525333674512
   │  ├─Version Number: 1
   │  └─Version Id: 1911
-  └─Ostospeli
-     ├─Scene Id: 08172a6c-8914-4689-b046-f01e53eb74ad
-     ├─Scene Path: Assets/Scenes/Ostospeli.unity
-     ├─Last Revision: 5249031382806101324
-     ├─Version Number: 4
-     └─Version Id: 1928
+  ├─Ostospeli
+  │  ├─Scene Id: 08172a6c-8914-4689-b046-f01e53eb74ad
+  │  ├─Scene Path: Assets/Scenes/Ostospeli.unity
+  │  ├─Last Revision: 5249031382806101324
+  │  ├─Version Number: 4
+  │  └─Version Id: 1928
+  └─Ostosterapia
+     ├─Scene Id: 510cc06f-7569-4385-bc56-fcf645744527
+     ├─Scene Path: Assets/Scenes/Ostosterapia.unity
+     ├─Last Revision: 5249043685006206261
+     ├─Version Number: 3
+     └─Version Id: 1938
 
 *****************************
 ********CURRENT SCENE********
@@ -352,46 +358,83 @@ Scene Settings:
 Scene Name: PalikkaPeli
 Scene Id: f7597e87-00f7-41a2-9fb0-49ff51451607
 Scene Path: Assets/Scenes/PalikkaPeli.unity
-Last Revision: 5249034012977628137
-Version Number: 2
-Version Id: 1932
-Scene Size (mb): 0.03
+Last Revision: 5249034025847628356
+Version Number: 3
+Version Id: 1933
+Scene Size (mb): 0.04
 Main Camera GameObject: Main Camera
-Manager Initialize On Start: True
+Manager Initialize On Start: False
 Manager Startup Delay Time (s): 2
 
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
-Dynamic Object Count: 6
-  ├─TABLE_Folding
-  │  ├─Mesh Name: table_folding
+Dynamic Object Count: 14
+  ├─TriggerSphere
+  │  ├─Mesh Name: triggersphere
   │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.MeshCollider
+  │  ├─Collider Type: UnityEngine.SphereCollider
   │  └─Has Children: false
-  ├─Trigger Center
-  │  ├─Mesh Name: trigger_center
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
-  │  ├─Has Children: true
-  │  └─Has Child Colliders: true
-  ├─Trigger Left
-  │  ├─Mesh Name: trigger_left
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
-  │  ├─Has Children: true
-  │  └─Has Child Colliders: true
-  ├─Liikuteltava kuutio
-  │  ├─Mesh Name: liikuteltava_kuutio
+  ├─TriggerHexagon
+  │  ├─Mesh Name: triggerhexagon
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
-  ├─Trigger Right
-  │  ├─Mesh Name: trigger_right
+  ├─TriggerTriangle
+  │  ├─Mesh Name: triggertriangle
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
-  │  ├─Has Children: true
-  │  └─Has Child Colliders: true
+  │  └─Has Children: false
+  ├─TriggerCylinder
+  │  ├─Mesh Name: triggercylinder
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─TriggerCubeYellow
+  │  ├─Mesh Name: triggercubeyellow
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─TriggerCubeRed
+  │  ├─Mesh Name: triggercubered
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─TriggerCubeGreen
+  │  ├─Mesh Name: triggercubegreen
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─Hexagon
+  │  ├─Mesh Name: hexagon
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─Cylinder
+  │  ├─Mesh Name: cylinder
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─Sphere
+  │  ├─Mesh Name: sphere
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  └─Has Children: false
+  ├─YellowCube
+  │  ├─Mesh Name: yellowcube
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─RedCube
+  │  ├─Mesh Name: redcube
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─GreenCube
+  │  ├─Mesh Name: greencube
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
   └─Controller Right Variant
      ├─Mesh Name: controller_right_variant
      ├─Has Collider: true
@@ -402,7 +445,7 @@ Dynamic Object Count: 6
 *****************************
 ********EXPORT FOLDER********
 *****************************
-/CognitiveVR_SceneExplorerExport (34mb)
+/CognitiveVR_SceneExplorerExport (39mb)
    /CognitiveTesti (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
@@ -413,7 +456,17 @@ Dynamic Object Count: 6
       settings.json (0.00mb)
       /screenshot (0.03mb)
          screenshot.png (0.03mb)
-   /Dynamic (33.98mb)
+   /Dynamic (38.71mb)
+      /cereal (0.56mb)
+         cereal.bin (0.03mb)
+         cereal.gltf (0.00mb)
+         CerealBox.png (0.43mb)
+         cvr_object_thumbnail.png (0.10mb)
+      /cerealbox (0.56mb)
+         cerealbox.bin (0.03mb)
+         cerealbox.gltf (0.00mb)
+         CerealBox.png (0.43mb)
+         cvr_object_thumbnail.png (0.10mb)
       /cerealboxes (0.58mb)
          CerealBox.png (0.43mb)
          cerealboxes.bin (0.11mb)
@@ -424,11 +477,16 @@ Dynamic Object Count: 6
          cerealbox_low__260_tris_.bin (0.03mb)
          cerealbox_low__260_tris_.gltf (0.00mb)
          cvr_object_thumbnail.png (0.08mb)
-      /chips (0.36mb)
-         chips.bin (0.03mb)
-         chips.gltf (0.02mb)
+      /cerealgrocery (0.55mb)
+         CerealBox.png (0.43mb)
+         cerealgrocery.bin (0.05mb)
+         cerealgrocery.gltf (0.00mb)
+         cvr_object_thumbnail.png (0.07mb)
+      /chips (0.31mb)
+         chips.bin (0.01mb)
+         chips.gltf (0.00mb)
          Chips.png (0.24mb)
-         cvr_object_thumbnail.png (0.06mb)
+         cvr_object_thumbnail.png (0.05mb)
       /chips_high__304_tris_ (0.33mb)
          Chips.png (0.24mb)
          chips_high__304_tris_.bin (0.01mb)
@@ -446,13 +504,17 @@ Dynamic Object Count: 6
          cube_(2).bin (0.00mb)
          cube_(2).gltf (0.00mb)
          cvr_object_thumbnail.png (0.05mb)
+      /cylinder (0.06mb)
+         cvr_object_thumbnail.png (0.05mb)
+         cylinder.bin (0.00mb)
+         cylinder.gltf (0.00mb)
       /default (2.83mb)
          cvr_object_thumbnail.png (0.08mb)
          default.bin (0.12mb)
          default.gltf (0.00mb)
          Table_low_DefaultMaterial_AlbedoTransparency.png (2.62mb)
-      /energydrink (0.89mb)
-         cvr_object_thumbnail.png (0.08mb)
+      /energydrink (0.85mb)
+         cvr_object_thumbnail.png (0.04mb)
          energydrink.bin (0.03mb)
          energydrink.gltf (0.00mb)
          EnergyDrink.png (0.78mb)
@@ -470,14 +532,22 @@ Dynamic Object Count: 6
          cvr_object_thumbnail.png (0.09mb)
          gazegrabcube.bin (0.00mb)
          gazegrabcube.gltf (0.00mb)
+      /greencube (0.06mb)
+         cvr_object_thumbnail.png (0.05mb)
+         greencube.bin (0.00mb)
+         greencube.gltf (0.00mb)
+      /hexagon (0.07mb)
+         cvr_object_thumbnail.png (0.07mb)
+         hexagon.bin (0.00mb)
+         hexagon.gltf (0.00mb)
       /juicecans (0.31mb)
          cvr_object_thumbnail.png (0.05mb)
          juicecans.bin (0.06mb)
          juicecans.gltf (0.04mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
-      /juicepack (0.31mb)
-         cvr_object_thumbnail.png (0.08mb)
+      /juicepack (0.29mb)
+         cvr_object_thumbnail.png (0.06mb)
          juicepack.bin (0.06mb)
          juicepack.gltf (0.01mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
@@ -498,6 +568,10 @@ Dynamic Object Count: 6
          cvr_object_thumbnail.png (0.02mb)
          movingtarget_(2).bin (0.03mb)
          movingtarget_(2).gltf (0.00mb)
+      /ostoskärry (0.17mb)
+         cvr_object_thumbnail.png (0.09mb)
+         ostoskärry.bin (0.08mb)
+         ostoskärry.gltf (0.01mb)
       /ostostable_variant (2.85mb)
          cvr_object_thumbnail.png (0.10mb)
          Info.png (0.00mb)
@@ -512,32 +586,50 @@ Dynamic Object Count: 6
          cvr_object_thumbnail.png (0.03mb)
          pingpongtable.bin (0.06mb)
          pingpongtable.gltf (0.00mb)
+      /quad (0.06mb)
+         cvr_object_thumbnail.png (0.05mb)
+         quad.bin (0.00mb)
+         quad.gltf (0.00mb)
       /racket (2.56mb)
          cvr_object_thumbnail.png (0.03mb)
          initialShadingGroup_Base_Color.png (2.47mb)
          racket.bin (0.05mb)
          racket.gltf (0.01mb)
+      /redcube (0.05mb)
+         cvr_object_thumbnail.png (0.05mb)
+         redcube.bin (0.00mb)
+         redcube.gltf (0.00mb)
       /shooter (2.32mb)
          AlienFighter_AlbedoTransparency.png (2.21mb)
          cvr_object_thumbnail.png (0.06mb)
          shooter.bin (0.05mb)
          shooter.gltf (0.00mb)
-      /shoppingshelf_variant (2.22mb)
+      /shoppingshelf_variant (2.25mb)
          CerealBox.png (0.43mb)
          Chips.png (0.24mb)
          Cube_Bake1_pbr_diffuse.png (0.12mb)
-         cvr_object_thumbnail.png (0.07mb)
+         cvr_object_thumbnail.png (0.09mb)
          EnergyDrink.png (0.78mb)
          JuicePack_Cap_Surface_Color.png (0.12mb)
          JuicePack_Surface_Color.png (0.04mb)
          shoppingshelf_variant.bin (0.32mb)
          shoppingshelf_variant.gltf (0.11mb)
+      /shoppingshelf_variant_(1) (2.25mb)
+         CerealBox.png (0.43mb)
+         Chips.png (0.24mb)
+         Cube_Bake1_pbr_diffuse.png (0.12mb)
+         cvr_object_thumbnail.png (0.09mb)
+         EnergyDrink.png (0.78mb)
+         JuicePack_Cap_Surface_Color.png (0.12mb)
+         JuicePack_Surface_Color.png (0.04mb)
+         shoppingshelf_variant_(1).bin (0.32mb)
+         shoppingshelf_variant_(1).gltf (0.11mb)
       /simplegrabcube (0.09mb)
          cvr_object_thumbnail.png (0.09mb)
          simplegrabcube.bin (0.00mb)
          simplegrabcube.gltf (0.00mb)
-      /sphere (0.09mb)
-         cvr_object_thumbnail.png (0.06mb)
+      /sphere (0.08mb)
+         cvr_object_thumbnail.png (0.05mb)
          sphere.bin (0.03mb)
          sphere.gltf (0.00mb)
       /sphere_(1) (0.09mb)
@@ -590,6 +682,34 @@ Dynamic Object Count: 6
          cvr_object_thumbnail.png (0.02mb)
          target_(2).bin (0.03mb)
          target_(2).gltf (0.00mb)
+      /triggercubegreen (0.05mb)
+         cvr_object_thumbnail.png (0.05mb)
+         triggercubegreen.bin (0.00mb)
+         triggercubegreen.gltf (0.00mb)
+      /triggercubered (0.05mb)
+         cvr_object_thumbnail.png (0.05mb)
+         triggercubered.bin (0.00mb)
+         triggercubered.gltf (0.00mb)
+      /triggercubeyellow (0.05mb)
+         cvr_object_thumbnail.png (0.05mb)
+         triggercubeyellow.bin (0.00mb)
+         triggercubeyellow.gltf (0.00mb)
+      /triggercylinder (0.04mb)
+         cvr_object_thumbnail.png (0.03mb)
+         triggercylinder.bin (0.00mb)
+         triggercylinder.gltf (0.00mb)
+      /triggerhexagon (0.06mb)
+         cvr_object_thumbnail.png (0.06mb)
+         triggerhexagon.bin (0.00mb)
+         triggerhexagon.gltf (0.00mb)
+      /triggersphere (0.07mb)
+         cvr_object_thumbnail.png (0.04mb)
+         triggersphere.bin (0.03mb)
+         triggersphere.gltf (0.00mb)
+      /triggertriangle (0.04mb)
+         cvr_object_thumbnail.png (0.04mb)
+         triggertriangle.bin (0.00mb)
+         triggertriangle.gltf (0.00mb)
       /trigger_center (0.05mb)
          cvr_object_thumbnail.png (0.05mb)
          trigger_center.bin (0.00mb)
@@ -612,6 +732,10 @@ Dynamic Object Count: 6
          VR1_HDRP_BaseMap.png (2.68mb)
          vrheadset.bin (2.86mb)
          vrheadset.gltf (0.00mb)
+      /yellowcube (0.07mb)
+         cvr_object_thumbnail.png (0.06mb)
+         yellowcube.bin (0.00mb)
+         yellowcube.gltf (0.00mb)
    /MixedReality (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
@@ -622,15 +746,20 @@ Dynamic Object Count: 6
       settings.json (0.00mb)
       /screenshot (0.07mb)
          screenshot.png (0.07mb)
-   /PalikkaPeli (0.03mb)
+   /Ostosterapia (0.08mb)
+      debug.log (0.03mb)
       settings.json (0.00mb)
-      /screenshot (0.03mb)
-         screenshot.png (0.03mb)
-   /PalloPeli (0.05mb)
-      debug.log (0.02mb)
+      /screenshot (0.05mb)
+         screenshot.png (0.05mb)
+   /PalikkaPeli (0.04mb)
       settings.json (0.00mb)
-      /screenshot (0.03mb)
-         screenshot.png (0.03mb)
+      /screenshot (0.04mb)
+         screenshot.png (0.04mb)
+   /PalloPeli (0.07mb)
+      debug.log (0.03mb)
+      settings.json (0.00mb)
+      /screenshot (0.04mb)
+         screenshot.png (0.04mb)
    /Pingispeli (0.05mb)
       debug.log (0.02mb)
       settings.json (0.00mb)
