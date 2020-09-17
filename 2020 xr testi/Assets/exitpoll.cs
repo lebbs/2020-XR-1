@@ -5,18 +5,10 @@ using CognitiveVR;
 
 public class exitpoll : MonoBehaviour
 {
-    //public ExitPollSet questionSet;
-    // Start is called before the first frame updat    
-
-    //public void QuestionSet()
-    //{
-    //    CognitiveVR.ExitPoll.NewExitPoll("xr_1_demo").Begin();
-
-    //}
-
-    private void Start()
+    public ExitPollSet questionSet;
+     void Start()
     {
-        CognitiveVR.ExitPoll.NewExitPoll("xr_1_demo").Begin();
+        CognitiveVR.ExitPoll.NewExitPoll("testi").Begin();
     }
 
 }

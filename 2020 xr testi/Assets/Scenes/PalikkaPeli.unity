@@ -413,7 +413,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!135 &58259355
@@ -959,7 +959,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &270417358
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!4 &280364604 stripped
@@ -1868,103 +1868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf835b1c0998cc4c88a813de02063ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &398055667
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 123820, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_Name
-      value: ExitPollHappySad
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.493297
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.0898625
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 1.496
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 22465002, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
 --- !u!1 &415877012
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,7 +2682,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &596678881
@@ -2973,7 +2876,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &641818141
@@ -3129,7 +3032,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &701481178
@@ -3255,101 +3158,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100187212738990506, guid: 5422edb44406b68408fab21d80298d43, type: 3}
   m_PrefabInstance: {fileID: 312621509}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &753326673
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 753326676}
-  - component: {fileID: 753326675}
-  - component: {fileID: 753326674}
-  m_Layer: 0
-  m_Name: Questionset
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &753326674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753326673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcc3f954ba4aa2489858669fc1a544b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &753326675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753326673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dff3c6fe9380fb4691996ca51d03697, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parameters:
-    Hook: xr_1_demo
-    ExitpollSpawnType: 1
-    PointerParent: 0
-    PointerParentOverride: {fileID: 0}
-    PointerType: 0
-    PointerOverride: {fileID: 0}
-    BoolPanelOverride: {fileID: 0}
-    HappyPanelOverride: {fileID: 0}
-    ThumbsPanelOverride: {fileID: 0}
-    MultiplePanelOverride: {fileID: 0}
-    ScalePanelOverride: {fileID: 0}
-    VoicePanelOverride: {fileID: 0}
-    OnBegin:
-      m_PersistentCalls:
-        m_Calls: []
-    OnComplete:
-      m_PersistentCalls:
-        m_Calls: []
-    OnClose:
-      m_PersistentCalls:
-        m_Calls: []
-    RotateToStayOnScreen: 1
-    UseOverridePosition: 0
-    OverridePosition: {x: 0, y: 0, z: 0}
-    UseOverrideRotation: 0
-    OverrideRotation: {x: 0, y: 0, z: 0, w: 1}
-    UseAttachTransform: 0
-    AttachTransform: {fileID: 0}
-    StickWindow: 0
-    UseTimeout: 0
-    Timeout: 3
-    PanelLayerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    DisplayDistance: 3
-    LockYPosition: 1
-    MinimumDisplayDistance: 0.2
-  ActivateOnEnable: 0
---- !u!4 &753326676
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753326673}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4000846, y: -1.0042307, z: -7.2085104}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &762498990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3545,7 +3353,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &835935916
@@ -4143,7 +3951,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1001 &1027390744
@@ -4252,7 +4060,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1001 &1106572569
@@ -4455,12 +4263,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114944454}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 448331fed5753b643ae97f451f797e53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartupDelayTime: 2
+  StartupDelayTime: 0
   InitializeOnStart: 0
 --- !u!4 &1114944459
 Transform:
@@ -4491,6 +4299,101 @@ MonoBehaviour:
   UpdateRate: 0.1
   LeftHand: {fileID: 0}
   RightHand: {fileID: 1426027130}
+--- !u!1 &1153032184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153032187}
+  - component: {fileID: 1153032185}
+  - component: {fileID: 1153032186}
+  m_Layer: 0
+  m_Name: exitpoll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1153032185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153032184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcc3f954ba4aa2489858669fc1a544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1153032186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153032184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dff3c6fe9380fb4691996ca51d03697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parameters:
+    Hook: testi
+    ExitpollSpawnType: 0
+    PointerParent: 0
+    PointerParentOverride: {fileID: 0}
+    PointerType: 0
+    PointerOverride: {fileID: 0}
+    BoolPanelOverride: {fileID: 1000012429495284, guid: 138864a307dc91c44b26384d951b691d, type: 3}
+    HappyPanelOverride: {fileID: 123820, guid: 67b5d21118f281b4ba2ac6ea5c99b23d, type: 3}
+    ThumbsPanelOverride: {fileID: 1000013451871240, guid: 2b36926b289c82047a608830566dec64, type: 3}
+    MultiplePanelOverride: {fileID: 1000012223220162, guid: bdba1fb5f114e2844b20f61e99a1ad09, type: 3}
+    ScalePanelOverride: {fileID: 1000014241592172, guid: fd91caa43b73ec0438fc0988903d343c, type: 3}
+    VoicePanelOverride: {fileID: 198878, guid: 57e90938644481a4ab64ed536ae7301a, type: 3}
+    OnBegin:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    OnClose:
+      m_PersistentCalls:
+        m_Calls: []
+    RotateToStayOnScreen: 1
+    UseOverridePosition: 0
+    OverridePosition: {x: 0, y: 0, z: 0}
+    UseOverrideRotation: 0
+    OverrideRotation: {x: 0, y: 0, z: 0, w: 1}
+    UseAttachTransform: 0
+    AttachTransform: {fileID: 0}
+    StickWindow: 0
+    UseTimeout: 0
+    Timeout: 3
+    PanelLayerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    DisplayDistance: 3
+    LockYPosition: 1
+    MinimumDisplayDistance: 0.2
+  ActivateOnEnable: 0
+--- !u!4 &1153032187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153032184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008083643, y: 2.285063, z: -0.99653804}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181226525
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,7 +4585,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &1184832823
@@ -5067,7 +4970,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &1237301820
@@ -5455,7 +5358,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &1268402924 stripped
@@ -5500,7 +5403,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1001 &1280446378
@@ -5885,7 +5788,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!4 &1304606819 stripped
@@ -6212,7 +6115,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 1
   IsRight: 1
-  ControllerType: xr_controller_right
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1 &1432345859
@@ -6692,7 +6595,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1001 &1549369434
@@ -7763,7 +7666,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!65 &1814640945
@@ -8211,7 +8114,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!65 &1893989573
@@ -8588,7 +8491,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!1001 &1999813068
@@ -9198,7 +9101,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!23 &4142473113515271413
@@ -9605,7 +9508,7 @@ MonoBehaviour:
   ScaleThreshold: 0.1
   IsController: 0
   IsRight: 0
-  ControllerType: 
+  ControllerType: 0
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
 --- !u!4 &8449852414146717943

@@ -345,6 +345,8 @@ public class InitWizard : EditorWindow
         static GameObject leftcontroller;
         static GameObject rightcontroller;
 
+        static string controllerDisplayName; //used to set SE display
+
 #if CVR_STEAMVR2
         bool steamvr2bindings = false;
         bool steamvr2actionset = false;
@@ -382,14 +384,9 @@ public class InitWizard : EditorWindow
                 }
             }
 
-            if (leftcontroller != null)
-            {
-                leftSetupComplete = true;
-            }
-            if (rightcontroller != null)
-            {
-                rightSetupComplete = true;
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
+
             if (rightSetupComplete && leftSetupComplete)
             {
                 var rdyn = rightcontroller.GetComponent<DynamicObject>();
@@ -414,14 +411,9 @@ public class InitWizard : EditorWindow
                 }
             }
 
-            if (leftcontroller != null)
-            {
-                leftSetupComplete = true;
-            }
-            if (rightcontroller != null)
-            {
-                rightSetupComplete = true;
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
+
             if (rightSetupComplete && leftSetupComplete)
             {
                 var rdyn = rightcontroller.GetComponent<DynamicObject>();
@@ -449,14 +441,8 @@ public class InitWizard : EditorWindow
                 }
             }
 
-            if (leftcontroller != null)
-            {
-                leftSetupComplete = true;
-            }
-            if (rightcontroller != null)
-            {
-                rightSetupComplete = true;
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
 
             if (rightSetupComplete && leftSetupComplete)
             {
@@ -471,23 +457,8 @@ public class InitWizard : EditorWindow
                 }
             }
 #elif CVR_VIVEWAVE
-            if (leftcontroller != null && leftcontroller.GetComponent<ControllerInputTracker>() != null)
-            {
-                leftSetupComplete = true;
-            }
-            else
-            {
-                leftSetupComplete = false;
-            }
-
-            if (rightcontroller != null && rightcontroller.GetComponent<ControllerInputTracker>() != null)
-            {
-                rightSetupComplete = true;
-            }
-            else
-            {
-                rightSetupComplete = false;
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
 
             setupComplete = false;
 
@@ -501,27 +472,8 @@ public class InitWizard : EditorWindow
                 }
             }
 #elif CVR_WINDOWSMR
-            leftSetupComplete = false;
-            if (leftcontroller != null)
-            {
-                var dyn = leftcontroller.GetComponent<DynamicObject>();
-                if (dyn != null)
-                {
-                    if (dyn.CommonMesh == DynamicObject.CommonDynamicMesh.WindowsMixedRealityLeft)
-                        leftSetupComplete = true;
-                }
-            }
-
-            rightSetupComplete = false;
-            if (rightcontroller != null)
-            {
-                var dyn = rightcontroller.GetComponent<DynamicObject>();
-                if (dyn != null)
-                {
-                    if (dyn.CommonMesh == DynamicObject.CommonDynamicMesh.WindowsMixedRealityRight)
-                        rightSetupComplete = true;
-                }
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
 
             setupComplete = false;
             if (rightSetupComplete && leftSetupComplete)
@@ -549,27 +501,8 @@ public class InitWizard : EditorWindow
                 }
             }
 
-            leftSetupComplete = false;
-            if (leftcontroller != null)
-            {
-                var dyn = leftcontroller.GetComponent<DynamicObject>();
-                if (dyn != null)
-                {
-                    if (dyn.CommonMesh == DynamicObject.CommonDynamicMesh.PicoNeoControllerLeft)
-                        leftSetupComplete = true;
-                }
-            }
-
-            rightSetupComplete = false;
-            if (rightcontroller != null)
-            {
-                var dyn = rightcontroller.GetComponent<DynamicObject>();
-                if (dyn != null)
-                {
-                    if (dyn.CommonMesh == DynamicObject.CommonDynamicMesh.PicoNeoControllerRight)
-                        rightSetupComplete = true;
-                }
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
 
             setupComplete = false;
             if (rightSetupComplete && leftSetupComplete)
@@ -582,8 +515,6 @@ public class InitWizard : EditorWindow
                 }
             }
 #elif CVR_XR
-            leftSetupComplete = false;
-
             if (cameraBase == null && leftcontroller == null && rightcontroller == null)
             {
                 cameraBase = Camera.main.gameObject;
@@ -604,26 +535,8 @@ public class InitWizard : EditorWindow
                 }
             }
 
-            if (leftcontroller != null)
-            {
-                var dyn = leftcontroller.GetComponent<DynamicObject>();
-                if (dyn != null)
-                {
-                    if (dyn.CommonMesh == DynamicObject.CommonDynamicMesh.XRController)
-                        leftSetupComplete = true;
-                }
-            }
-
-            rightSetupComplete = false;
-            if (rightcontroller != null)
-            {
-                var dyn = rightcontroller.GetComponent<DynamicObject>();
-                if (dyn != null)
-                {
-                    if (dyn.CommonMesh == DynamicObject.CommonDynamicMesh.XRController)
-                        rightSetupComplete = true;
-                }
-            }
+            leftSetupComplete = leftcontroller != null;
+            rightSetupComplete = rightcontroller != null;
 
             setupComplete = false;
             if (rightSetupComplete && leftSetupComplete)
@@ -641,7 +554,6 @@ public class InitWizard : EditorWindow
             }
 #else
             //TODO add support for this stuff
-            //XR framework. find tracked pose components in scene
             //hand motion stuff (hololens, meta, leapmotion, magicleap)
             //ar stuff (arkit, arcore)
             //other oculus stuff (gear, go, quest_touch)
@@ -650,19 +562,48 @@ public class InitWizard : EditorWindow
             return;
 #endif
 
+            //what controllers do we support. add scroll list here!
+            //vive, oculus, microsoft, pico
+
+            
+            int offset = 0; //indicates how much vertical offset to add to setup features so controller selection has space
+
+
+#if CVR_XR
+            offset = 80;
+
+            List<string> controllerNames = new List<string>() { "Vive", "Oculus Rift", "Oculus Quest", "Windows MR","Pico Neo 2" };
+
+            Rect innerScrollSize = new Rect(30, 0, 120, controllerNames.Count * 32);
+            sdkScrollPos = GUI.BeginScrollView(new Rect(30, 180, 440, 128), sdkScrollPos, innerScrollSize, false, true);
+
+            for (int i = 0; i < controllerNames.Count; i++)
+            {
+                bool selected = controllerDisplayName == controllerNames[i];
+                if (GUI.Button(new Rect(30, i * 32, 420, 30), controllerNames[i], selected ? "button_blueoutlineleft" : "button_disabledoutline"))
+                {
+                    controllerDisplayName = controllerNames[i];
+                }
+                GUI.Label(new Rect(420, i * 32, 24, 30), selected ? EditorCore.Checkmark : EditorCore.EmptyCheckmark, "image_centered");
+            }
+
+            GUI.EndScrollView();
+
+#endif //cvr_xr controller selection
+
             //left hand label
-            GUI.Label(new Rect(30, 245, 50, 30), "Left", "boldlabel");
+            GUI.Label(new Rect(30, 245 + offset, 50, 30), "Left", "boldlabel");
 
             string leftname = "null";
             if (leftcontroller != null)
                 leftname = leftcontroller.gameObject.name;
-            if(GUI.Button(new Rect(80, 245, 290, 30), leftname, "button_blueoutline"))
+            if(GUI.Button(new Rect(80, 245 + offset, 290, 30), leftname, "button_blueoutline"))
             {
                 Selection.activeGameObject = leftcontroller;
             }
 
             int pickerID = 5689465;
-            if (GUI.Button(new Rect(370, 245, 100, 30), "Select..."))
+            if (GUI.Button(new Rect(370, 245 + offset, 100, 30), "Select..."))
             {
                 GUI.skin = null;
                 EditorGUIUtility.ShowObjectPicker<GameObject>(
@@ -680,27 +621,27 @@ public class InitWizard : EditorWindow
 
             if (leftSetupComplete)
             {
-                GUI.Label(new Rect(320, 245, 64, 30), EditorCore.Checkmark, "image_centered");
+                GUI.Label(new Rect(320, 245 + offset, 64, 30), EditorCore.Checkmark, "image_centered");
             }
             else
             {
-                GUI.Label(new Rect(320, 245, 64, 30), EditorCore.EmptyCheckmark, "image_centered");
+                GUI.Label(new Rect(320, 245 + offset, 64, 30), EditorCore.EmptyCheckmark, "image_centered");
             }
 
             //right hand label
-            GUI.Label(new Rect(30, 285, 50, 30), "Right", "boldlabel");
+            GUI.Label(new Rect(30, 285 + offset, 50, 30), "Right", "boldlabel");
 
             string rightname = "null";
             if (rightcontroller != null)
                 rightname = rightcontroller.gameObject.name;
 
-            if (GUI.Button(new Rect(80, 285, 290, 30), rightname, "button_blueoutline"))
+            if (GUI.Button(new Rect(80, 285 + offset, 290, 30), rightname, "button_blueoutline"))
             {
                 Selection.activeGameObject = rightcontroller;
             }
 
             pickerID = 5689469;
-            if (GUI.Button(new Rect(370, 285, 100, 30), "Select..."))
+            if (GUI.Button(new Rect(370, 285 + offset, 100, 30), "Select..."))
             {
                 GUI.skin = null;
                 EditorGUIUtility.ShowObjectPicker<GameObject>(
@@ -718,15 +659,15 @@ public class InitWizard : EditorWindow
 
             if (rightSetupComplete)
             {
-                GUI.Label(new Rect(320, 285, 64, 30), EditorCore.Checkmark, "image_centered");
+                GUI.Label(new Rect(320, 285 + offset, 64, 30), EditorCore.Checkmark, "image_centered");
             }
             else
             {
-                GUI.Label(new Rect(320, 285, 64, 30), EditorCore.EmptyCheckmark, "image_centered");
+                GUI.Label(new Rect(320, 285 + offset, 64, 30), EditorCore.EmptyCheckmark, "image_centered");
             }
 
             //drag and drop
-            if (new Rect(30, 285, 440, 30).Contains(Event.current.mousePosition))
+            if (new Rect(30, 285 + offset, 440, 30).Contains(Event.current.mousePosition))
             {
                 DragAndDrop.visualMode = DragAndDropVisualMode.Link;
                 if (Event.current.type == EventType.DragPerform)
@@ -734,7 +675,7 @@ public class InitWizard : EditorWindow
                     rightcontroller = (GameObject)DragAndDrop.objectReferences[0];
                 }
             }
-            else if (new Rect(30, 245, 440, 30).Contains(Event.current.mousePosition))
+            else if (new Rect(30, 245 + offset, 440, 30).Contains(Event.current.mousePosition))
             {
                 DragAndDrop.visualMode = DragAndDropVisualMode.Link;
                 if (Event.current.type == EventType.DragPerform)
@@ -747,7 +688,7 @@ public class InitWizard : EditorWindow
                 //DragAndDrop.visualMode = DragAndDropVisualMode.Rejected;
             }
 
-            if (GUI.Button(new Rect(125, 360, 250, 30), "Setup Controller Dynamics"))
+            if (GUI.Button(new Rect(125, 360 + offset, 250, 30), "Setup Controller Dynamics"))
             {
                 SetupControllers(leftcontroller, rightcontroller);
                 UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty();
@@ -756,11 +697,11 @@ public class InitWizard : EditorWindow
 
             if (setupComplete)
             {
-                GUI.Label(new Rect(360, 360, 64, 30), EditorCore.Checkmark, "image_centered");
+                GUI.Label(new Rect(360, 360 + offset, 64, 30), EditorCore.Checkmark, "image_centered");
             }
             else
             {
-                GUI.Label(new Rect(360, 360, 64, 30), EditorCore.EmptyCheckmark, "image_centered");
+                GUI.Label(new Rect(360, 360 + offset, 64, 30), EditorCore.EmptyCheckmark, "image_centered");
             }
 
 #if CVR_STEAMVR2
@@ -834,7 +775,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveController;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "vivecontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivecontroller;
             }
             if (right != null)
             {
@@ -843,7 +784,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveController;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "vivecontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivecontroller;
             }
 #elif CVR_STEAMVR2
             
@@ -867,7 +808,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveController;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "vivecontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivecontroller;
             }
             if (right != null)
             {
@@ -876,7 +817,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveController;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "vivecontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivecontroller;
             }
 #elif CVR_VIVEWAVE
             var g = Resources.Load<GameObject>("AdaptiveController");
@@ -895,7 +836,7 @@ public class InitWizard : EditorWindow
                 dyn.UseCustomMesh = false;
                 dyn.IsController = true;
                 //dyn.IsRight = false; //set from dominant/non dominant hand
-                dyn.ControllerType = "vivefocuscontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivefocuscontroller;
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveFocusController;
 
                 var ct = g.GetComponent<ControllerInputTracker>();
@@ -921,7 +862,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveFocusController;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "vivefocuscontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivefocuscontroller;
             }
             if (right != null)
             {
@@ -930,7 +871,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveFocusController;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "vivefocuscontroller";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.vivefocuscontroller;
             }
 #elif CVR_WINDOWSMR
 
@@ -951,7 +892,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.WindowsMixedRealityLeft;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "windows_mixed_reality_controller_left";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.windows_mixed_reality_controller_left;
                 inputTracker.LeftHand = dyn;
             }
             if (right != null)
@@ -963,7 +904,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.WindowsMixedRealityRight;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "windows_mixed_reality_controller_right";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.windows_mixed_reality_controller_right;
                 inputTracker.RightHand = dyn;
             }
 
@@ -1001,7 +942,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.PicoNeoControllerLeft;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "pico_neo_2_eye_controller_left";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.pico_neo_2_eye_controller_left;
                 inputTracker.LeftHand = dyn;
             }
             if (right != null)
@@ -1013,7 +954,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.PicoNeoControllerRight;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "pico_neo_2_eye_controller_right";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.pico_neo_2_eye_controller_right;
                 inputTracker.RightHand = dyn;
             }
 #elif CVR_XR
@@ -1030,11 +971,35 @@ public class InitWizard : EditorWindow
                 if (dyn == null)
                     dyn = left.AddComponent<DynamicObject>();
                 dyn.UseCustomMesh = false;
-                dyn.CommonMesh = DynamicObject.CommonDynamicMesh.XRController;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "xr_controller_left";
                 inputTracker.LeftHand = dyn;
+
+                if (controllerDisplayName == "Vive")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.vivecontroller;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveController;
+                }
+                else if (controllerDisplayName == "Oculus Rift")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.oculustouchleft;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusRiftTouchLeft;
+                }
+                else if (controllerDisplayName == "Oculus Quest")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.oculusquesttouchleft;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusQuestTouchLeft;
+                }
+                else if (controllerDisplayName == "Windows MR")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.windows_mixed_reality_controller_left;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.WindowsMixedRealityLeft;
+                }
+                else if (controllerDisplayName == "Pico Neo 2")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.pico_neo_2_eye_controller_left;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.PicoNeoControllerLeft;
+                }
             }
             if (right != null)
             {
@@ -1042,11 +1007,35 @@ public class InitWizard : EditorWindow
                 if (dyn == null)
                     dyn = right.AddComponent<DynamicObject>();
                 dyn.UseCustomMesh = false;
-                dyn.CommonMesh = DynamicObject.CommonDynamicMesh.XRController;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "xr_controller_right";
                 inputTracker.RightHand = dyn;
+
+                if (controllerDisplayName == "Vive")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.vivecontroller;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.ViveController;
+                }
+                else if (controllerDisplayName == "Oculus Rift")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.oculustouchright;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusRiftTouchRight;
+                }
+                else if (controllerDisplayName == "Oculus Quest")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.oculusquesttouchright;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusQuestTouchRight;
+                }
+                else if (controllerDisplayName == "Windows MR")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.windows_mixed_reality_controller_right;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.WindowsMixedRealityRight;
+                }
+                else if (controllerDisplayName == "Pico Neo 2")
+                {
+                    dyn.ControllerType = DynamicObject.ControllerDisplayType.pico_neo_2_eye_controller_right;
+                    dyn.CommonMesh = DynamicObject.CommonDynamicMesh.PicoNeoControllerRight;
+                }
             }
 #elif CVR_OCULUS
             if (left != null)
@@ -1056,7 +1045,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusRiftTouchLeft;
                 dyn.IsRight = false;
                 dyn.IsController = true;
-                dyn.ControllerType = "oculustouchleft";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.oculustouchleft;
 #if UNITY_ANDROID //check for oculus quest controllers
                 var config = OVRProjectConfig.GetProjectConfig();
                 if (config.targetDeviceTypes.Count > 0)
@@ -1064,7 +1053,7 @@ public class InitWizard : EditorWindow
                     if (config.targetDeviceTypes[0] == OVRProjectConfig.DeviceType.Quest)
                     {
                         dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusQuestTouchLeft;
-                        dyn.ControllerType = "oculusquesttouchleft";
+                        dyn.ControllerType = DynamicObject.ControllerDisplayType.oculusquesttouchleft;
                     }
                 }
 #endif
@@ -1076,7 +1065,7 @@ public class InitWizard : EditorWindow
                 dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusRiftTouchRight;
                 dyn.IsRight = true;
                 dyn.IsController = true;
-                dyn.ControllerType = "oculustouchright";
+                dyn.ControllerType = DynamicObject.ControllerDisplayType.oculustouchright;
 #if UNITY_ANDROID //check for oculus quest controllers
                 var config = OVRProjectConfig.GetProjectConfig();
                 if (config.targetDeviceTypes.Count > 0)
@@ -1084,7 +1073,7 @@ public class InitWizard : EditorWindow
                     if (config.targetDeviceTypes[0] == OVRProjectConfig.DeviceType.Quest)
                     {
                         dyn.CommonMesh = DynamicObject.CommonDynamicMesh.OculusQuestTouchRight;
-                        dyn.ControllerType = "oculusquesttouchright";
+                        dyn.ControllerType = DynamicObject.ControllerDisplayType.oculusquesttouchright;
                     }
                 }
 #endif
