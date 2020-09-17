@@ -3,13 +3,13 @@
 *****************************
 Unity Version:2020.2.0a18
 OS:Windows 10  (10.0.0) 64bit
-System Time: 9/16/2020 10:10:14 AM
+System Time: 9/16/2020 3:44:50 PM
 
 *****************************
 ***********PROJECT***********
 *****************************
 SDK Type: VIU_XR_GENERAL_SETTINGS;VIU_XR_PACKAGE_METADATA_STORE;VIU_PLUGIN;CVR_XR
-SDK Version: 0.21.1
+SDK Version: 0.22.0
 Api Key: ****OF8K
 Developer Key: ****9TX5
 Enable Logging: True
@@ -312,9 +312,9 @@ Scene Settings:
   ├─PalikkaPeli
   │  ├─Scene Id: f7597e87-00f7-41a2-9fb0-49ff51451607
   │  ├─Scene Path: Assets/Scenes/PalikkaPeli.unity
-  │  ├─Last Revision: 5249034025847628356
-  │  ├─Version Number: 3
-  │  └─Version Id: 1933
+  │  ├─Last Revision: 5249044388658127478
+  │  ├─Version Number: 4
+  │  └─Version Id: 1939
   ├─PalloPeli
   │  ├─Scene Id: da0d7fea-ef46-4b91-bd92-6334b32073db
   │  ├─Scene Path: Assets/Scenes/PalloPeli.unity
@@ -358,40 +358,25 @@ Scene Settings:
 Scene Name: PalikkaPeli
 Scene Id: f7597e87-00f7-41a2-9fb0-49ff51451607
 Scene Path: Assets/Scenes/PalikkaPeli.unity
-Last Revision: 5249034025847628356
-Version Number: 3
-Version Id: 1933
-Scene Size (mb): 0.04
+Last Revision: 5249044388658127478
+Version Number: 4
+Version Id: 1939
+Scene Size (mb): 0.06
 Main Camera GameObject: Main Camera
-Manager Initialize On Start: False
+Manager Initialize On Start: True
 Manager Startup Delay Time (s): 2
 
 *****************************
 ****CURRENT SCENE OBJECTS****
 *****************************
-Dynamic Object Count: 14
+Dynamic Object Count: 16
   ├─TriggerSphere
   │  ├─Mesh Name: triggersphere
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.SphereCollider
   │  └─Has Children: false
-  ├─TriggerHexagon
-  │  ├─Mesh Name: triggerhexagon
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
-  │  └─Has Children: false
-  ├─TriggerTriangle
-  │  ├─Mesh Name: triggertriangle
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
-  │  └─Has Children: false
-  ├─TriggerCylinder
-  │  ├─Mesh Name: triggercylinder
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
-  │  └─Has Children: false
-  ├─TriggerCubeYellow
-  │  ├─Mesh Name: triggercubeyellow
+  ├─GreenCube
+  │  ├─Mesh Name: greencube
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
@@ -400,18 +385,33 @@ Dynamic Object Count: 14
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
-  ├─TriggerCubeGreen
-  │  ├─Mesh Name: triggercubegreen
+  ├─default
+  │  ├─Mesh Name: default
   │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
-  │  └─Has Children: false
-  ├─Hexagon
-  │  ├─Mesh Name: hexagon
-  │  ├─Has Collider: true
-  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  ├─Collider Type: UnityEngine.MeshCollider
   │  └─Has Children: false
   ├─Cylinder
   │  ├─Mesh Name: cylinder
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─RedCube
+  │  ├─Mesh Name: redcube
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─default
+  │  ├─Mesh Name: default
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.MeshCollider
+  │  └─Has Children: false
+  ├─TriggerCubeYellow
+  │  ├─Mesh Name: triggercubeyellow
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  ├─TriggerCubeGreen
+  │  ├─Mesh Name: triggercubegreen
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
@@ -425,22 +425,32 @@ Dynamic Object Count: 14
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
-  ├─RedCube
-  │  ├─Mesh Name: redcube
+  ├─Controller Right Variant
+  │  ├─Mesh Name: controller_right_variant
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.SphereCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: true
+  ├─TriggerCylinder
+  │  ├─Mesh Name: triggercylinder
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
-  ├─GreenCube
-  │  ├─Mesh Name: greencube
+  ├─TriggerHexagon
+  │  ├─Mesh Name: triggerhexagon
   │  ├─Has Collider: true
   │  ├─Collider Type: UnityEngine.BoxCollider
   │  └─Has Children: false
-  └─Controller Right Variant
-     ├─Mesh Name: controller_right_variant
+  ├─TriggerTriangle
+  │  ├─Mesh Name: triggertriangle
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  └─Has Children: false
+  └─Hexagon
+     ├─Mesh Name: hexagon
      ├─Has Collider: true
-     ├─Collider Type: UnityEngine.SphereCollider
-     ├─Has Children: true
-     └─Has Child Colliders: true
+     ├─Collider Type: UnityEngine.BoxCollider
+     └─Has Children: false
 
 *****************************
 ********EXPORT FOLDER********
@@ -508,7 +518,7 @@ Dynamic Object Count: 14
          cvr_object_thumbnail.png (0.05mb)
          cylinder.bin (0.00mb)
          cylinder.gltf (0.00mb)
-      /default (2.83mb)
+      /default (2.82mb)
          cvr_object_thumbnail.png (0.08mb)
          default.bin (0.12mb)
          default.gltf (0.00mb)
@@ -751,10 +761,10 @@ Dynamic Object Count: 14
       settings.json (0.00mb)
       /screenshot (0.05mb)
          screenshot.png (0.05mb)
-   /PalikkaPeli (0.04mb)
+   /PalikkaPeli (0.06mb)
       settings.json (0.00mb)
-      /screenshot (0.04mb)
-         screenshot.png (0.04mb)
+      /screenshot (0.06mb)
+         screenshot.png (0.06mb)
    /PalloPeli (0.07mb)
       debug.log (0.03mb)
       settings.json (0.00mb)

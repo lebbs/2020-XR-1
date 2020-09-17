@@ -14,13 +14,18 @@ namespace VarjoExample
         private bool grabbed;
         private bool triggerDown;
         private FixedJoint fixedJoint = null;
+        
         private Interactable currentInteractable;
         private Rigidbody heldObjectBody;
+        
+        private Vector3 controllerCenterOfMass;
 
         void Awake()
         {
             controller = GetComponent<Controller>();
             fixedJoint = GetComponent<FixedJoint>();
+
+            //controllerCenterOfMass = GetComponent<Rigidbody>().centerOfMass;
         }
 
         // Update is called once per frame
@@ -126,7 +131,7 @@ namespace VarjoExample
             heldObjectBody = currentInteractable.GetComponent<Rigidbody>();
             heldObjectBody.velocity = xrRig.TransformVector(controller.DeviceVelocity);
             heldObjectBody.angularVelocity = xrRig.TransformDirection(controller.DeviceAngularVelocity);
-
+                    
             //clear
             currentInteractable.activeHand = null;
             currentInteractable = null;

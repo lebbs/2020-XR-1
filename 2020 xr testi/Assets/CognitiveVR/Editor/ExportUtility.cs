@@ -1257,9 +1257,11 @@ namespace CognitiveVR
         static int DynamicUploadSuccess;
 
         static UnityWebRequest dynamicUploadWWW;
+
         /// <summary>
         /// attached to editor update to go through dynamic object form queue
         /// </summary>
+        [Obsolete]
         static void UpdateUploadDynamics()
         {
             if (dynamicUploadWWW == null)
