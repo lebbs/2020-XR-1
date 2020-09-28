@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pingispeli.unity
     guid: 4e14ed887fd7d9942abfb0dc6e5388fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LeapMotion testi.unity
     guid: 4b62640ae5300004ea0ad73ac86a05fc
   - enabled: 1

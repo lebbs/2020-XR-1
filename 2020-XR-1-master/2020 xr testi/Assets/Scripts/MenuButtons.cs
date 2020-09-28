@@ -27,12 +27,13 @@ public class MenuButtons : MonoBehaviour
     public void CloseMenu()
     {
         menu.SetActive(false);
+       // vivePointer.SetActive(false);
     }
     
     public void Hidemenu()
     {
         menu.SetActive(false);
-        vivePointer = GameObject.Find("VivePointers Variant");
+        //vivePointer = GameObject.Find("VivePointers Variant(1)");
         vivePointer.SetActive(false);
 
     }
@@ -86,7 +87,7 @@ public class MenuButtons : MonoBehaviour
         SceneManager.LoadScene("Pingispeli");
     }
 
-    public void lataaLeapmotion()
+    public void lataaOstospeli()
     {
         SceneManager.LoadScene("Ostosterapia");
     }
