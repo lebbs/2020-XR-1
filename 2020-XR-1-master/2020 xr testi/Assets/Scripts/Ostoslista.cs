@@ -11,6 +11,7 @@ public class Ostoslista : MonoBehaviour
     public GameObject juicePack;
     public GameObject chips;
     public GameObject groceryCereal;
+    public GameObject soda;
     //AJASTIN
     public float timeStart;
     public TextMeshPro textBox;
@@ -21,6 +22,7 @@ public class Ostoslista : MonoBehaviour
     public int theScore2;
     public int theScore3;
     public int theScore4;
+    public int theScore5;
 
     private int i = 0;
     // public Material material;
@@ -97,6 +99,17 @@ public class Ostoslista : MonoBehaviour
                 juicePack.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
             }
         }
+        // SODACAN
+        if (other.gameObject.CompareTag("Soda"))
+        {
+            theScore5 += 1;
+            soda.GetComponentInChildren<TextMeshPro>().text = theScore5 + "/2";
+
+            if(theScore5 == 2)
+            {
+                soda.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
+            }
+        }
 
         //Debug.Log(i)
     }
@@ -122,6 +135,11 @@ public class Ostoslista : MonoBehaviour
         if (theScore4 > 0)
             theScore4 -= 1;
         chips.GetComponentInChildren<TextMeshPro>().text = theScore4 + "/2";
+
+        //SODACAN
+        if (theScore5 > 0)
+            theScore5 -= 1;
+        soda.GetComponentInChildren<TextMeshPro>().text = theScore5 + "/2";
     }
 
 }

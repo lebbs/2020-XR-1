@@ -39,6 +39,7 @@ TagManager:
   - Target3
   - Target4
   - Target5
+  - Soda
   layers:
   - Default
   - TransparentFX
