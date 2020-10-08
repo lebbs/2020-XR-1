@@ -40,6 +40,7 @@ TagManager:
   - Target4
   - Target5
   - Soda
+  - BlueCube
   layers:
   - Default
   - TransparentFX

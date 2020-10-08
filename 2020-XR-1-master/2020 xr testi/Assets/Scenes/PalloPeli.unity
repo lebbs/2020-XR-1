@@ -481,6 +481,7 @@ MonoBehaviour:
   target1: {fileID: 87060594}
   material1: {fileID: 2100000, guid: e0ca0cf1ab4d193448e0c5208a16ed68, type: 2}
   material2: {fileID: 2100000, guid: adfc448c0300dc343878371fc9de3d5e, type: 2}
+  material3: {fileID: 2100000, guid: 34cde6a64d000e541aaedb2935f17771, type: 2}
 --- !u!114 &87060600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,6 +817,7 @@ MonoBehaviour:
   target1: {fileID: 181534005}
   material1: {fileID: 2100000, guid: e0ca0cf1ab4d193448e0c5208a16ed68, type: 2}
   material2: {fileID: 2100000, guid: adfc448c0300dc343878371fc9de3d5e, type: 2}
+  material3: {fileID: 2100000, guid: 34cde6a64d000e541aaedb2935f17771, type: 2}
 --- !u!114 &181534008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1655,6 +1657,7 @@ MonoBehaviour:
   target1: {fileID: 731666658}
   material1: {fileID: 2100000, guid: e0ca0cf1ab4d193448e0c5208a16ed68, type: 2}
   material2: {fileID: 2100000, guid: adfc448c0300dc343878371fc9de3d5e, type: 2}
+  material3: {fileID: 2100000, guid: 34cde6a64d000e541aaedb2935f17771, type: 2}
 --- !u!114 &731666663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1681,7 +1684,6 @@ GameObject:
   - component: {fileID: 786915601}
   - component: {fileID: 786915600}
   - component: {fileID: 786915599}
-  - component: {fileID: 786915598}
   m_Layer: 11
   m_Name: Button
   m_TagString: Untagged
@@ -1704,35 +1706,6 @@ Transform:
   m_Father: {fileID: 2133717768}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &786915598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786915596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e1a19643d0d3614495c8b3a18953193, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pressLength: 0.06
-  pressed: 0
-  downEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 88832290}
-        m_TargetAssemblyTypeName: CubeGameEvents, Assembly-CSharp
-        m_MethodName: OnCustomButtonPress
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!145 &786915599
 SpringJoint:
   m_ObjectHideFlags: 0
@@ -2182,7 +2155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955365964}
   m_LocalRotation: {x: 0, y: 0.74364096, z: 0, w: 0.6685793}
-  m_LocalPosition: {x: -7.600335, y: -1.203, z: 1.485873}
+  m_LocalPosition: {x: -7.533, y: -1.375, z: 2.115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2133717768}
@@ -2226,7 +2199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3979180616161755397, guid: d0f7226559d9b3b4d809a2992256bf60, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.36
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 3979180616161755397, guid: d0f7226559d9b3b4d809a2992256bf60, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3491,6 +3464,7 @@ MonoBehaviour:
   target1: {fileID: 1366649739}
   material1: {fileID: 2100000, guid: e0ca0cf1ab4d193448e0c5208a16ed68, type: 2}
   material2: {fileID: 2100000, guid: adfc448c0300dc343878371fc9de3d5e, type: 2}
+  material3: {fileID: 2100000, guid: 34cde6a64d000e541aaedb2935f17771, type: 2}
 --- !u!114 &1366649742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3959,7 +3933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161971360173546151, guid: 7a8992f2a1069a24dac92b370871a0c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.38
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 4161971360173546151, guid: 7a8992f2a1069a24dac92b370871a0c5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4936,6 +4910,7 @@ MonoBehaviour:
   target1: {fileID: 2070100988}
   material1: {fileID: 2100000, guid: e0ca0cf1ab4d193448e0c5208a16ed68, type: 2}
   material2: {fileID: 2100000, guid: adfc448c0300dc343878371fc9de3d5e, type: 2}
+  material3: {fileID: 2100000, guid: 34cde6a64d000e541aaedb2935f17771, type: 2}
 --- !u!4 &2070100992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4928556896450627827, guid: ef9ad3777b06a1c46945b4261e5c4017, type: 3}

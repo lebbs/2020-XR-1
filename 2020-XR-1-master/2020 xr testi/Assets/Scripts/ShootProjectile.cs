@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class ShootProjectile : MonoBehaviour
@@ -14,14 +15,23 @@ public class ShootProjectile : MonoBehaviour
     private float spawnTime;
 
     public GameObject shooterLeft;
+    public GameObject shooterLeft2;
+
     public GameObject shooterRight;
+    public GameObject shooterRight2;
 
     int i = 0;
+
+
+    //public Vector3 center;
+    //public Vector3 size;
+
 
     // Start is called before the first frame update
 
     private void Start()
     {
+
         SetRandomTime();
         time = minTime;
     }
@@ -40,6 +50,18 @@ public class ShootProjectile : MonoBehaviour
         
     }
 
+    // void OnDrawGizmosSelected()
+    //{
+    //    Gizmos.color = new Color(1, 0, 0, 0.5f);
+    //    Gizmos.DrawCube(center, size);
+    //}
+
+    //public void RandomSpawn()
+    //{
+    //    Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.x / 2, size.x / 2));
+    //    Instantiate(shooterLeft, pos, Quaternion.identity);
+    //}
+
     void SpawnObject()
     {
         
@@ -53,6 +75,7 @@ public class ShootProjectile : MonoBehaviour
 
         if( i >= 2)
         {
+            //RandomSpawn(); 
             shooterLeft.SetActive(true);
             shooterRight.SetActive(false);
         }

@@ -11,13 +11,14 @@ public class Score : MonoBehaviour
     public GameObject target1;
     public Material material1;
     public Material material2;
-    
+    public Material material3;
+
     // Start is called before the first frame update
-   
+
     private void OnCollisionEnter(Collision collision)
     {
 
-       
+
         //switch (collision.transform.tag)
         //{
         //    case "Pickable":
@@ -30,32 +31,28 @@ public class Score : MonoBehaviour
         {
             theScore += 1;
             scoreText.GetComponent<TextMesh>().text = "Score: " + theScore + "/" + "3";
-           if ( theScore == 1)
-            {
-                target1.GetComponent<MeshRenderer>().material = material1;
 
-            }
-           if (theScore == 2)
+
+            switch (theScore)
             {
-                target1.GetComponent<MeshRenderer>().material = material2;
-            }
-            //Destroy(collision.gameObject);
-            //collision.gameObject.SetActive(false);
-            if (theScore == 3)
-            {
-                 target1.SetActive(false);
-                theScore = 0;
+                case 0:
+                    target1.GetComponent<MeshRenderer>().material = material3;
+                    break;
+
+                case 1:
+                    target1.GetComponent<MeshRenderer>().material = material1;
+                    break;
+
+                case 2:
+                    target1.GetComponent<MeshRenderer>().material = material2;
+                    break;
+
+                case 3:
+                    theScore = 0;
+                    target1.SetActive(false);
+                    scoreText.SetActive(false);
+                    break;
             }
         }
     }
-
-
-    //private IEnumerator SpawnTargets()
-    //{
-    //    yield return new WaitForSeconds(2.0f);
-    //    if (GameObject.FindGameObjectWithTag("Target"))
-    //    {
-    //        gameObject.SetActive(true);
-    //    }
-    //}
 }
