@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 
 public class ShootProjectile : MonoBehaviour
 {
     public GameObject projectile;
-    public float projectileForce;
+    public float projectileForce = 110;
 
     public float maxTime = 5;
     public float minTime = 2;
@@ -47,6 +46,17 @@ public class ShootProjectile : MonoBehaviour
                 SpawnObject();
                 SetRandomTime();
             }
+
+        
+            //LISÄÄ TAI VÄHENNÄ PALLOJEN VAUHTIA
+        if (Input.GetKeyDown(KeyCode.KeypadPlus))
+        {
+            projectileForce = projectileForce + 10;
+        }
+        if (Input.GetKeyDown(KeyCode.KeypadMinus))
+        {
+            projectileForce = projectileForce - 10;
+        }
         
     }
 

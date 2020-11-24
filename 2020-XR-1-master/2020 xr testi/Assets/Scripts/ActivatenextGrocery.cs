@@ -6,6 +6,7 @@ public class ActivatenextGrocery : MonoBehaviour
 {
     public GameObject arrow;
     public Transform parent;
+    public Transform parent2;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,7 +22,9 @@ public class ActivatenextGrocery : MonoBehaviour
         {
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
             gameObject.GetComponent<BoxCollider>().enabled = false;
+            gameObject.GetComponent<outlinescript>().enabled = false;
             gameObject.transform.SetParent(parent);
+            gameObject.transform.SetParent(parent2);
 
         }
 

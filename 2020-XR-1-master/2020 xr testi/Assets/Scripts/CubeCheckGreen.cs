@@ -17,7 +17,7 @@ public class CubeCheckGreen : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(ShowAndHide(UiObjectRight, 1.0f));
+        StartCoroutine(ShowAndHide(UiObjectRight, 2.0f));
         {
             if (other.tag == "GreenCube")
             {

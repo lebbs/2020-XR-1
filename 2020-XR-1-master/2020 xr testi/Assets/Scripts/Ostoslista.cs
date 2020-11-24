@@ -24,6 +24,9 @@ public class Ostoslista : MonoBehaviour
     public int theScore4;
     public int theScore5;
 
+    private int finalScore;
+    public GameObject fireWorks;
+
     private int i = 0;
     // public Material material;
     // public GameObject checkmark;
@@ -59,6 +62,7 @@ public class Ostoslista : MonoBehaviour
             if(theScore1 == 2)
             {
                 groceryCereal.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
+                finalScore += 1;
             } 
         }
 
@@ -71,7 +75,9 @@ public class Ostoslista : MonoBehaviour
             if (theScore4 == 2)
             {
                 chips.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
-            }           
+                finalScore += 1;
+            }   
+            
         }
 
         //ENERGYDRINK
@@ -85,6 +91,7 @@ public class Ostoslista : MonoBehaviour
             if(theScore3 == 2)
             {
                 energyDrink.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
+                finalScore += 1;
             }
         }
 
@@ -97,6 +104,7 @@ public class Ostoslista : MonoBehaviour
             if(theScore2 == 2)
             {
                 juicePack.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
+                finalScore += 1;
             }
         }
         // SODACAN
@@ -108,38 +116,43 @@ public class Ostoslista : MonoBehaviour
             if(theScore5 == 2)
             {
                 soda.GetComponentInChildren<SpriteRenderer>().material.color = Color.green;
+                finalScore += 1;
             }
         }
 
-        //Debug.Log(i)
+        if(finalScore == 5)
+        {
+            fireWorks.SetActive(true);
+            timerActive=false;
+        }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        //CEREAL
-        if (theScore1 > 0)
-        theScore1 -= 1;
-        groceryCereal.GetComponentInChildren<TextMeshPro>().text = theScore1 + "/2";
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    //CEREAL
+    //    if (theScore1 > 0)
+    //    theScore1 -= 1;
+    //    groceryCereal.GetComponentInChildren<TextMeshPro>().text = theScore1 + "/2";
 
-        //JUICE
-        if (theScore2 > 0)
-            theScore2 -= 1;
-        juicePack.GetComponentInChildren<TextMeshPro>().text = theScore2 + "/2";
+    //    //JUICE
+    //    if (theScore2 > 0)
+    //        theScore2 -= 1;
+    //    juicePack.GetComponentInChildren<TextMeshPro>().text = theScore2 + "/2";
 
-        //ENERGYDRINK
-        if (theScore3 > 0)
-            theScore3 -= 1;
-        energyDrink.GetComponentInChildren<TextMeshPro>().text = theScore3 + "/2";
+    //    //ENERGYDRINK
+    //    if (theScore3 > 0)
+    //        theScore3 -= 1;
+    //    energyDrink.GetComponentInChildren<TextMeshPro>().text = theScore3 + "/2";
 
-        //CHIPS
-        if (theScore4 > 0)
-            theScore4 -= 1;
-        chips.GetComponentInChildren<TextMeshPro>().text = theScore4 + "/2";
+    //    //CHIPS
+    //    if (theScore4 > 0)
+    //        theScore4 -= 1;
+    //    chips.GetComponentInChildren<TextMeshPro>().text = theScore4 + "/2";
 
-        //SODACAN
-        if (theScore5 > 0)
-            theScore5 -= 1;
-        soda.GetComponentInChildren<TextMeshPro>().text = theScore5 + "/2";
-    }
+    //    //SODACAN
+    //    if (theScore5 > 0)
+    //        theScore5 -= 1;
+    //    soda.GetComponentInChildren<TextMeshPro>().text = theScore5 + "/2";
+    //}
 
 }

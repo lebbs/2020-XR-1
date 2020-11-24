@@ -14,11 +14,13 @@ public class outlineV2 : MonoBehaviour
         {
             //outlineRenderer = CreateOutline(outlineMaterial, outlineScaleFactor, outlineColor);
             outlineRenderer.enabled = true;
+           // GetComponent<Rigidbody>().isKinematic = false;
        }
     }
     private void OnTriggerExit(Collider other)
     {
         outlineRenderer.enabled = false;
+       // GetComponent<Rigidbody>().isKinematic = true;
     }
     void Start()
     {
