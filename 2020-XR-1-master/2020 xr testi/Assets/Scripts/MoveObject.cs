@@ -59,13 +59,13 @@ public class MoveObject : MonoBehaviour
             transform.Translate(-movableObject.right * moveSpeed * left * Time.deltaTime, Space.World);
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.PageUp))
 
         {
             transform.localScale += new Vector3(0.1f, 0.1f, 0.1f);
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.PageDown))
         {
             transform.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
         }

@@ -41,6 +41,10 @@ TagManager:
   - Target5
   - Soda
   - BlueCube
+  - PinkCube
+  - PurpleCube
+  - BlackCube
+  - OrangeCube
   layers:
   - Default
   - TransparentFX

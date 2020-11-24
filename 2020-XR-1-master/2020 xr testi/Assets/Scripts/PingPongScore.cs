@@ -8,6 +8,7 @@ public class PingPongScore : MonoBehaviour
 {
 
     public GameObject scoreText;
+    public GameObject hitText;
     public int score;
     private Renderer renderer;
     public Material color1;
@@ -30,6 +31,8 @@ public class PingPongScore : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        StartCoroutine(ShowAndHide(hitText, 2.0f));
+        { 
         if (collision.gameObject.tag == "PingPongBall")
         {
             //renderer.material = color2;
@@ -41,7 +44,13 @@ public class PingPongScore : MonoBehaviour
 
             StartCoroutine(ChangeMaterial());
         }
-        
+        }
+    }
+    IEnumerator ShowAndHide(GameObject gameObject, float delay)
+    {
+        gameObject.SetActive(true);
+        yield return new WaitForSeconds(delay);
+        gameObject.SetActive(false);
     }
 
     private IEnumerator ChangeMaterial()

@@ -48,9 +48,10 @@ public class Score : MonoBehaviour
                     break;
 
                 case 3:
+                    target1.GetComponent<MeshRenderer>().material = material3;
                     theScore = 0;
                     target1.SetActive(false);
-                    scoreText.SetActive(false);
+                   
                     break;
             }
         }
